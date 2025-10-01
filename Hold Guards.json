@@ -1,0 +1,482 @@
+{
+  "catalogue": {
+    "name": "Hold Guard",
+    "id": "5e8b-e62e-d6c5-41f2",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Hold Guard Captain: Commander Of The Watch",
+        "id": "f97a-a510-bc8b-1b53",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0cc8-d2e1-973b-af19",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "58b8-3ce1-df5f-466c", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Might", "id": "8ddf-ea6c-53f4-8d02", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "7054-999b-2cd2-9330", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Stormcloaks", "id": "dbfa-b327-0826-22ff", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Hold Guard", "id": "524d-5995-a5f6-5b74", "hidden": false, "primary": false, "targetId": "8571-e171-abd1-033f"},
+          {"name": "Light Armor Skill", "id": "b0d4-1700-37d0-1e63", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Speech Skill", "id": "bb75-f47e-4e6b-dc47", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Archery Skill", "id": "94f5-b452-29f0-702a", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "One-Handed Skill", "id": "5305-05d2-7752-b58e", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Two-Handed Skill", "id": "01b2-c2c6-bf7c-0831", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Block Skill", "id": "e8c8-3146-f51c-21c5", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "4a41-4348-2857-17c1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hold Guard: Enforcer",
+        "id": "7eea-2a98-6a78-d3f2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1454-24be-fa85-cba3",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "1d67-187a-a6b6-4c9c", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Hold Guard", "id": "7182-bbf5-0244-2c0d", "hidden": false, "primary": false, "targetId": "8571-e171-abd1-033f"},
+          {"name": "Follower", "id": "454b-4654-60d7-13d4", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "4a41-4348-2857-17c1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hold Guard: Sentry",
+        "id": "609c-34fa-f01c-6592",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a021-3155-c447-8086",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hold Guard", "id": "e3db-50d3-041f-e48f", "hidden": false, "primary": false, "targetId": "8571-e171-abd1-033f"},
+          {"name": "Path of Shadow", "id": "f6f5-506e-1d16-5aa2", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Follower", "id": "6815-975a-5ba7-a202", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "4a41-4348-2857-17c1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hold Guard: Patroller",
+        "id": "1506-689a-2ef7-ae92",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0c8a-1c7f-7a54-4b64",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "3261-8ee7-de52-dc28", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Hold Guard", "id": "b6d6-dbf9-f62d-1fe9", "hidden": false, "primary": false, "targetId": "8571-e171-abd1-033f"},
+          {"name": "Follower", "id": "58c7-aa67-e0e5-6176", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "4a41-4348-2857-17c1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Hold Guard Captain: Commander Of The Watch",
+        "id": "6d0f-5624-adee-c731",
+        "hidden": false,
+        "page": 76,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Agile Defender", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Protect The Innocent", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "2", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Hold Guards", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "Imperial Legion, Stormcloaks", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Hold Guard Captain: Commander Of The Watch (Leveled)",
+        "id": "2fd7-220c-6872-91d9",
+        "hidden": false,
+        "page": 76,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Agile Defender, Persuasion", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Protect The Innocent (Leveled)", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Hold Guard: Enforcer",
+        "id": "4f90-e66d-4cf0-bd34",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {
+            "name": "Melee Attacks",
+            "$text": "Two-Handed: [BLACK]\n[HELMET]: add [GREEN]\n[SWORDS]: Follow-Up [1]\nCumbersome, Two-Handed Block",
+            "typeId": "6cbd-4946-2719-08aa"
+          },
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nTwo-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "3", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Hold Guards", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Hold Guard: Sentry",
+        "id": "6b2c-80f3-b835-b9eb",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [YELLOW]\n[HELMET]: add [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "Archery\n8\": [RED]\n24\": [YELLOW]\n[HELMET]: add [GREEN]", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "3", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Hold Guards", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Hold Guard: Patroller",
+        "id": "44b8-159f-d757-4ed8",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [RED]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "3", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Hold Guards", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Hold Guard Captain: Commander Of The Watch",
+        "id": "0cc8-d2e1-973b-af19",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 76,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 37}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "51fd-a077-796b-ddf3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "4a81-f8fe-9466-7609",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "7f83-73b5-c7c2-7041", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "fe6d-6215-e462-c40a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "4a41-4348-2857-17c1",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Hold Guard Captain: Commander Of The Watch", "id": "722a-82e0-48d1-0cf7", "hidden": false, "targetId": "6d0f-5624-adee-c731", "type": "profile"},
+          {"name": "Perk: Agile Defender", "id": "8412-7066-d90c-9f94", "hidden": false, "targetId": "c175-8d5e-9e3f-3736", "type": "rule"},
+          {"name": "Path of Might", "id": "58b3-8d87-7e38-acca", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "f67e-74a5-2e95-9225", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Protect The Innocent",
+            "id": "9db5-8cf8-6288-d240",
+            "description": "While the Hold Guard Captian is within 3\" of an NPC token, the Hold Guard Captain and friendly Hold Guard Faction Followers within 6\" automatically pass Morale Checks.",
+            "hidden": false,
+            "page": 76,
+            "publicationId": "c5ed-9e8c-ec28-4def"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "0933-ede0-1907-5071",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "44ed-b074-f730-5201",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Hold Guard Captain: Commander Of The Watch (Leveled)",
+                "id": "215e-6261-b111-3af0",
+                "hidden": false,
+                "targetId": "2fd7-220c-6872-91d9",
+                "type": "profile"
+              },
+              {"name": "Perk: Persuasion", "id": "6e45-bb71-30b4-c8cf", "hidden": false, "targetId": "2734-97c2-54f3-fb62", "type": "rule"}
+            ],
+            "rules": [
+              {
+                "name": "Protect The Innocent (Leveled)",
+                "id": "ee92-cff6-74c3-1b63",
+                "description": "While the Hold Guard Captian is within 6\" of an NPC token, the Hold Guard Captain and friendly Hold Guard Faction Followers within 9\" automatically pass Morale Checks.",
+                "hidden": false,
+                "page": 76,
+                "publicationId": "c5ed-9e8c-ec28-4def"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hold Guard: Enforcer",
+        "id": "1454-24be-fa85-cba3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 21}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Hold Guard: Enforcer", "id": "a239-f097-5011-1e9e", "hidden": false, "targetId": "4f90-e66d-4cf0-bd34", "type": "profile"},
+          {"name": "Cumbersome", "id": "d193-2cba-b531-5ad7", "hidden": false, "targetId": "be29-25db-e215-b3b0", "type": "rule"},
+          {"name": "Path of Might", "id": "12fa-b369-f3be-4f0b", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "a308-084b-7176-2e4a", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Two-Handed Block", "id": "18db-7062-c4cb-90f6", "hidden": false, "targetId": "aa94-2a05-4635-c76b", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Hold Guard: Sentry",
+        "id": "a021-3155-c447-8086",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 21}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Hold Guard: Sentry", "id": "5bf0-92f4-6cae-1b27", "hidden": false, "targetId": "6b2c-80f3-b835-b9eb", "type": "profile"},
+          {"name": "Path of Shadow", "id": "efe1-3d08-cf29-58a3", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "8c7a-21ae-0e69-b327", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Hold Guard: Patroller",
+        "id": "0c8a-1c7f-7a54-4b64",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "c5ed-9e8c-ec28-4def",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 21}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Hold Guard: Patroller", "id": "c668-0db0-dd6b-22d1", "hidden": false, "targetId": "44b8-159f-d757-4ed8", "type": "profile"},
+          {"name": "Path of Might", "id": "1e16-a92e-d24e-9350", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "0185-7830-8996-0101", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      }
+    ]
+  }
+}

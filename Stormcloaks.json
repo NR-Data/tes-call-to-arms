@@ -1,0 +1,2452 @@
+{
+  "catalogue": {
+    "name": "Stormcloaks",
+    "id": "d13b-b60d-5b97-72c9",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Adventurers", "id": "8e9d-08a6-1b74-adfd", "importRootEntries": false, "targetId": "bed2-2069-45b8-9df1", "type": "catalogue"}],
+    "categoryEntries": [
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander",
+        "id": "245b-f545-323f-330b",
+        "comment": "Leveled: Done",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "constraints": [
+          {
+            "id": "5ffc-7821-97af-0ea3",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Ralof: Warrior Of The Resistance",
+        "id": "3b62-aa92-7cda-82e0",
+        "comment": "Leveled: Done",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "constraints": [
+          {
+            "id": "8b86-5eff-70b9-8c14",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Ulfric Stormcloak: Bear Of Markarth",
+        "id": "d663-694a-6f31-7f05",
+        "comment": "Leveled: Done",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "constraints": [
+          {
+            "id": "8790-3ed1-bd46-b4e4",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Thorygg Sun-Killer: Commander Of Falkreath",
+        "id": "cc0b-c103-c496-4e5d",
+        "comment": "Leveled: Done",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "4a9e-51cb-bacf-087b",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Gonnar Oath-Giver: Commander Of The Rift",
+        "id": "b504-9250-f3b7-26c6",
+        "comment": "Leveled: Done",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "10bb-5fdb-7274-7a42",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Galmar Stone-Fist: Chosen Of Ulfric",
+        "id": "63b7-3654-8668-ff1b",
+        "comment": "Leveled: Done",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "640c-6c58-8aaf-cebf",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander",
+        "id": "19a1-246b-f53f-d612",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "targetId": "4f5f-c3f1-751e-ae24",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "54c7-26ef-1219-c175", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Might", "id": "f5e6-9114-f4bd-f9fe", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Stormcloaks", "id": "41c8-3a8d-b279-a738", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Yrsarald Thrice-Pierced: Stormcloak Commander", "id": "5341-a75c-6295-2c87", "hidden": false, "primary": false, "targetId": "245b-f545-323f-330b"},
+          {"name": "Two-Handed Skill", "id": "fe4e-e848-91b9-398d", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "41f7-4d8b-774a-3af7", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "93c0-5a58-7a0a-0830", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "5fb0-697f-afd9-c72c", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "fa97-e05b-bf86-f5bc", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Speech Skill", "id": "1fba-1dbf-ef21-55d2", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ralof: Warrior Of The Resistance",
+        "id": "9555-1bf2-b2e8-ea0a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "21a6-9354-a670-7d61",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "05aa-8c27-c75e-7830", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Shadow", "id": "c570-1100-6a37-b349", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Ralof: Warrior Of The Resistance", "id": "306d-3000-ec98-ce21", "hidden": false, "primary": false, "targetId": "3b62-aa92-7cda-82e0"},
+          {"name": "Stormcloaks", "id": "6c0e-baf7-ab32-6795", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "One-Handed Skill", "id": "8a59-91b5-d7f9-301a", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "4c43-f587-0057-1d20", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "04b0-3522-aad5-db66", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "bc55-b583-cc17-ddae", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Sneak Skill", "id": "859a-4ffb-723a-699f", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "1ea6-98c9-1e20-42e8", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ulfric Stormcloak: Bear Of Markarth",
+        "id": "b2bf-245d-2324-6d0d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cce6-1ffb-f196-25c2",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "0be4-d607-54ed-a732", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Stormcloaks", "id": "d843-3f66-611d-cc90", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Ulfric Stormcloak: Bear Of Markarth", "id": "2b60-f607-514e-3e14", "hidden": false, "primary": false, "targetId": "d663-694a-6f31-7f05"},
+          {"name": "Path of Might", "id": "1775-ace0-1961-9f88", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Born Leader", "id": "a908-b47a-e8d8-af36", "hidden": false, "primary": false, "targetId": "917c-eb56-30eb-a720"},
+          {"name": "Dragon Shouts: Ulfric", "id": "6d14-a63f-6c74-81d5", "hidden": false, "primary": false, "targetId": "6119-a6c8-2eb1-6092"},
+          {"name": "Ulfric Stormcloak Equipment", "id": "b9b2-869e-1f53-b70f", "hidden": false, "primary": false, "targetId": "6e64-fc01-fdbb-88a4"},
+          {"name": "One-Handed Skill", "id": "bed6-af0c-123f-a466", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "e3fc-8771-5fb4-4346", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "8a30-2ee2-1dc0-be94", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Speech Skill", "id": "0a00-2312-9d2e-2599", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Light Armor Skill", "id": "76d2-dbab-6411-71e2", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thorygg Sun-Killer: Commander Of Falkreath",
+        "id": "738e-ccd6-a40d-54ca",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a953-b8fa-102e-2208",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "5a89-d87a-2418-50f0", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Stormcloaks", "id": "8cf2-1790-df26-531b", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "0327-5500-b623-3272", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Thorygg Sun-Killer: Commander Of Falkreath", "id": "3029-0431-e037-350b", "hidden": false, "primary": false, "targetId": "cc0b-c103-c496-4e5d"},
+          {"name": "Block Skill", "id": "f024-09f3-08c0-59ee", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Two-Handed Skill", "id": "7a08-4769-4306-62eb", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "6384-4247-3612-db7b", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "cc1a-daac-040a-7a7c", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Speech Skill", "id": "a6cf-a74f-e883-6d79", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak General: True Son Of Skyrim",
+        "id": "5f3f-bd91-d597-ee47",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "228f-2ebc-e6d7-6c10",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "c2de-33b3-963b-da8a", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Stormcloaks", "id": "aef8-007c-395a-6cff", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "e47c-284e-f78f-6278", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Two-Handed Skill", "id": "038d-6a3f-d799-836c", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "de9b-88c8-7359-1a11", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "1f2d-5d12-955b-0af8", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "af94-8497-a25f-68ac", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "ab39-18d6-455e-413f", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Speech Skill", "id": "eec9-b000-b2c3-15d5", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gonnar Oath-Giver: Commander Of The Rift",
+        "id": "edd1-250b-f147-8164",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b3e1-defb-8c00-0929",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "02f8-2989-84fe-2c6a", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Stormcloaks", "id": "0f74-0d60-ecaa-ef74", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "ac82-7a7b-7eb6-d44e", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Gonnar Oath-Giver: Commander Of The Rift", "id": "1fba-00e5-679d-20a0", "hidden": false, "primary": false, "targetId": "b504-9250-f3b7-26c6"},
+          {"name": "Block Skill", "id": "9d4b-31c6-5fb1-5f62", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Two-Handed Skill", "id": "7a71-6fac-c625-b132", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "486c-93e7-0c0e-aa47", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Light Armor Skill", "id": "29b6-ae48-c023-8f07", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "b8c5-46d7-75c0-cdfc", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Smithing Skill", "id": "d6d7-9e47-a86b-a59c", "hidden": false, "primary": false, "targetId": "c7db-eac8-21dc-49a0"},
+          {"name": "Speech Skill", "id": "392c-f3e7-83e1-e066", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Archery Skill", "id": "d475-ef2c-2186-cbb7", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Galmar Stone-Fist: Chosen Of Ulfric",
+        "id": "d6dd-a0f8-c780-f661",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7451-dfba-1edf-bd47",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "3b88-a5c0-0225-96dd", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Stormcloaks", "id": "1d55-9916-44dd-f08b", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "8300-a166-9e39-ce14", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Galmar Stone-Fist: Chosen Of Ulfric", "id": "c2f3-c3e3-a5af-efc8", "hidden": false, "primary": false, "targetId": "63b7-3654-8668-ff1b"},
+          {"name": "One-Handed Skill", "id": "0356-e2d7-ff33-3601", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Two-Handed Skill", "id": "6a85-6c5a-bce7-2e2f", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Archery Skill", "id": "70ba-2a65-397e-8552", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "043a-4682-4d01-3ade", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Speech Skill", "id": "9dce-9613-d16b-e855", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Greatsword",
+        "id": "f165-e91a-36c8-07cf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "48fe-6e1d-fafb-db4f",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "eaf1-68e8-4774-5ced", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "7e7c-bf8d-ab23-94f0", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "7997-3846-b9d3-1334", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Huntsman",
+        "id": "e9da-dbb7-9d24-1bf3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a2f2-3da2-08d5-a868",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "47bd-0f69-2900-6071", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Follower", "id": "5f80-4db3-cc89-944e", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Path of Shadow", "id": "1ead-9486-1216-04ed", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Dual Wielding Axes",
+        "id": "cf96-828f-4622-3551",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2f5e-b8e4-d276-f2f3",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "71ae-187c-ebcd-a653", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "c052-1be7-a9cc-24c8", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "0db0-2ed9-a377-c2b6", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Linebreaker",
+        "id": "dddb-ea83-7f4e-1bf3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b089-2476-8b56-5629",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "1f04-7d19-81cc-b8d8", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "8712-918b-0026-479a", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "bb18-3e83-5ea9-c2af", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Axe-Fighter",
+        "id": "4485-2871-5181-78df",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d2ce-9d7f-a09a-58da",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "9d38-5e66-a926-60b5", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "0d6b-9f14-9d7e-5515", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "f6f8-eba7-779f-d798", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Dual Wielding Swords",
+        "id": "31a6-e99b-df9d-a720",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9326-a58e-87d8-067b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "91f3-d5c2-d569-32d1", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "e4d5-b4a5-ce9f-a49d", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "9a6d-e112-26ed-caa5", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Shieldbearer",
+        "id": "f55c-0c0e-015b-abb7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b4bd-0065-60dd-dd07",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "db28-748d-b6fc-645f", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "faac-635f-2162-ba30", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "b7c6-3ac7-a7fd-42be", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Swordsman",
+        "id": "8283-431e-33fd-58dc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bf73-1f9d-e16f-ae65",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "99e0-8e19-dd76-4875", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "61a1-e787-8cad-4fdc", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "deaa-d590-ac94-907b", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Archer",
+        "id": "f013-cee2-1f71-2192",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ee9d-a8bf-9386-34e1",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Stormcloaks", "id": "a059-ca66-c048-430e", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Follower", "id": "3f6b-7cff-0fbb-2823", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Path of Might", "id": "d75b-4028-3b99-7bcb", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)",
+        "id": "9b41-9891-a451-75d3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "targetId": "3695-1b03-32b6-9748",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "744f-f1f7-773a-0bcc", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Stormcloaks", "id": "1fb9-966b-0763-cd68", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Yrsarald Thrice-Pierced: Stormcloak Commander", "id": "69ef-e019-ff51-cd45", "hidden": false, "primary": false, "targetId": "245b-f545-323f-330b"},
+          {"name": "Two-Handed Skill", "id": "5e09-4353-b6ae-4dcc", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "6a6f-9ead-d01c-5ff3", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "2d33-a6e6-a7be-81ad", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Light Armor Skill", "id": "3a24-529a-840b-2378", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Adversary Master", "id": "4d68-4ee5-3b77-1245", "hidden": false, "primary": true, "targetId": "e4f3-19d3-b4a8-4788"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Dragonborn: Champion of Skyrim",
+        "id": "aba0-70fd-7089-5a00",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2038-fbad-32c1-0729",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "2e06-ca40-9dbb-0e86", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Might", "id": "e140-5945-bb98-c0d2", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Stormcloaks", "id": "1b42-d80c-5365-7be4", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Imperial Legion", "id": "cd69-294c-7018-4ba1", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Dragonborn (Character)", "id": "cca6-ab9b-826c-e2f6", "hidden": false, "primary": false, "targetId": "cc62-17e3-76e5-4f96"},
+          {"name": "Adventurers", "id": "bd58-cc10-9ac1-c2dc", "hidden": false, "primary": false, "targetId": "2b45-4245-ce5e-5404"},
+          {"name": "Dragon Shouts", "id": "50b7-6f22-cf2a-5432", "hidden": false, "primary": false, "targetId": "ca71-7b4a-9967-eaae"},
+          {"name": "One-Handed Skill", "id": "47da-9cc8-fe18-402d", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "865f-4d76-a409-801c", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "4961-5c12-b376-34af", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "503e-1e4e-0537-8ffc", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Sneak Skill", "id": "b8bd-5cb1-3c33-9b59", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "60e2-bea0-bc3e-a44f", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "8340-e8f6-714c-c93c", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Destruction Skill", "id": "c02e-b763-a474-c08f", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Enchanting Skill", "id": "fc37-166c-7efe-3b33", "hidden": false, "primary": false, "targetId": "03bd-d045-659f-b234"},
+          {"name": "Restoration Skill", "id": "1b98-0d5d-5459-7e3f", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Speech Skill", "id": "30fc-b952-8129-372b", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Alchemy Skill", "id": "cc0a-14ba-fb64-7b50", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a42d-5cd6-77d3-e140",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d6a3-9869-f1f0-db9f",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "00de-a491-fd7e-bcca",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Quartermaster: Master Provisioner",
+        "id": "57f4-e435-d2fa-5de7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "targetId": "691f-648b-af0e-0158",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hireling Hero", "id": "b1ee-8543-1287-8463", "hidden": false, "primary": true, "targetId": "c06c-5d0a-f27a-3385"},
+          {"name": "Neutral", "id": "df63-0302-84b3-1be2", "hidden": false, "primary": false, "targetId": "e42a-1785-2eba-93be"},
+          {"name": "Hero", "id": "a476-f218-9919-f538", "hidden": false, "primary": false, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Stormcloaks", "id": "51a3-947f-469b-76a0", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Path of Might", "id": "d523-d839-e5b6-91a3", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Two-Handed Skill", "id": "dc51-bf08-b2bf-1b5b", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "0f22-1721-afd8-3972", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Light Armor Skill", "id": "3195-5856-b7f8-9202", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Smithing Skill", "id": "49b1-54d4-aa1c-3539", "hidden": false, "primary": false, "targetId": "c7db-eac8-21dc-49a0"},
+          {"name": "Enchanting Skill", "id": "6792-d22e-d297-90f1", "hidden": false, "primary": false, "targetId": "03bd-d045-659f-b234"}
+        ],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "b9a4-31a5-b4ed-b4c7"}, {"field": "category", "type": "remove", "value": "c06c-5d0a-f27a-3385"}]
+          }
+        ]
+      },
+      {
+        "name": "Nura Snow-Shod: Priestess Of Talos",
+        "id": "0c61-b5ef-07ee-fd6c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c6d5-9c4c-9e32-ceb5",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hireling Hero", "id": "e2ac-7409-b1e5-1e06", "hidden": false, "primary": true, "targetId": "c06c-5d0a-f27a-3385"},
+          {"name": "Neutral", "id": "6dbe-53da-44eb-0151", "hidden": false, "primary": false, "targetId": "e42a-1785-2eba-93be"},
+          {"name": "Hero", "id": "d5fb-b015-3d6c-5684", "hidden": false, "primary": false, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Sorcery", "id": "3969-eaaf-9f90-d33f", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Stormcloaks", "id": "8e47-d129-1a4d-2fc0", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Nura Snow-Shod: Priestess Of Talos", "id": "b856-cb84-e7f7-80ca", "hidden": false, "primary": false, "targetId": "28af-5165-988e-2716"},
+          {"name": "One-Handed Skill", "id": "8d5d-83e8-1fd8-1795", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "b37d-6be6-4f63-1933", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Smithing Skill", "id": "ecc5-317e-b0f0-9930", "hidden": false, "primary": false, "targetId": "c7db-eac8-21dc-49a0"},
+          {"name": "Speech Skill", "id": "fe46-20a5-9a04-7f27", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Restoration Skill", "id": "98cc-ff4c-81d0-f084", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"}
+        ],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {"field": "category", "type": "set-primary", "value": "b9a4-31a5-b4ed-b4c7"},
+              {"field": "category", "type": "remove", "value": "c06c-5d0a-f27a-3385"},
+              {"field": "category", "type": "remove", "value": "065c-f392-0c98-91f5"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heimskr: Priest Of Talos",
+        "id": "9de6-f8ee-9aa5-777f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c6be-6be8-c7d4-a098",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hireling Hero", "id": "9ffe-1d13-8c09-0a28", "hidden": false, "primary": true, "targetId": "c06c-5d0a-f27a-3385"},
+          {"name": "Heimskr: Priest Of Talos", "id": "5761-20b1-a03e-48d9", "hidden": false, "primary": false, "targetId": "5237-2165-4772-5555"},
+          {"name": "Neutral", "id": "f35a-f6c8-3c40-6e96", "hidden": false, "primary": false, "targetId": "e42a-1785-2eba-93be"},
+          {"name": "Hero", "id": "1d49-4f9d-de65-281f", "hidden": false, "primary": false, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Sorcery", "id": "570d-a174-1a54-c3ec", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Stormcloaks", "id": "2d85-702b-2313-5e4c", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "One-Handed Skill", "id": "ce81-a4b9-c9fb-05b5", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Destruction Skill", "id": "ae97-d87a-5d3a-8bfb", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Speech Skill", "id": "81f9-14ee-46fc-4e59", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Restoration Skill", "id": "4349-250b-912b-af9b", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Alchemy Skill", "id": "f725-cbe3-ad91-1235", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"}
+        ],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "00de-a491-fd7e-bcca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {"field": "category", "type": "set-primary", "value": "b9a4-31a5-b4ed-b4c7"},
+              {"field": "category", "type": "remove", "value": "c06c-5d0a-f27a-3385"},
+              {"field": "category", "type": "remove", "value": "065c-f392-0c98-91f5"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander",
+        "id": "22c7-870b-5153-7f47",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Intimidation, Wind Walker", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "The Strong Survive", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Ralof: Warrior Of The Resistance",
+        "id": "10c5-e79b-11ab-8d6e",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Fighting Stance, Ranger", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Ralof: Warrior Of The Resistance (Leveled)",
+        "id": "8efd-3bcc-41f5-1789",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Fighting Stance, Ranger, Steady Hand", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Vanguard (Leveled)", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander (Leveled)",
+        "id": "0cb8-da82-0c83-0888",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Critical Charge, Intimidation, Wind Walker", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "The Strong Survive", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Ulfric Stormcloak: Bear Of Markarth",
+        "id": "b219-672a-62f5-bc1c",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Hack And Slash, Intimidation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Born Leader, Dragon Shouts, Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "The Bear Of Markarth, The Voice", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "6\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "7\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Ulfric Stormcloak: Bear Of Markarth (Leveled)",
+        "id": "8245-649d-5e8a-055e",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Armsman, Hack And Slash, Intimidation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Born Leader, Dragon Shouts, Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "The Bear Of Markarth, The Voice", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "7\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "7\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "7\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "5", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Thorygg Sun-Killer: Commander Of Falkreath",
+        "id": "967b-6dbf-2aea-061e",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Deep Wounds, Intimidation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Measured Strikes", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Thorygg Sun-Killer: Commander Of Falkreath (Leveled)",
+        "id": "bcc4-8abd-c3c5-1296",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Barbarian, Deep Wounds, Intimidation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Measured Strikes", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Stormcloak General: True Son Of Skyrim",
+        "id": "0f63-671b-0f6b-4013",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bladesman", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "To War!", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "2\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Stormcloak General: True Son Of Skyrim (Leveled)",
+        "id": "0e4f-d0ae-35b5-df5e",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bladesman, Persuasion", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "To War!", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "2\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Gonnar Oath-Giver: Commander Of The Rift",
+        "id": "1ec9-803c-ac26-9013",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Uppercunt", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Oath-Giver", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Gonnar Oath-Giver: Commander Of The Rift (Leveled)",
+        "id": "5827-fdb6-221c-bd53",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Battle-Rush, Uppercunt", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Oath-Giver", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Galmar Stone-Fist: Chosen Of Ulfric",
+        "id": "66ad-0da8-ab86-3683",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Battle-Rush, Champion's Stance, Warmaster", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Relentless", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Victory Or Sovngarde!", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "6\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Galmar Stone-Fist: Chosen Of Ulfric (Leveled)",
+        "id": "4493-4233-13d7-6570",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Battle-Rush, Champion's Stance, Great Critical Charge, Warmaster", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Relentless", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Victory Or Sovngarde!", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "7\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Greatsword",
+        "id": "8d48-0228-f439-b8bb",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {
+            "name": "Melee Attacks",
+            "$text": "Two-Handed: [BLACK]\n[HELMET]: add [GREEN]\n[SWORDS]: Follow-Up [1]\nCumbersome, Two-Handed Block",
+            "typeId": "6cbd-4946-2719-08aa"
+          },
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nTwo-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Huntsman",
+        "id": "6cbd-46ca-b6ad-f9cd",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [YELLOW]\n[HELMET]: add [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {
+            "name": "Ranged Attacks",
+            "$text": "Archery\n10\": [GREEN][RED]\n20\": [GREEN][YELLOW]\n[HELMET]: Piercing (1)\n[SWORDS]: add [YELLOW]",
+            "typeId": "9de9-c00b-18b9-7caf"
+          },
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Dual Wielding Axes",
+        "id": "3cf0-7386-36c2-c73e",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {
+            "name": "Melee Attacks",
+            "$text": "One-Handed: [RED]\n[HELMET]: Bleed\n///////////\nOne-Handed: [YELLOW][YELLOW]\n[HELMET]: Bleed",
+            "typeId": "6cbd-4946-2719-08aa"
+          },
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Linebreaker",
+        "id": "42b4-0f72-3ee0-1f5a",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [RED]\n[HELMET]: Bleed", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [RED]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Axe-Fighter",
+        "id": "3ca0-6164-ae62-8796",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [RED]\n[HELMET]: Bleed", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Dual Wielding Swords",
+        "id": "3c7b-f4cd-fbb6-62eb",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {
+            "name": "Melee Attacks",
+            "$text": "One-Handed: [YELLOW][YELLOW]\n[HELMET]: add [GREEN]\n///////////\nOne-Handed: [YELLOW][YELLOW]\n[HELMET]: add [GREEN]",
+            "typeId": "6cbd-4946-2719-08aa"
+          },
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Shieldbearer",
+        "id": "e2b2-4669-35b0-affc",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [YELLOW][YELLOW]\n[HELMET]: add [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [RED]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Swordsman",
+        "id": "ccd6-b5d2-7456-bace",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [YELLOW][YELLOW]\n[HELMET]: add [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Archer",
+        "id": "a32f-45d5-4dc5-2a55",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [YELLOW]\n[HELMET]: add [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "Archery\n8\": [RED]\n24\": [YELLOW]\n[HELMET]: Piercing (1)\n[SWORDS]: add [GREEN]", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)",
+        "id": "b188-cc34-67f9-e661",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Master (Unique)", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Nord", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(One-Handed): [GREEN][RED]\n[HELMET]: Bleed\n[SWORDS]: Follow-Up [1]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "Light Armor: [RED]\n[OBLIVION]: add [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Resistance (Frost), The Strong Survive (Adversary)", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "5", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "4", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Stormcloaks", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander",
+        "id": "4f5f-c3f1-751e-ae24",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 52}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "33a9-e2fd-923e-f595",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "cc6e-1ac7-c1bd-03ce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "f3a2-18ef-b04b-d62e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Yrsarald Thrice-Pierced: Stormcloak Commander", "id": "48a4-8128-cc84-ba9f", "hidden": false, "targetId": "22c7-870b-5153-7f47", "type": "profile"},
+          {"name": "Perk: Intimidation", "id": "de59-7ecf-5ece-4c25", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"},
+          {"name": "Perk: Wind Walker", "id": "06dd-c211-b905-d079", "hidden": false, "targetId": "986d-0c2c-6f55-86f8", "type": "rule"},
+          {"name": "Path of Might", "id": "5dca-ba6b-87c1-2ca2", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "9baf-0efb-4c59-e484", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "The Strong Survive",
+            "id": "105f-83a4-9833-2461",
+            "description": "Faction followers within 3” of Ysarald reduce the Stamina Point cost of their Power attacks by -1 point.",
+            "hidden": false,
+            "publicationId": "bcdd-038f-9aa1-3237"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "5bbd-5f27-164e-bec4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "6b31-e413-2031-97e4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Yrsarald Thrice-Pierced: Stormcloak Commander (Leveled)",
+                "id": "01a4-5ede-85cf-680b",
+                "hidden": false,
+                "targetId": "0cb8-da82-0c83-0888",
+                "type": "profile"
+              },
+              {"name": "Perk: Critical Charge", "id": "c04a-3fd0-5601-debe", "hidden": false, "targetId": "bedf-8612-7883-a004", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ralof: Warrior Of The Resistance",
+        "id": "21a6-9354-a670-7d61",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 36}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "9c71-2996-24ff-11f3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "b615-ddd9-ce3b-4f04",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "6ee9-f710-4738-749f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Ralof: Warrior Of The Resistance", "id": "1c57-f5e3-43f7-8d62", "hidden": false, "targetId": "10c5-e79b-11ab-8d6e", "type": "profile"},
+          {"name": "Perk: Fighting Stance", "id": "e6f1-ad4c-3853-6ba8", "hidden": false, "targetId": "e23a-87f7-19e1-ad12", "type": "rule"},
+          {"name": "Perk: Ranger", "id": "6d85-0bef-6ef9-0161", "hidden": false, "targetId": "ff82-0769-0a4a-7153", "type": "rule"},
+          {"name": "Path of Shadow", "id": "2076-f738-37de-0206", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "c31f-9bc8-dd41-414a", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "7b09-5c48-c368-a02c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "0a20-ccf7-4f0c-374d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Ralof: Warrior Of The Resistance (Leveled)", "id": "825d-adcd-e220-ee75", "hidden": false, "targetId": "8efd-3bcc-41f5-1789", "type": "profile"},
+              {"name": "Perk: Steady Hand", "id": "0981-b022-5c00-71a0", "hidden": false, "targetId": "f51b-1bcb-b1c1-7a57", "type": "rule"}
+            ],
+            "rules": [
+              {
+                "name": "Vanguard (Leveled)",
+                "id": "6e8e-8dc9-d894-a2ea",
+                "description": "Boost. When Ralof performs the With Me! Command Action, he may target up to two additional models after the first, at the cost of 1 Stamina point per [additional] model.",
+                "hidden": false,
+                "publicationId": "bcdd-038f-9aa1-3237"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ulfric Stormcloak: Bear Of Markarth",
+        "id": "cce6-1ffb-f196-25c2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 78}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "29e1-ebec-4898-4697",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "1db7-56f2-989a-94bb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "2d45-ee03-1390-82ed",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1cd3-19b1-e9fc-8926",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Ulfric Stormcloak: Bear Of Markarth", "id": "2803-18d0-1db9-1925", "hidden": false, "targetId": "b219-672a-62f5-bc1c", "type": "profile"},
+          {"name": "Perk: Intimidation", "id": "00f5-881b-7bbb-b979", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"},
+          {"name": "Perk: Hack and Slash", "id": "e2ec-8397-e0c3-6bb9", "hidden": false, "targetId": "2cf3-a74a-631e-7547", "type": "rule"},
+          {"name": "Path of Might", "id": "0425-ab04-4641-f9cb", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "f75c-407f-9c71-8532", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Dragon Shouts", "id": "4473-282f-a08c-6435", "hidden": false, "targetId": "bed1-0d23-de84-30a1", "type": "rule"},
+          {"name": "Born Leader", "id": "7764-08a1-9c41-9eda", "hidden": false, "targetId": "653d-16a5-eefb-8b71", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "The Bear Of Markarth",
+            "id": "e82a-9113-a8a9-5619",
+            "description": "Once per game [correction: battle], when Ulfric uses the Command Action, Ulfric and all friendly Stormcloak Faction models within 6\" add [RED] to their melee attacks this round.",
+            "hidden": false,
+            "publicationId": "a37b-3a3b-faf7-0732"
+          },
+          {
+            "name": "The Voice",
+            "id": "fbde-8b7a-76ba-16fd",
+            "description": "Ulfric Stormcloak has the Dragon Shouts keyword, but may only purchase Disarm and/or Unrelenting Force.",
+            "hidden": false,
+            "publicationId": "a37b-3a3b-faf7-0732"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "81cc-1f4e-8175-e487",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "8215-8882-1db4-8048",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Ulfric Stormcloak: Bear Of Markarth (Leveled)", "id": "3a62-8d23-98ab-1feb", "hidden": false, "targetId": "8245-649d-5e8a-055e", "type": "profile"},
+              {"name": "Perk: Armsman", "id": "2b27-d64b-a327-77f4", "hidden": false, "targetId": "f765-fb99-5b29-1171", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thorygg Sun-Killer: Commander Of Falkreath",
+        "id": "a953-b8fa-102e-2208",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 48}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "1739-df02-88cf-884c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "c4f7-f638-5d68-f976",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "f07f-a57b-dd3e-aed7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Thorygg Sun-Killer: Commander Of Falkreath", "id": "3ab6-b38b-4602-efc0", "hidden": false, "targetId": "967b-6dbf-2aea-061e", "type": "profile"},
+          {"name": "Perk: Intimidation", "id": "aba1-d999-5279-4e6d", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"},
+          {"name": "Perk: Deep Wounds", "id": "5724-117a-c7c8-0064", "hidden": false, "targetId": "1df4-d415-809d-282c", "type": "rule"},
+          {"name": "Path of Might", "id": "be98-2b3a-7b76-c52a", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "8080-40b5-a310-6fd8", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Measured Strikes",
+            "id": "92d9-04a5-6f65-4817",
+            "description": "When Thorygg is engaged in melee, friendly Stormcloaks followers within 3\" and Line Of Sight gain the Punishing (2) Keyword to attacks made with the Two-Handed Skill. If the attack already has the Punishing Keyword, increase the value in the parentheses by 2.",
+            "hidden": false,
+            "publicationId": "2733-0fd1-3311-3be2"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "49f5-3490-f483-4ac1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "c610-93e4-c945-746a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Thorygg Sun-Killer: Commander Of Falkreath (Leveled)",
+                "id": "a8dc-e2b2-250a-1872",
+                "hidden": false,
+                "targetId": "bcc4-8abd-c3c5-1296",
+                "type": "profile"
+              },
+              {"name": "Perk: Barbarian", "id": "be51-5062-e478-d7f3", "hidden": false, "targetId": "075c-5345-7cb8-f820", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak General: True Son Of Skyrim",
+        "id": "228f-2ebc-e6d7-6c10",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 46}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "eb33-ce32-3015-7eb9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "a04b-2875-f060-17cb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "81cd-93d3-7553-60e4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Stormcloak General: True Son Of Skyrim", "id": "80cc-2e92-137b-8955", "hidden": false, "targetId": "0f63-671b-0f6b-4013", "type": "profile"},
+          {"name": "Perk: Bladesman", "id": "d95b-6a8c-9f47-a649", "hidden": false, "targetId": "3988-d2f2-407a-a3b9", "type": "rule"},
+          {"name": "Path of Might", "id": "13e9-2d58-8275-1125", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "b4b1-ec21-d8b3-671e", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "To War!",
+            "id": "24ed-12f5-f4f7-7151",
+            "description": "The first time the Stormcloak General uses the Command Action in a game, it counts as a Free Action.",
+            "hidden": false,
+            "publicationId": "a37b-3a3b-faf7-0732"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "b434-3735-cab0-0c5b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "1de7-693a-5904-a9ad",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Stormcloak General: True Son Of Skyrim (Leveled)", "id": "b3c3-4555-54da-33db", "hidden": false, "targetId": "0e4f-d0ae-35b5-df5e", "type": "profile"},
+              {"name": "Perk: Persuasion", "id": "daf5-b5ec-f073-f74d", "hidden": false, "targetId": "2734-97c2-54f3-fb62", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gonnar Oath-Giver: Commander Of The Rift",
+        "id": "b3e1-defb-8c00-0929",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 40}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "c8f1-07d6-dea2-0f56",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "c953-3c4a-7bc7-458f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "42a1-6e68-1995-aab2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Gonnar Oath-Giver: Commander Of The Rift", "id": "5677-a090-4e7d-bc3a", "hidden": false, "targetId": "1ec9-803c-ac26-9013", "type": "profile"},
+          {"name": "Perk: Uppercut", "id": "e1d4-c0ff-877e-d0d1", "hidden": false, "targetId": "db1e-693f-0bcc-c7db", "type": "rule"},
+          {"name": "Path of Might", "id": "85ca-00c3-c1ef-a079", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "bc07-32aa-5cd6-c164", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Oath-Giver",
+            "id": "9a92-6df4-079f-bf84",
+            "description": "Once per game, as a Special Action the player controlling Gonnar Oath-Giver can select an additional Oath from the list of available Oaths for the scenario being played.",
+            "hidden": false,
+            "publicationId": "2733-0fd1-3311-3be2"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "599b-8334-29f5-1e37",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "c683-922a-b27e-3c2f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Gonnar Oath-Giver: Commander Of The Rift (Leveled)",
+                "id": "8754-7857-0afe-dd74",
+                "hidden": false,
+                "targetId": "5827-fdb6-221c-bd53",
+                "type": "profile"
+              },
+              {"name": "Perk: Battle-Rush", "id": "3ac0-11b1-ad69-3ab5", "hidden": false, "targetId": "f974-3fee-a45f-998f", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Galmar Stone-Fist: Chosen Of Ulfric",
+        "id": "7451-dfba-1edf-bd47",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 65}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "e94e-143c-027f-f8a2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "366b-2d6b-6f21-4340",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "4cf0-bcce-ff6b-a8e0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Galmar Stone-Fist: Chosen Of Ulfric", "id": "73e9-8190-a422-5e1e", "hidden": false, "targetId": "66ad-0da8-ab86-3683", "type": "profile"},
+          {"name": "Perk: Champion's Stance", "id": "1e33-4e69-6ba4-3b99", "hidden": false, "targetId": "6f94-83fa-5b4c-9114", "type": "rule"},
+          {"name": "Perk: Battle-Rush", "id": "0af2-211d-5dbc-78a4", "hidden": false, "targetId": "f974-3fee-a45f-998f", "type": "rule"},
+          {"name": "Path of Might", "id": "a91b-afad-9e90-ad8b", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "ca5b-4f53-8b80-1bd2", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Warmaster", "id": "b792-9e56-6f04-61fb", "hidden": false, "targetId": "76b4-20d7-406d-e54b", "type": "rule"},
+          {"name": "Relentless", "id": "2380-bcb9-0aa3-c8f3", "hidden": false, "targetId": "7f50-9282-bb89-a177", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Victory Or Sovngarde!",
+            "id": "0b66-01b0-0735-6fed",
+            "description": "Once per game, when Galmar is engaged with an enemy, he may call to his men. All friendly Stormcloak models within 6\" may immediately move up to 3\", even if they have already activated this round, but only if they are able to engage an enemy by doing so.",
+            "hidden": false,
+            "publicationId": "a37b-3a3b-faf7-0732"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "1286-b7f0-72b7-6910",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "5301-db0b-bf47-3c3e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Galmar Stone-Fist: Chosen Of Ulfric (Leveled)", "id": "833a-ee20-05e4-b2f1", "hidden": false, "targetId": "4493-4233-13d7-6570", "type": "profile"},
+              {"name": "Perk: Great Critical Charge", "id": "a05d-4021-af89-0e17", "hidden": false, "targetId": "258a-d5df-32d0-0f14", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Greatsword",
+        "id": "48fe-6e1d-fafb-db4f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 20}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Greatsword", "id": "f0fe-9233-acef-1610", "hidden": false, "targetId": "8d48-0228-f439-b8bb", "type": "profile"},
+          {"name": "Path of Might", "id": "0842-9310-52e8-399e", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "28ce-4cf9-7998-dcef", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Cumbersome", "id": "2e6b-a95b-e924-5255", "hidden": false, "targetId": "be29-25db-e215-b3b0", "type": "rule"},
+          {"name": "Two-Handed Block", "id": "88f9-8802-d15c-c2c9", "hidden": false, "targetId": "aa94-2a05-4635-c76b", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Huntsman",
+        "id": "a2f2-3da2-08d5-a868",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 25}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Huntsman", "id": "888e-358f-d9c0-97c5", "hidden": false, "targetId": "6cbd-46ca-b6ad-f9cd", "type": "profile"},
+          {"name": "Path of Shadow", "id": "cefc-5dcb-2798-e375", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "0227-db26-ce97-7240", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Dual Wielding Axes",
+        "id": "2f5e-b8e4-d276-f2f3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 22}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Dual Wielding Axes", "id": "1a51-4341-6a46-973b", "hidden": false, "targetId": "3cf0-7386-36c2-c73e", "type": "profile"},
+          {"name": "Path of Might", "id": "e72d-060c-1eeb-c782", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "f489-c9da-5699-286a", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Linebreaker",
+        "id": "b089-2476-8b56-5629",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 20}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Linebreaker", "id": "96d7-e790-ee07-f8d8", "hidden": false, "targetId": "42b4-0f72-3ee0-1f5a", "type": "profile"},
+          {"name": "Path of Might", "id": "0e61-5e0c-1e4c-0d22", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "c034-33ab-5c5d-a8db", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Axe-Fighter",
+        "id": "d2ce-9d7f-a09a-58da",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 18}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Axe-Fighter", "id": "0539-c8e0-5019-b6ae", "hidden": false, "targetId": "3ca0-6164-ae62-8796", "type": "profile"},
+          {"name": "Path of Might", "id": "b47b-3318-4dc1-8da5", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "d9e1-c113-f80b-07ea", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Dual Wielding Swords",
+        "id": "9326-a58e-87d8-067b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 22}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Dual Wielding Swords", "id": "40cf-c511-654d-0622", "hidden": false, "targetId": "3c7b-f4cd-fbb6-62eb", "type": "profile"},
+          {"name": "Path of Might", "id": "f2b6-de3e-43ca-1287", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "1475-0f30-ed96-b71b", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Shieldbearer",
+        "id": "b4bd-0065-60dd-dd07",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 20}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Shieldbearer", "id": "40f9-ac1e-109a-f1c0", "hidden": false, "targetId": "e2b2-4669-35b0-affc", "type": "profile"},
+          {"name": "Path of Might", "id": "be46-4de3-549c-a25f", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "1e58-3947-c1a9-2f76", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Swordsman",
+        "id": "bf73-1f9d-e16f-ae65",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 18}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Swordsman", "id": "6fe7-5d45-b3a3-3900", "hidden": false, "targetId": "ccd6-b5d2-7456-bace", "type": "profile"},
+          {"name": "Path of Might", "id": "1880-ac4a-06bc-8b3a", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "ba48-88a7-c066-1ace", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Stormcloak Soldier: Archer",
+        "id": "ee9d-a8bf-9386-34e1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 20}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Stormcloak Soldier: Archer", "id": "c39d-8569-7388-8474", "hidden": false, "targetId": "a32f-45d5-4dc5-2a55", "type": "profile"},
+          {"name": "Path of Might", "id": "376c-bc96-9dc7-63ec", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "6235-22ec-2d44-59a7", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)",
+        "id": "3695-1b03-32b6-9748",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 50}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {
+            "name": "Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)",
+            "id": "3698-157c-edf9-65cd",
+            "hidden": false,
+            "targetId": "b188-cc34-67f9-e661",
+            "type": "profile"
+          },
+          {"name": "Path of Might", "id": "851e-c44d-d165-ea2a", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "6cb5-d2bd-7419-12b7", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "The Strong Survive (Adversary)",
+            "id": "3790-d387-6848-56fb",
+            "description": "Stormcloak Adversaries within 3\" of Ysarald gain +1 Strength.",
+            "hidden": false,
+            "publicationId": "bcdd-038f-9aa1-3237"
+          }
+        ]
+      }
+    ]
+  }
+}

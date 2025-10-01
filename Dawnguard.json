@@ -1,0 +1,1851 @@
+{
+  "catalogue": {
+    "name": "Dawnguard",
+    "id": "58b7-2ec8-0e9d-b743",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Adventurers", "id": "63e0-f7ac-bc72-4368", "importRootEntries": false, "targetId": "bed2-2069-45b8-9df1", "type": "catalogue"}],
+    "categoryEntries": [
+      {
+        "name": "Isran: Commander of the Dawnguard",
+        "id": "6bec-164e-1258-c553",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "6090-72d9-b73f-325b",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Sorine Jurard: Dwemer Expert",
+        "id": "651a-235e-19cc-ce06",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "1b4d-46de-d7e1-38d8",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Durak: Dawnguard Ranger",
+        "id": "54a9-0a48-5a02-72c2",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "20d8-d8de-37c6-3706",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Gunmar: Master Blacksmith",
+        "id": "7f81-d3ca-f192-f255",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "c177-3a0f-8466-6c6d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Beleval: Vampire Hunter",
+        "id": "7c8f-0b59-d89d-cba1",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "bc8b-bf2c-0b01-5fcf",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Sceolang: Armored Hound",
+        "id": "ed45-38f4-08d3-a930",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "36fd-38f6-eeeb-ea89",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Bran: Armored Hound",
+        "id": "552e-212d-c823-1f61",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "911c-0375-5972-c9e9",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Ingjard: Vampire Hunter",
+        "id": "dfbc-ad9b-1e08-d3b0",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "9fea-e411-111e-58fa",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Isran: Commander of the Dawnguard",
+        "id": "11f6-da75-08a3-82d6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "20df-881d-0dc6-3c36",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "20df-6519-0669-577b", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dawnguard", "id": "a550-1b4b-7f01-c4d8", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Isran: Commander of the Dawnguard", "id": "6032-8c37-dc7e-b177", "hidden": false, "primary": false, "targetId": "6bec-164e-1258-c553"},
+          {"name": "Path of Might", "id": "ff28-1c9d-526a-be6d", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Born Leader", "id": "6fbd-0cff-964e-a9b2", "hidden": false, "primary": false, "targetId": "917c-eb56-30eb-a720"},
+          {"name": "Archery Skill", "id": "bebd-e4ba-c19a-7d0e", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Destruction Skill", "id": "d5cc-28c7-3cc4-b428", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Restoration Skill", "id": "e0d7-454e-038f-bb74", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Speech Skill", "id": "307d-3189-2104-901e", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Light Armor Skill", "id": "7fed-4dbd-e1e0-f15b", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "e0b8-4788-d574-7366", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Sneak Skill", "id": "8f5d-f1f7-6265-f6bc", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Pickpocket Skill", "id": "449a-387f-058d-089b", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "One-Handed Skill", "id": "7be7-eeee-88e3-a70c", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Two-Handed Skill", "id": "b325-c883-d5be-d0dc", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Block Skill", "id": "04aa-45df-e4a0-5b04", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sorine Jurard: Dwemer Expert",
+        "id": "50fa-849e-2cd0-103e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "290d-af99-e2f9-1b79",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "e860-e511-98fd-66fa", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dawnguard", "id": "23f0-0a13-6b5c-eeab", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Archery Skill", "id": "f74e-9035-9297-1a23", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Speech Skill", "id": "4b10-42b6-76d8-4eae", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Light Armor Skill", "id": "14af-e57c-ba21-f2d5", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Sorine Jurard: Dwemer Expert", "id": "8964-1d0c-7856-7e55", "hidden": false, "primary": false, "targetId": "651a-235e-19cc-ce06"},
+          {"name": "Path of Shadow", "id": "e039-a31a-f685-6582", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "One-Handed Skill", "id": "ff74-9006-c250-ca74", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Sneak Skill", "id": "20c1-c330-8604-0da4", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Smithing Skill", "id": "b4d8-f96d-d3c3-095c", "hidden": false, "primary": false, "targetId": "c7db-eac8-21dc-49a0"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Durak: Dawnguard Ranger",
+        "id": "b84f-dd24-9d31-7d8f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "6c47-ca46-75b3-5cfa",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "78eb-5a0f-999e-15b6", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dawnguard", "id": "6f0f-9788-2a6e-5946", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Archery Skill", "id": "89e9-1bb4-8e4f-7fe3", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "5490-e29e-a92d-8887", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Shadow", "id": "9a89-9467-2d3d-8b68", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "One-Handed Skill", "id": "2f41-7f0b-81b5-4fe4", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "e2e1-5188-b03b-57c4", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Durak: Dawnguard Ranger", "id": "bdbd-0cfd-d70b-f646", "hidden": false, "primary": false, "targetId": "54a9-0a48-5a02-72c2"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gunmar: Master Blacksmith",
+        "id": "255d-f37b-ee47-8796",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "8baa-0a8b-79c1-9c2f",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "7612-8959-5a49-bb9b", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dawnguard", "id": "9c2f-5504-74c3-3e47", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Light Armor Skill", "id": "9b52-7da8-79fc-4f98", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "One-Handed Skill", "id": "038f-7d14-91b8-8931", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Gunmar: Master Blacksmith", "id": "db13-f93c-5a7d-d84b", "hidden": false, "primary": false, "targetId": "7f81-d3ca-f192-f255"},
+          {"name": "Path of Might", "id": "63d0-e1bf-cede-bd3a", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Smithing Skill", "id": "b466-b73b-b723-8fe8", "hidden": false, "primary": false, "targetId": "c7db-eac8-21dc-49a0"},
+          {"name": "Speech Skill", "id": "1649-fc00-8344-df76", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Pickpocket Skill", "id": "d79c-9473-77ea-3123", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beleval: Vampire Hunter",
+        "id": "4f9f-0992-2023-91f5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "dada-b2f0-5e0f-6ea5",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "9732-3b67-2f9b-4bf6", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dawnguard", "id": "2082-b16b-8552-9906", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Archery Skill", "id": "5bc3-8676-aecd-25bf", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "7cd2-5af0-ac26-346c", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "One-Handed Skill", "id": "2ee1-b4f1-a4b1-a0a2", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Path of Might", "id": "1fa5-8fb9-a3a4-41d4", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Heavy Armor Skill", "id": "f514-428c-e968-0ecb", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Two-Handed Skill", "id": "6378-2376-cbbd-8f52", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Beleval: Vampire Hunter", "id": "6e73-6b27-7d69-1035", "hidden": false, "primary": false, "targetId": "7c8f-0b59-d89d-cba1"},
+          {"name": "Elf", "id": "216f-5b9c-7770-587e", "primary": false, "targetId": "7975-461a-3ea6-a65b"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Dragonborn: Champion of the Dawnguard",
+        "id": "04dc-c0ad-1ae8-ddf0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3213-e5af-02e0-727a",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "8f9d-07f7-3b95-62ee", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Might", "id": "e4b9-3de9-3f55-686e", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Dragonborn (Character)", "id": "e5b0-edc1-fc46-33d1", "hidden": false, "primary": false, "targetId": "cc62-17e3-76e5-4f96"},
+          {"name": "Adventurers", "id": "3e81-27a3-0dcd-ae45", "hidden": false, "primary": false, "targetId": "2b45-4245-ce5e-5404"},
+          {"name": "Dragon Shouts", "id": "c2b0-d953-3738-062e", "hidden": false, "primary": false, "targetId": "ca71-7b4a-9967-eaae"},
+          {"name": "One-Handed Skill", "id": "d691-0e72-fc0e-7c33", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "1958-2170-4afd-8def", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "2fcc-71b5-8336-f677", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "0045-3b91-be16-17d0", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Light Armor Skill", "id": "67e2-3ba7-a3bb-b1e0", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "c41b-a5e5-a00e-99b5", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Destruction Skill", "id": "03f3-f7da-b9a9-d97a", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Restoration Skill", "id": "0eb6-6418-b47c-0c50", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Speech Skill", "id": "7c35-17c4-623b-5bc5", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Conjuration Skill", "id": "018c-c979-d1ac-950b", "hidden": false, "primary": false, "targetId": "f1a5-f2a8-0691-3c85"},
+          {"name": "Pickpocket Skill", "id": "ce5b-b923-6f3c-d48e", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Dawnguard", "id": "eed5-2f7b-8c09-258d", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "2793-630a-3b5a-9de9",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d6a3-9869-f1f0-db9f",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ]
+      },
+      {
+        "name": "Dawnguard Vampire Hunter: Dawnguard Hammer",
+        "id": "de97-d986-300c-28d7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a8f4-b653-fa4c-7592",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "953f-d19b-82c6-10dc", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Dawnguard", "id": "d51a-b3eb-9f53-3eae", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Follower", "id": "c9a6-0e0e-a7fe-f93a", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dawnguard Warrior: Dawnguard Axeman",
+        "id": "aa5d-df1a-698a-cf46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d271-5904-40b2-f734",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "b171-d665-3d53-feed", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Dawnguard", "id": "62f5-2208-690b-7ef5", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Follower", "id": "d1f8-edb6-cd35-ed6e", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dawnguard Scout: Dawnguard Crossbow",
+        "id": "61cb-d5c7-5cd6-dda6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e6df-8a75-3664-c83d",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Dawnguard", "id": "ae29-fb76-f38a-451f", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Follower", "id": "c86b-0e57-7589-de0f", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Path of Shadow", "id": "5642-a03e-0c77-fd4b", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sceolang: Armored Hound",
+        "id": "58a5-5c31-fad7-36a5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dd27-6fc9-d25a-68ff",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Follower", "id": "85fd-2ec7-cc0d-44eb", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Path of Might", "id": "c3db-1f57-9ca5-ca42", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Sceolang: Armored Hound", "id": "4631-0e02-6af0-8b12", "hidden": false, "primary": false, "targetId": "ed45-38f4-08d3-a930"},
+          {"name": "Dawnguard", "id": "f728-01bc-063d-10b2", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bran: Armored Hound",
+        "id": "5d3d-b0e9-e06a-11e1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "52fe-1120-a78e-4143",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Follower", "id": "016c-38e8-8dbe-2596", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Path of Might", "id": "e6e7-14fd-1b5b-e71b", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Bran: Armored Hound", "id": "b470-e809-5f22-18b3", "hidden": false, "primary": false, "targetId": "552e-212d-c823-1f61"},
+          {"name": "Dawnguard", "id": "a2ba-8ba5-6b5f-d1b9", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armored Troll: Tamed Brute",
+        "id": "4f6c-4042-e7ae-6b03",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f957-5be5-e8ad-d117",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Follower", "id": "bec2-8b3e-a537-c5e8", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Path of Might", "id": "e8f5-5864-a034-09ce", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Dawnguard", "id": "6311-221e-d46b-de53", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ingjard: Vampire Hunter",
+        "id": "d47a-4f2d-21be-9dcc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "targetId": "ec40-6053-1b00-0bd8",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "f74e-a33a-bcc2-639c", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dawnguard", "id": "c6ae-8b61-e686-e2f7", "hidden": false, "primary": false, "targetId": "8efa-ca32-314e-1157"},
+          {"name": "Archery Skill", "id": "bb47-f5cd-2a94-4467", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "3ddc-662e-ed67-fd96", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "One-Handed Skill", "id": "e0e8-6d9b-1410-9dc0", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Path of Might", "id": "767c-bfdc-06e6-a488", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Heavy Armor Skill", "id": "19bd-c707-bec4-4dae", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Two-Handed Skill", "id": "7c3a-c80d-49d2-4a1f", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Ingjard: Vampire Hunter", "id": "f5db-5d7c-398b-f96c", "primary": false, "targetId": "dfbc-ad9b-1e08-d3b0"},
+          {"name": "Block Skill", "id": "611c-ebd8-3141-da15", "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Speech Skill", "id": "9feb-2716-dacd-bc78", "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2793-630a-3b5a-9de9",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Isran: Commander of the Dawnguard",
+        "id": "d339-e843-3db2-1706",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Redguard", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Champion's Stance, Custom Fit, Skullcrusher, Well-Fitted", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Adrenaline Rush, Born Leader", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Uncompromising Commander", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery\nSneak\nPickpocket", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4\nDestruction", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nRestoration\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "3", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Isran: Commander of the Dawnguard (Leveled)",
+        "id": "9d8e-6bc8-8d8f-6dd4",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Champion's Stance, Custom Fit, Fighting Stance, Skullcrusher, Well-Fitted", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Adrenaline Rush, Born Leader, Extra Damage", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Uncompromising Commander", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery\nSneak\nPickpocket", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "6\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4\nDestruction", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nRestoration\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "3", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Sorine Jurard: Dwemer Expert",
+        "id": "a158-793a-3e99-e4cb",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Breton", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bullseye, Merchant", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Dwemer Schematics", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "2", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Sorine Jurard: Dwemer Expert (Leveled)",
+        "id": "0b70-60b0-f9ef-4e49",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bullseye, Hack and Slash, Merchant", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Dwemer Schematics", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Durak: Dawnguard Ranger",
+        "id": "9ae8-d179-5630-b82a",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Orsimer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Critical Shot, Fighting Stance, Hack and Slash", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Berserker Rage", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Durak: Dawnguard Ranger (Leveled)",
+        "id": "232e-f8d1-db5e-849e",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Critical Shot, Custom Fit, Fighting Stance, Hack and Slash, Ranger", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Berserker Rage", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Gunmar: Master Blacksmith",
+        "id": "2f47-0382-0f3b-752c",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Arcane Blacksmith, Merchant, Smithing (Dawnguard)", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Tamer of Trolls", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "2\nPickpocket", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "2", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Gunmar: Master Blacksmith (Leveled)",
+        "id": "b32e-31aa-5380-2640",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Arcane Blacksmith, Merchant, Smithing (Dawnguard)", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Extra Damage, Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Tamer of Trolls", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nPickpocket", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Beleval: Vampire Hunter",
+        "id": "e911-4d78-113e-70b7",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Bosmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Agile Defender", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Charm Animal, Resistance (Poison)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Beleval: Vampire Hunter (Leveled)",
+        "id": "7207-d902-b036-a863",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Agile Defender, Steady Hand", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Charm Animal, Resistance (Poison)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Dawnguard Vampire Hunter: Dawnguard Hammer",
+        "id": "baf8-cecc-78fc-90b7",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {
+            "name": "Melee Attacks",
+            "$text": "Two-Handed: [RED][RED]\n[HELMET]: Stagger\n[SWORDS]: add [YELLOW]\nCumbersome, Dawnguard Weapon, Two-Handed Block",
+            "typeId": "6cbd-4946-2719-08aa"
+          },
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Heavy Armor: [RED][YELLOW]\nDawnguard Armor", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nBlock\nTwo-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nHeavy Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "3", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Dawnguard Warrior: Dawnguard Axeman",
+        "id": "32e9-cd37-c447-f8b3",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][RED]\n[HELMET]: Bleed\n[SWORDS]: add [YELLOW]\nDawnguard Weapon", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [RED]\nDawnguard Armor", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [RED]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nBlock\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "3", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Dawnguard Scout: Dawnguard Crossbow",
+        "id": "e07e-5f12-1a67-65a4",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Imperial", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][RED]\n[HELMET]: Bleed\n[SWORDS]: add [YELLOW]\nDawnguard Weapon", "typeId": "6cbd-4946-2719-08aa"},
+          {
+            "name": "Ranged Attacks",
+            "$text": "Archery\n12\": [GREEN][RED][YELLOW]\n24\": [RED]\n[HELMET]: Piercing (2)\n[SWORDS]: Punishing (1)\nDawnguard Weapon, Slow to Fire",
+            "typeId": "9de9-c00b-18b9-7caf"
+          },
+          {"name": "Armor", "$text": "Light Armor: [RED]\nDawnguard Armor", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "None", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "3", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Sceolang: Armored Hound",
+        "id": "37cf-dea1-57fd-b060",
+        "comment": "The real Hero here!",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower (Unique)", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Beast", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "Strength: [GREEN][YELLOW][YELLOW]\n[HELMET]: Bleed", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW][YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Familiar, Fleet, Dawnguard Wardog, Packmates", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "4", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "1", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Armored Troll: Tamed Brute",
+        "id": "4a89-8773-cc94-b347",
+        "comment": "The real Hero here!",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Monster", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "Strength: [GREEN][RED]\n[HELMET]: Punishing (2)\n[SWORDS]: Bleed", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Heavy Armor: [BLACK]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Familiar, Terrifying, Troll Strike", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "6", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nHeavy Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "3", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "3", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Ingjard: Vampire Hunter",
+        "id": "a788-4554-ec62-c697",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Ingjard"],
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bullseye, Champion's Stance, Intimidation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Quick Hands", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dawnguard", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Ingjard: Vampire Hunter (Leveled)",
+        "id": "64f6-a649-97e8-4cfd",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Ingjard"],
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bullseye, Champion's Stance, Intimidation, Uppercut", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Quick Hands", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Dawnguard Wardog",
+        "id": "1384-0f66-5ca2-1eca",
+        "description": "If the target of [this model's] Melee Attack is a Vampire, the attack gains the Follow-Up (1) keyword.",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318"
+      },
+      {
+        "name": "Packmates",
+        "id": "616e-28c2-9751-4ca8",
+        "description": "If both Bran and Sceolang are included in the same Party, they count as a single Familiar for the purposes of Force creation.",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318"
+      },
+      {
+        "name": "Troll Strike",
+        "id": "bc78-a08a-95b6-0c2b",
+        "description": "When [this model] performs a Power Attack Boost, it adds [RED] instead of [YELLOW] to the attack roll.",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Isran: Commander of the Dawnguard",
+        "id": "20df-881d-0dc6-3c36",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 78}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "f5d9-7b28-1061-12a2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "0678-4b48-c507-6d8e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "0521-810d-42d2-1db3", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "44d1-f4f0-0e79-05f1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Isran: Commander of the Dawnguard", "id": "788f-db52-c577-4754", "hidden": false, "targetId": "d339-e843-3db2-1706", "type": "profile"},
+          {"name": "Perk: Champion's Stance", "id": "5430-7127-7caa-cbc8", "hidden": false, "targetId": "6f94-83fa-5b4c-9114", "type": "rule"},
+          {"name": "Path of Might", "id": "cdd8-634d-4618-196d", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Redguard", "id": "3bd2-0d98-565c-6249", "hidden": false, "targetId": "c7c8-72cb-039b-ec59", "type": "infoGroup"},
+          {"name": "Perk: Skullcrusher", "id": "7615-71d3-8c04-35b4", "hidden": false, "targetId": "6368-6e76-c532-efa1", "type": "rule"},
+          {"name": "Perk: Custom Fit", "id": "7eca-ee41-2c81-1ca3", "hidden": false, "targetId": "60eb-baf5-15f2-58ed", "type": "rule"},
+          {"name": "Perk: Well Fitted", "id": "652c-8ed4-ca87-5405", "hidden": false, "targetId": "1cd1-dafa-32a1-0e91", "type": "rule"},
+          {"name": "Born Leader", "id": "d584-607e-9862-11f1", "hidden": false, "targetId": "653d-16a5-eefb-8b71", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Uncompromising Commander",
+            "id": "7a3c-6a3f-80c7-b0c6",
+            "description": "Friendly Dawnguard Faction models gain the Bodyguard (Isran) keyword while within 3\" of Isran.  In addition, when Isran performs a Melee Attack [targeting] a Vampire, and there are any Civilians within 3\", add [RED] to the Attack.  When the Attack is complere, roll the Skill Die - on a [CRITICAL FAIL], remove the nearest [Civilian] NPC Token as a casualty and lose 1VP.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "b3b2-596f-6613-7b5a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "0d7e-e00c-a725-49f5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Isran: Commander of the Dawnguard (Leveled)", "id": "d13c-48be-532f-3841", "hidden": false, "targetId": "9d8e-6bc8-8d8f-6dd4", "type": "profile"},
+              {"name": "Perk: Fighting Stance", "id": "311d-a0e1-d4e8-06db", "hidden": false, "targetId": "e23a-87f7-19e1-ad12", "type": "rule"},
+              {"name": "Extra Damage", "id": "4b64-4ed1-06f9-d077", "hidden": false, "targetId": "ce60-8109-69c9-3908", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sorine Jurard: Dwemer Expert",
+        "id": "290d-af99-e2f9-1b79",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 31}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "6190-4730-dbf5-4845",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "22c7-ba92-4a98-652a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "129b-7b95-1f1f-f990", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "19fe-d488-0e02-1988",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Sorine Jurard: Dwemer Expert",
+            "id": "6382-29f9-4bf7-e56c",
+            "hidden": false,
+            "targetId": "a158-793a-3e99-e4cb",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "2793-630a-3b5a-9de9",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Path of Shadow", "id": "91f2-0b5b-e74b-dfce", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Breton", "id": "6b58-dd4b-1589-3d86", "hidden": false, "targetId": "dd8e-535b-c433-c693", "type": "infoGroup"},
+          {"name": "Perk: Bullseye", "id": "334a-b71a-8bb1-55f7", "hidden": false, "targetId": "2957-6293-34c9-c462", "type": "rule"},
+          {"name": "Perk: Merchant", "id": "058a-eddb-b013-eb61", "hidden": false, "targetId": "a50d-245c-bebc-6404", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Dwemer Schematics",
+            "id": "1e17-7185-20eb-60ec",
+            "description": "Friendly Dawnguard Faction models gain the Bodyguard (Isran) keyword while within 3\" of Isran.  In addition, when Isran performs a Melee Attack [targeting] a Vampire, and there are any Civilians within 3\", add [RED] to the Attack.  When the Attack is complere, roll the Skill Die - on a [CRITICAL FAIL], remove the nearest [Civilian] NPC Token as a casualty and lose 1VP.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "3a87-9548-f4a4-033a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "456f-d8d3-d4ec-abd8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Sorine Jurard: Dwemer Expert (Leveled)", "id": "0a10-11e5-13f0-f086", "hidden": false, "targetId": "0b70-60b0-f9ef-4e49", "type": "profile"},
+              {"name": "Perk: Hack and Slash", "id": "3e14-9fc7-a047-7ba2", "hidden": false, "targetId": "2cf3-a74a-631e-7547", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Durak: Dawnguard Ranger",
+        "id": "6c47-ca46-75b3-5cfa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 40}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "5976-a921-0541-7513",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "e0ca-c056-1d1c-6dc0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "bf6a-6ff9-13c4-a24e", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "2fd4-5259-890f-fcec",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Durak: Dawnguard Ranger", "id": "d7b3-3be2-d42b-3851", "hidden": false, "targetId": "9ae8-d179-5630-b82a", "type": "profile"},
+          {"name": "Path of Shadow", "id": "3107-ec0a-068d-79c3", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Orsimer", "id": "6dee-eec5-493b-6dbc", "hidden": false, "targetId": "24d3-bf90-3495-ab2b", "type": "infoGroup"},
+          {"name": "Perk: Critical Shot", "id": "9f42-3a3c-0208-eea4", "hidden": false, "targetId": "224f-1058-8d02-76d4", "type": "rule"},
+          {"name": "Perk: Fighting Stance", "id": "1925-6d1b-5312-f4be", "hidden": false, "targetId": "e23a-87f7-19e1-ad12", "type": "rule"},
+          {"name": "Perk: Hack and Slash", "id": "5d41-536b-f50b-e404", "hidden": false, "targetId": "2cf3-a74a-631e-7547", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "1f0e-07b2-5e74-5bd8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "66ad-22b8-df55-d6f3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Durak: Dawnguard Ranger (Leveled)", "id": "4b76-fdad-4a55-e7c6", "hidden": false, "targetId": "232e-f8d1-db5e-849e", "type": "profile"},
+              {"name": "Perk: Custom Fit", "id": "0cea-c59a-dafb-f11b", "hidden": false, "targetId": "60eb-baf5-15f2-58ed", "type": "rule"},
+              {"name": "Perk: Ranger", "id": "2bfc-ea0f-11db-efb6", "hidden": false, "targetId": "ff82-0769-0a4a-7153", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gunmar: Master Blacksmith",
+        "id": "8baa-0a8b-79c1-9c2f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 44}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "99e3-5252-3701-4cac",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "9f76-f303-4ff4-0627",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "994c-09f2-6ac6-eaed", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "3fe7-f91c-bcac-b56f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Gunmar: Master Blacksmith", "id": "6011-b1e3-2f0a-548e", "hidden": false, "targetId": "2f47-0382-0f3b-752c", "type": "profile"},
+          {"name": "Path of Might", "id": "ce45-ac4a-f0e7-5aa8", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "3cc1-e8a0-098f-b7e5", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Smithing (Type)", "id": "2d97-190c-de84-d739", "hidden": false, "targetId": "433e-9827-e87e-fa56", "type": "rule"},
+          {"name": "Perk: Arcane Blacksmith", "id": "1334-a2ea-827d-238d", "hidden": false, "targetId": "62b5-4fa1-a986-a89e", "type": "rule"},
+          {"name": "Perk: Merchant", "id": "2c92-fa1d-f212-2460", "hidden": false, "targetId": "a50d-245c-bebc-6404", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Tamer of Trolls",
+            "id": "2aca-8d45-ffdf-065f",
+            "description": "When Gunmar is in the Party, you may include one extra Armored Troll (in addition to the usual Familiar maximum).  Furthermore, whenever Gunmar issues a With Me! Command to a friendly Armored Troll, the Troll adds [YELLOW] to its Attacks for the rest of the round.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "d499-16d3-7264-4a06",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "7498-b148-110d-0a74",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Gunmar: Master Blacksmith (Leveled)", "id": "fdc2-e559-d8a6-12f4", "hidden": false, "targetId": "b32e-31aa-5380-2640", "type": "profile"},
+              {"name": "Extra Damage", "id": "7cdc-5fd5-6eea-fedd", "hidden": false, "targetId": "ce60-8109-69c9-3908", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beleval: Vampire Hunter",
+        "id": "dada-b2f0-5e0f-6ea5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 30}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "250f-284a-6183-edb2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "1f82-0987-3a77-246a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "3afe-d482-536e-b002", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "5a4d-2843-530a-a696",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Beleval: Vampire Hunter", "id": "b62a-085c-ff59-4164", "hidden": false, "targetId": "e911-4d78-113e-70b7", "type": "profile"},
+          {"name": "Path of Might", "id": "40a9-3b79-8fdd-6c3e", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Bosmer", "id": "15b0-6b5b-9c51-871d", "hidden": false, "targetId": "eaff-569a-c577-973d", "type": "infoGroup"},
+          {"name": "Perk: Agile Defender", "id": "dd9e-3d4a-5f06-aac1", "hidden": false, "targetId": "c175-8d5e-9e3f-3736", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "549f-6a8a-1cbb-f7f4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "174d-ce85-dcbe-ff1f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Beleval: Vampire Hunter (Leveled)", "id": "7134-7918-3dc5-b71f", "hidden": false, "targetId": "7207-d902-b036-a863", "type": "profile"},
+              {"name": "Perk: Steady Hand", "id": "3238-cbf4-1443-029a", "hidden": false, "targetId": "f51b-1bcb-b1c1-7a57", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dawnguard Vampire Hunter: Dawnguard Hammer",
+        "id": "a8f4-b653-fa4c-7592",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 27}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Dawnguard Vampire Hunter: Dawnguard Hammer", "id": "c1fa-5ebe-a719-7719", "hidden": false, "targetId": "baf8-cecc-78fc-90b7", "type": "profile"},
+          {"name": "Cumbersome", "id": "d71e-4ffa-dae8-af18", "hidden": false, "targetId": "be29-25db-e215-b3b0", "type": "rule"},
+          {"name": "Path of Might", "id": "f691-2a4f-8565-3838", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "3b8d-a2a9-9d7c-91bd", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Two-Handed Block", "id": "f36b-8741-42a4-8ca6", "hidden": false, "targetId": "aa94-2a05-4635-c76b", "type": "rule"},
+          {"name": "Dawnguard Weapon", "id": "5660-3423-3bfe-7fff", "hidden": false, "targetId": "13ac-5d7b-67c9-eb47", "type": "rule"},
+          {"name": "Dawnguard Armor", "id": "eb06-211a-c900-93fb", "hidden": false, "targetId": "1876-7498-6402-603b", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Dawnguard Warrior: Dawnguard Axeman",
+        "id": "d271-5904-40b2-f734",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 24}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Dawnguard Warrior: Dawnguard Axeman", "id": "0c4f-3bb7-21d3-594a", "hidden": false, "targetId": "32e9-cd37-c447-f8b3", "type": "profile"},
+          {"name": "Path of Might", "id": "452f-c798-9860-4a40", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "7bad-6559-2ddc-1997", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Dawnguard Weapon", "id": "2333-575a-893a-4bb1", "hidden": false, "targetId": "13ac-5d7b-67c9-eb47", "type": "rule"},
+          {"name": "Dawnguard Armor", "id": "cce8-efde-f375-1456", "hidden": false, "targetId": "1876-7498-6402-603b", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Dawnguard Scout: Dawnguard Crossbow",
+        "id": "e6df-8a75-3664-c83d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 30}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Dawnguard Scout: Dawnguard Crossbow", "id": "190a-185c-b963-476f", "hidden": false, "targetId": "e07e-5f12-1a67-65a4", "type": "profile"},
+          {"name": "Path of Shadow", "id": "c23c-ea27-8961-eb19", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Imperial", "id": "528b-85c1-c86f-1f33", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"},
+          {"name": "Dawnguard Weapon", "id": "90fa-aefa-9f19-bab0", "hidden": false, "targetId": "13ac-5d7b-67c9-eb47", "type": "rule"},
+          {"name": "Dawnguard Armor", "id": "1fd9-2d6e-45c9-70f0", "hidden": false, "targetId": "1876-7498-6402-603b", "type": "rule"},
+          {"name": "Slow To Fire", "id": "56df-07cb-1a48-02a7", "hidden": false, "targetId": "a213-4c27-218f-13b3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Sceolang: Armored Hound",
+        "id": "dd27-6fc9-d25a-68ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 16}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Sceolang: Armored Hound", "id": "d2de-981f-27e9-e803", "hidden": false, "targetId": "37cf-dea1-57fd-b060", "type": "profile"},
+          {"name": "Beast", "id": "ef8b-babb-42c8-963e", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"},
+          {"name": "Path of Might", "id": "7457-e3c8-93ad-f772", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Familiar", "id": "1520-671a-ddda-ff0b", "hidden": false, "targetId": "129d-f11e-1a4e-b30f", "type": "rule"},
+          {"name": "Dawnguard Wardog", "id": "9764-153d-edf7-bebb", "hidden": false, "targetId": "1384-0f66-5ca2-1eca", "type": "rule"},
+          {"name": "Packmates", "id": "cf50-7d3f-fc0b-d04a", "hidden": false, "targetId": "616e-28c2-9751-4ca8", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Bran: Armored Hound",
+        "id": "52fe-1120-a78e-4143",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 16}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {
+            "name": "Sceolang: Armored Hound",
+            "id": "d2aa-30fd-1125-50ee",
+            "hidden": false,
+            "targetId": "37cf-dea1-57fd-b060",
+            "type": "profile",
+            "modifiers": [{"field": "name", "type": "set", "value": "Bran: Armored Hound"}]
+          },
+          {"name": "Beast", "id": "89d6-688c-8025-c5d4", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"},
+          {"name": "Path of Might", "id": "bd06-13fd-46f2-9586", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Familiar", "id": "5c16-5d19-aa6a-cdcb", "hidden": false, "targetId": "129d-f11e-1a4e-b30f", "type": "rule"},
+          {"name": "Dawnguard Wardog", "id": "3fa4-389c-fab1-a9b3", "hidden": false, "targetId": "1384-0f66-5ca2-1eca", "type": "rule"},
+          {"name": "Packmates", "id": "df15-3e0b-d8d7-e147", "hidden": false, "targetId": "616e-28c2-9751-4ca8", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Armored Troll: Tamed Brute",
+        "id": "f957-5be5-e8ad-d117",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 50}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Monster", "id": "6858-522c-2818-89ea", "hidden": false, "targetId": "98ec-665b-cecc-6709", "type": "infoGroup"},
+          {"name": "Troll Strike", "id": "bbca-d957-d9f4-4eb3", "hidden": false, "targetId": "bc78-a08a-95b6-0c2b", "type": "rule"},
+          {"name": "Follow-Up", "id": "b35e-6f84-8d9b-513d", "hidden": false, "targetId": "b30a-9fa8-7a06-ce70", "type": "rule"},
+          {"name": "Path of Might", "id": "3a9b-e180-71ce-13c3", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Armored Troll: Tamed Brute", "id": "945c-8abd-59a5-06db", "hidden": false, "targetId": "4a89-8773-cc94-b347", "type": "profile"},
+          {"name": "Familiar", "id": "66cd-55d2-3a92-7bb7", "hidden": false, "targetId": "129d-f11e-1a4e-b30f", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Ingjard: Vampire Hunter",
+        "id": "ec40-6053-1b00-0bd8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 43}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "23bd-eb95-22f4-e95b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "122b-fb1a-e0dc-d5c2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "238b-a1d9-8210-0211", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "ef1e-22b9-af4a-ec97",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Ingjard: Vampire Hunter", "id": "28a3-4276-fd14-ae1a", "hidden": false, "targetId": "a788-4554-ec62-c697", "type": "profile"},
+          {"name": "Path of Might", "id": "fea2-810b-ef86-bc8e", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "8e4a-c6fb-6c94-b745", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Bullseye", "id": "eec2-df4e-b8bb-0367", "hidden": false, "targetId": "2957-6293-34c9-c462", "type": "rule"},
+          {"name": "Perk: Champion's Stance", "id": "f6e2-a419-cd63-5f72", "hidden": false, "targetId": "6f94-83fa-5b4c-9114", "type": "rule"},
+          {"name": "Perk: Intimidation", "id": "72ff-b793-a86a-2c68", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Quick Hands",
+            "id": "12f3-bcd6-edf8-72a5",
+            "description": "Ingjard may exchange an equipped Crossbow for another Weapon in her inventory as a Free Action, even while Engaged.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "4a4d-cff3-acc7-c89b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "d625-19c5-a95a-d909",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Ingjard: Vampire Hunter (Leveled)", "id": "9e32-5829-e385-1930", "hidden": false, "targetId": "64f6-a649-97e8-4cfd", "type": "profile"},
+              {"name": "Perk: Uppercut", "id": "fe74-5995-4d8e-5708", "hidden": false, "targetId": "db1e-693f-0bcc-c7db", "type": "rule"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

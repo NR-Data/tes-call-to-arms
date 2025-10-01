@@ -1,0 +1,644 @@
+{
+  "catalogue": {
+    "name": "Beasts (Adversaries Only)",
+    "id": "7826-8284-5582-9483",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Wolf: Apex Predator",
+        "id": "5b04-d5b5-a0fb-4e4a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b441-f476-8d5b-b7bd",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Minion", "id": "3336-a1de-15a4-2c92", "hidden": false, "primary": true, "targetId": "4470-2839-f56b-81ec"},
+          {"name": "Path of Might", "id": "9f00-a2d9-3584-beea", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Beasts", "id": "de65-fcec-1096-2d8e", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ice Wolf: Pack Alpha",
+        "id": "f5ca-4343-c766-f8e0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e4d5-50e5-fcd0-7a08",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Minion", "id": "5b1b-abe8-de67-df2d", "hidden": false, "primary": true, "targetId": "4470-2839-f56b-81ec"},
+          {"name": "Path of Might", "id": "3601-913d-eb8d-b841", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Beasts", "id": "06b6-d440-1643-7815", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frostbite Spider: Web-Weaver",
+        "id": "9cbc-0ae4-1543-1f11",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "249d-6fe3-c3fb-84e8",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Minion", "id": "a7d0-caee-f0dc-4c4f", "hidden": false, "primary": true, "targetId": "4470-2839-f56b-81ec"},
+          {"name": "Path of Shadow", "id": "cc9e-5d81-a81e-18aa", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Beasts", "id": "9564-3925-f1df-4634", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skeever: Overgrown Pest",
+        "id": "a308-e266-8939-540e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "332a-69da-24f0-04ba",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Minion", "id": "3856-a229-1f0a-8cf4", "hidden": false, "primary": true, "targetId": "4470-2839-f56b-81ec"},
+          {"name": "Path of Shadow", "id": "2bc2-51f6-5d4e-8513", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Beasts", "id": "5eaa-c90c-f7cc-57b7", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Snow Bear: Solitary Creature",
+        "id": "f2f8-372a-a811-802d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "da1b-43fc-9d16-ce80",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Elite", "id": "5d4a-a30b-9f3c-4072", "hidden": false, "primary": true, "targetId": "668a-03f2-10e2-1f0d"},
+          {"name": "Beasts", "id": "2309-4308-d20f-c057", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"},
+          {"name": "Path of Might", "id": "d1c4-1fa9-e6a6-e6f9", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bristleback: Timid Charger",
+        "id": "acd8-5a6d-91f3-1499",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1714-afb0-7459-c125",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Elite", "id": "ea7a-71e3-e350-3482", "hidden": false, "primary": true, "targetId": "668a-03f2-10e2-1f0d"},
+          {"name": "Beasts", "id": "55b1-dd9d-0920-4892", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"},
+          {"name": "Path of Might", "id": "d1ee-7671-13b6-c9e4", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Giant Frostbite Spider: Broodmother",
+        "id": "39e0-5712-8a32-cac3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fd3d-383b-fb5c-b9bb",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Shadow", "id": "92b3-5a5f-1f40-2b76", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Beasts", "id": "a815-fab4-c744-9e49", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"},
+          {"name": "Adversary Elite", "id": "36fe-3060-46eb-4dc1", "hidden": false, "primary": true, "targetId": "668a-03f2-10e2-1f0d"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cave Bear: Formidable Beast",
+        "id": "28e0-993f-3b15-43d3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2d8b-b54a-cb2a-4669",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Elite", "id": "c819-317f-7983-161a", "hidden": false, "primary": true, "targetId": "668a-03f2-10e2-1f0d"},
+          {"name": "Beasts", "id": "ad11-5117-3cbc-0666", "hidden": false, "primary": false, "targetId": "74ec-8318-3e2a-8195"},
+          {"name": "Path of Might", "id": "8f95-60ab-b34e-c49c", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Wolf: Apex Predator",
+        "id": "0704-438b-cb8d-687b",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Minion", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength): [GREEN][YELLOW][YELLOW]\n[HELMET]: Bleed", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teet And Claws", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "4", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "3", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "1", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "2", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "1", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "1", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Ice Wolf: Pack Alpha",
+        "id": "981e-c5dc-7e02-97ba",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Minion", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength): [GREEN][RED]\n[SWORDS]: Bleed", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teet And Claws, Resistance (Frost)", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "4", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "3", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "1", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "2", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "1", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "1", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Frostbite Spider: Web-Weaver",
+        "id": "df39-ef60-181e-6426",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Minion", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Shadow", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Ranged(Agility):\n6\" [GREEN][YELLOW][YELLOW]\n[HELMET]: Poison", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "Melee(Strength): [GREEN][RED]\n[HELMET]: Poison", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teeth And Claws, Wall Crawler", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "3", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "4", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "3", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "1", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "2", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "1", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "1", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Skeever: Overgrown Pest",
+        "id": "936f-c15c-b8d9-0834",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Minion", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Shadow", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength): [GREEN][RED]\n[HELMET]: Disease", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "None", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teeth And Claws, Frenzied Pack", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "2", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "2", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "1", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "2", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "1", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "1", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Snow Bear: Solitary Creature",
+        "id": "7dec-576d-6af5-37dc",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength): [GREEN][RED]\n[SWORDS]: Bleed\nFollow-Up [1]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teet And Claws, Resistance (Frost)", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "6", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "4", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "3", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "3", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Bristleback: Timid Charger",
+        "id": "aacc-6f5d-4644-2693",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength): [GREEN][RED]\n[SWORDS]: Bleed\nFollow-Up [1]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [RED]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teet And Claws\n\"Bristleback Charge!\"", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "5", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "2", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "5", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "2", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "3", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Giant Frostbite Spider: Broodmother",
+        "id": "11ab-32eb-ae3f-4b1f",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Shadow", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Ranged(Agility):\n6\" [GREEN][RED]\n[HELMET]: Slowed\n[SWORDS]: Poison", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "Melee(Strength): [GREEN][BLACK]\n[SWORDS]: Poison", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW][YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teeth And Claws, Wall Crawler", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "4", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "4", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "4", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "2", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "3", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Cave Bear: Formidable Beast",
+        "id": "109d-6fe1-6342-3bf1",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Beast", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength): [GREEN][RED]\n[SWORDS]: Bleed\nFollow-Up [1]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Fleet, Teet And Claws", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "6", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "4", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "3", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "3", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Beasts", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Wall Crawler",
+        "id": "5a82-44cd-73b5-a943",
+        "description": "Frostbite Spiders automatically pass any Climb test they’re required to take.",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421"
+      },
+      {
+        "name": "Frenzied Pack",
+        "id": "e04f-c963-dcad-f621",
+        "description": "Skeevers add [YELLOW] to their Melee Attacks for every other friendly Skeever within 2\". However, if [it] scores a [CRITICAL MISS] when applying this rule, [this] model is removed from play as a casualty.",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421"
+      },
+      {
+        "name": "Bristleback Charge!",
+        "id": "d30a-622b-84cf-5cfb",
+        "description": "If this model performs a Melee Attack in the same activation after performing a Move Action, add [RED] to the attack roll.",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Wolf: Apex Predator",
+        "id": "b441-f476-8d5b-b7bd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 11}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Wolf: Apex Predator", "id": "118a-c445-edb7-5e80", "hidden": false, "targetId": "0704-438b-cb8d-687b", "type": "profile"},
+          {"name": "Beast", "id": "98b0-2d76-61cc-2470", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Ice Wolf: Pack Alpha",
+        "id": "e4d5-50e5-fcd0-7a08",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 13}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Ice Wolf: Pack Alpha", "id": "d001-ff26-79c0-46c9", "hidden": false, "targetId": "981e-c5dc-7e02-97ba", "type": "profile"},
+          {"name": "Beast", "id": "315d-5d11-a16c-9d59", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"},
+          {"name": "Resistance (Type)", "id": "ddbc-0e87-bab4-e4e2", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Frostbite Spider: Web-Weaver",
+        "id": "249d-6fe3-c3fb-84e8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 11}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Frostbite Spider: Web-Weaver", "id": "e7dd-a36a-eeb1-9a86", "hidden": false, "targetId": "df39-ef60-181e-6426", "type": "profile"},
+          {"name": "Wall Crawler", "id": "1257-0428-c04f-c6be", "hidden": false, "targetId": "5a82-44cd-73b5-a943", "type": "rule"},
+          {"name": "Beast", "id": "d952-a735-93cf-4b6c", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Skeever: Overgrown Pest",
+        "id": "332a-69da-24f0-04ba",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 4}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Skeever: Overgrown Pest", "id": "ba0a-dc22-308c-7691", "hidden": false, "targetId": "936f-c15c-b8d9-0834", "type": "profile"},
+          {"name": "Frenzied Pack", "id": "54b9-822b-4a07-500b", "hidden": false, "targetId": "e04f-c963-dcad-f621", "type": "rule"},
+          {"name": "Beast", "id": "b992-5606-e33d-8063", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Snow Bear: Solitary Creature",
+        "id": "da1b-43fc-9d16-ce80",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 41}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Snow Bear: Solitary Creature", "id": "84f5-bf10-025c-e532", "hidden": false, "targetId": "7dec-576d-6af5-37dc", "type": "profile"},
+          {"name": "Beast", "id": "6242-b1d8-63f1-5f17", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"},
+          {"name": "Resistance (Type)", "id": "acf0-12c4-61a3-e844", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"},
+          {"name": "Follow-Up", "id": "6302-7770-1ee6-17d9", "hidden": false, "targetId": "b30a-9fa8-7a06-ce70", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Bristleback: Timid Charger",
+        "id": "1714-afb0-7459-c125",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 40}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Bristleback: Timid Charger", "id": "af51-3f69-d876-c73b", "hidden": false, "targetId": "aacc-6f5d-4644-2693", "type": "profile"},
+          {"name": "Beast", "id": "8814-1b82-c64b-2a1e", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"},
+          {"name": "Bristleback Charge!", "id": "7b99-87d9-7007-b231", "hidden": false, "targetId": "d30a-622b-84cf-5cfb", "type": "rule"},
+          {"name": "Follow-Up", "id": "268e-d2ef-ad41-20b3", "hidden": false, "targetId": "b30a-9fa8-7a06-ce70", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Giant Frostbite Spider: Broodmother",
+        "id": "fd3d-383b-fb5c-b9bb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 44}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Giant Frostbite Spider: Broodmother", "id": "20f1-0645-cae2-010e", "hidden": false, "targetId": "11ab-32eb-ae3f-4b1f", "type": "profile"},
+          {"name": "Wall Crawler", "id": "03a2-2fe6-bbaf-f265", "hidden": false, "targetId": "5a82-44cd-73b5-a943", "type": "rule"},
+          {"name": "Beast", "id": "ba18-1013-5f92-5793", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Cave Bear: Formidable Beast",
+        "id": "2d8b-b54a-cb2a-4669",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 38}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Cave Bear: Formidable Beast", "id": "6233-03c4-38b8-0671", "hidden": false, "targetId": "109d-6fe1-6342-3bf1", "type": "profile"},
+          {"name": "Beast", "id": "d5e1-d7e8-bc3f-d345", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"},
+          {"name": "Follow-Up", "id": "3566-0801-e4c8-4737", "hidden": false, "targetId": "b30a-9fa8-7a06-ce70", "type": "rule"}
+        ]
+      }
+    ]
+  }
+}

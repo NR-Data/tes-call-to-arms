@@ -1,0 +1,336 @@
+{
+  "catalogue": {
+    "name": "Ebonheart Pact",
+    "id": "fbc8-e2e4-eabc-8490",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "The Nord: Champion Of The Pact",
+        "id": "5b96-65c1-73cd-15bf",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "5c19-5224-4453-a6f4",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "The Nord: Champion Of The Pact",
+        "id": "fe6d-62b9-d4d2-a37f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4802-b7fe-2b9b-3578",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adventurers", "id": "3dbb-f700-0e1b-79aa", "hidden": false, "primary": false, "targetId": "2b45-4245-ce5e-5404"},
+          {"name": "Hero", "id": "8c58-313f-50ac-d80e", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Ebonheart Pact", "id": "26b1-3012-1245-afee", "hidden": false, "primary": false, "targetId": "328b-1d75-65e2-424b"},
+          {"name": "Path of Might", "id": "9941-5ff9-8299-d74f", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "The Nord: Champion Of The Pact", "id": "e812-33a4-0c0a-7ae1", "hidden": false, "primary": false, "targetId": "5b96-65c1-73cd-15bf"},
+          {"name": "Block Skill", "id": "67f6-b6c8-1039-8ff3", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Two-Handed Skill", "id": "0ee6-ce90-4e82-8f3d", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "f574-c115-4ba0-fb91", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Heavy Armor Skill", "id": "e639-b545-ebde-c6bb", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Speech Skill", "id": "6e11-c569-a3e0-2e0a", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "03b8-d846-d949-fc55",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Nord: Champion Of The Pact (Adversary)",
+        "id": "8791-21e7-a3d1-d8b7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8882-d48e-b40e-62ea",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adventurers", "id": "73a7-6ece-b131-623c", "hidden": false, "primary": false, "targetId": "2b45-4245-ce5e-5404"},
+          {"name": "Ebonheart Pact", "id": "ae1d-b128-df70-a9f3", "hidden": false, "primary": false, "targetId": "328b-1d75-65e2-424b"},
+          {"name": "Path of Might", "id": "015d-069a-8acb-44a2", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "The Nord: Champion Of The Pact", "id": "7756-3ce9-aa6b-04c4", "hidden": false, "primary": false, "targetId": "5b96-65c1-73cd-15bf"},
+          {"name": "Two-Handed Skill", "id": "aebe-ed91-5f8e-4e60", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Adversary Master", "id": "8899-239b-780d-fcba", "hidden": false, "primary": true, "targetId": "e4f3-19d3-b4a8-4788"},
+          {"name": "Heavy Armor Skill", "id": "9794-67af-f68b-7866", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "The Nord: Champion Of The Pact",
+        "id": "e641-b45e-3576-d0be",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Limbsplitter", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Relentless", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Troll's Strength, Rage Of Sovngarde", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "2", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Ebonheart Pact", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "Adventurers", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "The Nord: Champion Of The Pact (Leveled)",
+        "id": "97b1-9b18-ade4-a5d6",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Great Critical Charge, Limbsplitter", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Relentless", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Troll's Strength, Rage Of Sovngarde", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "6\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "The Nord: Champion Of The Pact (Adversary)",
+        "id": "2201-d921-18ff-6b78",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Master (Unique)", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Nord", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {
+            "name": "Preferred Attack",
+            "$text": "Melee(Two-Handed): [GREEN][RED][RED]\n[HELMET]: Bleed\n[SWORDS]: Follow-Up [1]\nPunishing (1)",
+            "typeId": "217f-bbc9-46d6-2059"
+          },
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "Heavy Armor: [BLACK][YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Relentless, Terrifying", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "6\nTwo-Handed", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "2", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "5\nHeavy Armor", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "3", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "4", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "5", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Ebonheart Pact", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "The Nord: Champion Of The Pact",
+        "id": "4802-b7fe-2b9b-3578",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 58}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "8fcc-f94e-e7da-4888",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "f496-b157-c6fe-b8a9",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "3ff7-66b1-aede-f0d0", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "ab56-5d2b-5392-45a4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "03b8-d846-d949-fc55",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "The Nord: Champion Of The Pact", "id": "3e5a-93f0-452f-8603", "hidden": false, "targetId": "e641-b45e-3576-d0be", "type": "profile"},
+          {"name": "Nord", "id": "137e-9a64-9ef5-1169", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Path of Might", "id": "f4a5-4956-2fd6-887f", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Relentless", "id": "6577-83bb-24cc-740e", "hidden": false, "targetId": "7f50-9282-bb89-a177", "type": "rule"},
+          {"name": "Perk: Limbsplitter", "id": "be18-aa9b-f46a-e653", "hidden": false, "targetId": "8104-8c79-c19e-4b99", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Troll's Strength",
+            "id": "3090-026f-8368-883e",
+            "description": "When making a Power Attack using a weapon with the Cumbersome keyword, this model may choose to ignore the [RED] bonus dice and instead gain Follow-Up (1) [see BRB page 75] on the attack.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          },
+          {
+            "name": "Rage Of Sovngarde",
+            "id": "2d5e-53db-9f6f-2e61",
+            "description": "When this model takes 2 or more points of damage from a single enemy Attack Action, assign it a Berserk Token, following the rules for Berserker Rage [see BRB page 72].",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "7c86-6d8f-7bf7-0725",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "fc6a-2d15-ff0e-9318",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "ba95-54fd-62f9-2827",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "The Nord: Champion Of The Pact (Leveled)", "id": "fa90-8d90-ca8f-a0bb", "hidden": false, "targetId": "97b1-9b18-ade4-a5d6", "type": "profile"},
+              {"name": "Perk: Great Critical Charge", "id": "6d4a-08a1-98df-a21b", "hidden": false, "targetId": "258a-d5df-32d0-0f14", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Nord: Champion Of The Pact (Adversary)",
+        "id": "8882-d48e-b40e-62ea",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 80}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "The Nord: Champion Of The Pact (Adversary)", "id": "97d5-9d5e-93d0-4126", "hidden": false, "targetId": "2201-d921-18ff-6b78", "type": "profile"},
+          {"name": "Nord", "id": "9b79-e1a9-9c50-6a50", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Path of Might", "id": "d4f2-2cae-c19a-231c", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Relentless", "id": "408c-3035-d67f-c1c9", "hidden": false, "targetId": "7f50-9282-bb89-a177", "type": "rule"},
+          {"name": "Terrifying", "id": "3c0f-69c6-3904-cd77", "hidden": false, "targetId": "2204-0557-819c-8afb", "type": "rule"}
+        ]
+      }
+    ]
+  }
+}

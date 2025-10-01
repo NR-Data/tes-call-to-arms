@@ -1,0 +1,383 @@
+{
+  "catalogue": {
+    "name": "Followers of Molag Bal",
+    "id": "7750-c5b0-be85-2679",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "Mannimarco: King of Worms",
+        "id": "b70d-fbd4-c46f-81b8",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "b801-4a2d-f211-c486",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Mannimarco: King of Worms",
+        "id": "5352-dca6-78b4-3441",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f137-7662-8645-5c16",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "f76f-047a-1f10-9e80", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Followers of Molag Bal", "id": "aac6-4246-59f1-7c43", "hidden": false, "primary": false, "targetId": "89c7-846f-c20d-7174"},
+          {"name": "Mannimarco: King of Worms", "id": "d36e-80c7-3a79-32ba", "hidden": false, "primary": false, "targetId": "b70d-fbd4-c46f-81b8"},
+          {"name": "Path of Sorcery", "id": "cae7-158b-d088-4e5d", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Light Armor Skill", "id": "c71c-afef-94a7-2577", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Alteration Skill", "id": "4ab7-7078-225d-b79f", "hidden": false, "primary": false, "targetId": "2aea-a863-419f-ba90"},
+          {"name": "Restoration Skill", "id": "c1f8-b0f4-c994-278e", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Speech Skill", "id": "b976-a054-78cc-424b", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "One-Handed Skill", "id": "3a09-a69b-30c2-5d44", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Conjuration Skill", "id": "ad9c-2172-2030-ae29", "hidden": false, "primary": false, "targetId": "f1a5-f2a8-0691-3c85"},
+          {"name": "Destruction Skill", "id": "7c1e-da26-100b-6f30", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Illusion Skill", "id": "6a44-60f9-f881-d19a", "hidden": false, "primary": false, "targetId": "93b4-afa5-eb85-d8ec"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6890-bf2c-fee7-ea81",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mannimarco: King of Worms (Adversary)",
+        "id": "9fd3-25b4-ab8a-8139",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "26d0-b83d-825c-e8d3",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Followers of Molag Bal", "id": "fa29-24a2-7834-2dcb", "hidden": false, "primary": false, "targetId": "89c7-846f-c20d-7174"},
+          {"name": "Mannimarco: King of Worms", "id": "7ba7-e7ee-0204-d291", "hidden": false, "primary": false, "targetId": "b70d-fbd4-c46f-81b8"},
+          {"name": "Path of Sorcery", "id": "b550-ea80-4099-367a", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Light Armor Skill", "id": "d487-f52d-dd33-e54f", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Restoration Skill", "id": "8fc8-98b5-d63a-bc52", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "One-Handed Skill", "id": "01aa-e3c0-eb22-3487", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Destruction Skill", "id": "7df1-bca7-ef8a-d6a4", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Adversary Master", "id": "a6e4-92ea-7748-b35c", "hidden": false, "primary": true, "targetId": "e4f3-19d3-b4a8-4788"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Mannimarco: King of Worms",
+        "id": "4103-df5f-d59f-e58e",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Altmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Dark Souls, Necromage, Necromancy", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Regenerate Magicka", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Master of Undeath, Staff of Worms", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "7\nAlteration\nConjuration\nDestruction\nIllusion", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "6\nRestoration\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "5", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Followers of Molag Bal", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "The Staff of Worms",
+        "id": "6e66-8ab9-e744-e605",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "ad04-5a38-26ef-722a",
+        "typeName": "Item",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "$text": "Summoning. Place a Reanimated Corpse at the target point, and assign an Upkeep Token to it. Reanimated Corpses within 3” of this model when they activate require no Upkeep.",
+            "typeId": "9021-607d-69ee-e981"
+          },
+          {"name": "Skill", "$text": "Conjuration", "typeId": "6687-619a-2e22-b1f1"},
+          {"name": "Equip Slot", "$text": "8\"", "typeId": "b47f-f562-ef73-ffce"},
+          {"name": "Keywords", "$text": "None", "typeId": "f695-9131-851d-5734"},
+          {"name": "Restrictions", "$text": "Mannimarco only. Unique.", "typeId": "f185-88fe-e033-7661"}
+        ]
+      },
+      {
+        "name": "Mannimarco: King of Worms (Leveled)",
+        "id": "6168-ab88-4b5c-f1df",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Dark Souls, Force Siphon, Necromage, Necromancy", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Regenerate Magicka", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Master of Undeath, Staff of Worms", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "6\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "7\nAlteration\nConjuration\nDestruction\nIllusion", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "7\nRestoration\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "6", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Mannimarco: King of Worms (Adversary)",
+        "id": "2b59-c0ff-fc3f-c447",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Master (Unique)", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Altmer", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {
+            "name": "Preferred Attack",
+            "$text": "Ranged(Destruction):\n12\": [GREEN][YELLOW][YELLOW][YELLOW] (Shock)\n[HELMET]: Stagger\nArea Effect 2\"",
+            "typeId": "217f-bbc9-46d6-2059"
+          },
+          {
+            "name": "Secondary Attacks",
+            "$text": "Melee(One-Handed): [GREEN][RED]\n[HELMET]: add [YELLOW]\n[SWORDS]: (Shock)\nAbsorb Health (1)",
+            "typeId": "7c26-1128-4676-f76d"
+          },
+          {"name": "Armor", "$text": "Light Armor: [RED] (1)", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "Ward(Restoration): [RED]\nResistance (Magic)", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Regenerate Magicka", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "7\nDestruction", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "6\nRestoration", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "6", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Followers of Molag Bal", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Mannimarco: King of Worms",
+        "id": "f137-7662-8645-5c16",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 92}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "b2c6-f383-b9f0-8553",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "4d26-b63d-2b80-3072",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Elf is Party Champion (Orthjolf)", "id": "22fe-5be4-86ff-2db1", "hidden": false, "primary": false, "targetId": "c413-2e33-e6e4-ffca"}],
+            "constraints": [
+              {
+                "id": "e0c5-e0b6-a7c7-5fc4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Mannimarco: King of Worms",
+            "id": "3727-3bb7-6996-df3c",
+            "comment": "Mannimarco's Beta Hero card lists the Conjuration perk \"Dark Souls\" as \"Black Souls\", this is an error and has been corrected here.",
+            "hidden": false,
+            "targetId": "4103-df5f-d59f-e58e",
+            "type": "profile"
+          },
+          {"name": "Altmer", "id": "0f03-7ede-60dd-d599", "hidden": false, "targetId": "6846-5bf3-c280-fa14", "type": "infoGroup"},
+          {"name": "Path of Sorcery", "id": "e802-bc78-988d-41ef", "hidden": false, "targetId": "46cd-27c4-0be4-976f", "type": "rule"},
+          {"name": "Perk: Necromage", "id": "219d-d982-0800-5dc2", "hidden": false, "targetId": "9157-2d9d-af98-739c", "type": "rule"},
+          {"name": "Perk: Necromancy", "id": "56cb-448a-dca3-de6d", "hidden": false, "targetId": "226e-8404-87c8-a2ff", "type": "rule"},
+          {"name": "Perk: Dark Souls", "id": "4920-8aed-d692-dd68", "hidden": false, "targetId": "901a-859d-c87e-4262", "type": "rule"},
+          {"name": "The Staff of Worms", "id": "421e-9a90-2277-852d", "hidden": false, "targetId": "6e66-8ab9-e744-e605", "type": "profile"}
+        ],
+        "rules": [
+          {
+            "name": "Master of Undeath",
+            "id": "0bdf-3d39-94ad-d3b2",
+            "description": "Mannimarco may have up to five Summoned Undead Creatures in play at the same time. Whenever one of Mannimarco’s summoned Undead Creatures is removed from play, restore 1 Magicka.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          },
+          {
+            "name": "Staff Of Worms",
+            "id": "ef77-952d-3a6e-b211",
+            "description": "Mannimarco always starts the game with the Staff Of Worms (the cost is included in his profile).",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "8506-de9d-9cc3-a5a3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "fc6a-2d15-ff0e-9318",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "7bda-3718-ac0c-22f2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Mannimarco: King of Worms (Leveled)",
+                "id": "51fa-10a6-2c31-5d33",
+                "hidden": false,
+                "publicationId": "fc6a-2d15-ff0e-9318",
+                "targetId": "6168-ab88-4b5c-f1df",
+                "type": "profile"
+              },
+              {"name": "Perk: Force Siphon", "id": "d302-5083-779e-a214", "hidden": false, "targetId": "4359-9375-5bec-94d9", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mannimarco: King of Worms (Adversary)",
+        "id": "26d0-b83d-825c-e8d3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 120}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {
+            "name": "Mannimarco: King of Worms (Adversary)",
+            "id": "45bf-71fc-5224-fc47",
+            "comment": "Mannimarco's Beta Hero card lists the Conjuration perk \"Dark Souls\" as \"Black Souls\", this is an error and has been corrected here.",
+            "hidden": false,
+            "targetId": "2b59-c0ff-fc3f-c447",
+            "type": "profile"
+          },
+          {"name": "Altmer", "id": "090c-ddd5-a0c0-80b2", "hidden": false, "targetId": "6846-5bf3-c280-fa14", "type": "infoGroup"},
+          {"name": "Path of Sorcery", "id": "902c-ff88-14cb-cce0", "hidden": false, "targetId": "46cd-27c4-0be4-976f", "type": "rule"},
+          {"name": "Absorb (Reserve) (X)", "id": "e113-7d7c-e03d-3156", "hidden": false, "targetId": "db98-339e-d0a2-e042", "type": "rule"},
+          {"name": "Damage Type: Shock", "id": "b65a-5e3a-4c6b-ba6f", "hidden": false, "targetId": "c757-1849-5b26-4b56", "type": "rule"},
+          {"name": "Area Effect (X\")", "id": "6453-9f6a-0ff3-1b66", "hidden": false, "targetId": "8b30-4913-1be7-6809", "type": "rule"},
+          {"name": "Resistance (Type)", "id": "4cf2-9469-8820-1250", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"},
+          {
+            "name": "Reanimated Corpse: Summoned Creature (Adversary)",
+            "id": "1439-9792-2c02-662c",
+            "hidden": false,
+            "targetId": "219e-c885-6f59-be85",
+            "type": "infoGroup"
+          }
+        ],
+        "rules": [
+          {
+            "name": "Staff Of Worms (Adversary)",
+            "id": "7a96-04f9-34f1-9570",
+            "description": "When Mannimarco activates, if he is unengaged and there are fewer than 5 Reanimated Corpse Adversaries in play, Spawn a Reanimated Corpse Adversary in contact with him.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ]
+      }
+    ]
+  }
+}

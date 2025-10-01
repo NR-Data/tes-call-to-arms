@@ -1,0 +1,594 @@
+{
+  "catalogue": {
+    "name": "Thalmor",
+    "id": "aa1b-f476-a563-a931",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 5,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "College of Winterhold", "id": "a86e-5f78-1763-22f2", "targetId": "ec55-df7e-efd2-0e38", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Thalmor Archer: Elven Bow",
+        "id": "f2cb-e17f-58d1-2152",
+        "hidden": false,
+        "import": true,
+        "targetId": "2064-5c87-041f-4225",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Follower", "id": "60a9-e853-8008-4de0", "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Path of Shadow", "id": "68c2-9414-119a-0305", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Archery Skill", "id": "f16c-259f-5c68-1e24", "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "5de4-4c0f-725d-5964", "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "One-Handed Skill", "id": "47d8-ebc8-a69e-caf1", "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Light Armor Skill", "id": "486c-59f7-bd4a-631e", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Elf", "id": "866b-d740-ed23-aa8d", "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Thalmor", "id": "6a57-4344-6f1f-fd0f", "primary": false, "targetId": "ff7a-e4f7-2845-6f78"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "ccb3-0925-8a2a-6ab7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thalmor Warrior: Elven Sword",
+        "id": "d082-2b68-7420-79ff",
+        "hidden": false,
+        "import": true,
+        "targetId": "6310-d673-bdfe-554c",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Follower", "id": "3b3a-5e9f-f1cf-8aba", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Archery Skill", "id": "ddc4-b268-4ee7-192c", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "One-Handed Skill", "id": "7e50-9ddc-2e75-ba43", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Light Armor Skill", "id": "b546-ad0f-1508-d362", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Might", "id": "0658-7015-c1fb-4d45", "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Elf", "id": "5949-51d2-1610-903f", "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Thalmor", "id": "cac7-d952-b324-0597", "primary": false, "targetId": "ff7a-e4f7-2845-6f78"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "ccb3-0925-8a2a-6ab7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thalmor Wizard: Inquisitorial Spellcaster",
+        "id": "7f0a-4958-dfdf-34df",
+        "hidden": false,
+        "import": true,
+        "targetId": "951b-6e1a-4cc2-4b78",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Follower", "id": "4b1e-e2f8-80c7-fd16", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "One-Handed Skill", "id": "877e-62e2-a066-7954", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Path of Sorcery", "id": "29f2-180b-0d4f-1669", "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Destruction Skill", "id": "c700-ef33-b888-edd6", "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Restoration Skill", "id": "8947-e7fd-581f-3d65", "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Elf", "id": "5fb9-2ebc-fea5-973b", "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Thalmor", "id": "abb2-1d7e-f1d5-8299", "primary": false, "targetId": "ff7a-e4f7-2845-6f78"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "ccb3-0925-8a2a-6ab7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thalmor Justiciar: Altmeri Interrogator",
+        "id": "7b2e-0628-0c25-8291",
+        "hidden": false,
+        "import": true,
+        "targetId": "04ee-16ad-9971-d138",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Archery Skill", "id": "68c3-1467-2e91-97bc", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "db65-cdd0-d36b-9b65", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "One-Handed Skill", "id": "e253-db66-d382-b11c", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Light Armor Skill", "id": "8d0a-33c0-4dd1-060d", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Elf", "id": "f19e-84dd-01f7-5bbd", "hidden": false, "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Hero", "id": "685e-0e28-b8c8-256b", "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Thalmor", "id": "9ce4-fb27-574a-6502", "primary": false, "targetId": "ff7a-e4f7-2845-6f78"},
+          {"name": "Path of Sorcery", "id": "956c-05ed-aac7-5c9c", "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Conjuration Skill", "id": "766e-34a6-b443-a503", "primary": false, "targetId": "f1a5-f2a8-0691-3c85"},
+          {"name": "Destruction Skill", "id": "b8bd-18a7-05d2-c6c6", "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Alteration Skill", "id": "4a1e-d142-88eb-fbd2", "primary": false, "targetId": "2aea-a863-419f-ba90"},
+          {"name": "Alchemy Skill", "id": "a62e-9af8-acb1-7c1e", "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Illusion Skill", "id": "e505-a2e7-f9b3-ecbe", "primary": false, "targetId": "93b4-afa5-eb85-d8ec"},
+          {"name": "Restoration Skill", "id": "cbee-bcca-f17e-ec51", "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Speech Skill", "id": "114e-4cd1-6e39-1ed0", "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "ccb3-0925-8a2a-6ab7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "c413-2e33-e6e4-ffca",
+            "conditions": [{"childId": "9bb6-43ae-1f58-ba79", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Ancano: Advisor to the Arch-Mage",
+        "id": "9868-c9d4-c1fd-db0d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "88a8-6554-c94b-d98b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "aa32-0fd8-cd87-ce9e", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Sorcery", "id": "b7f7-4eb7-dbc9-5708", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Alteration Skill", "id": "b2a4-6908-1eb7-d1c1", "hidden": false, "primary": false, "targetId": "2aea-a863-419f-ba90"},
+          {"name": "Restoration Skill", "id": "ccb3-f010-00ee-c7b3", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "One-Handed Skill", "id": "03b2-c858-b313-edf9", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Elf", "id": "5008-0174-83b5-3c8f", "hidden": false, "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "College Of Winterhold", "id": "d6e7-237f-8e6f-7e30", "hidden": false, "primary": false, "targetId": "2b0f-1265-0b4f-1046"},
+          {"name": "Ancano: Advisor to the Arch-Mage", "id": "3f78-40e9-1a48-270f", "hidden": false, "primary": false, "targetId": "2f0f-28c6-ba4f-353f"},
+          {"name": "Thalmor", "id": "d556-c616-6212-012e", "hidden": false, "primary": false, "targetId": "ff7a-e4f7-2845-6f78"},
+          {"name": "Conjuration Skill", "id": "5ac3-e111-a254-195e", "hidden": false, "primary": false, "targetId": "f1a5-f2a8-0691-3c85"},
+          {"name": "Illusion Skill", "id": "a920-19a2-4851-2cd6", "hidden": false, "primary": false, "targetId": "93b4-afa5-eb85-d8ec"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "f675-28a6-b947-2dd1",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "00de-a491-fd7e-bcca",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Thalmor Archer: Elven Bow",
+        "id": "13b5-1482-5e30-c258",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Altmer", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][RED][YELLOW]\n[HELMET]: Piercing (2)", "typeId": "6cbd-4946-2719-08aa"},
+          {
+            "name": "Ranged Attacks",
+            "$text": "Archery\n10\": [GREEN][RED][YELLOW]\n30\": [GREEN][YELLOW][YELLOW]\n[HELMET]: add [GREEN]\n[SWORDS]: Piercing (1)",
+            "typeId": "9de9-c00b-18b9-7caf"
+          },
+          {"name": "Armor", "$text": "Light Armor: [YELLOW][YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "None", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "3", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Thalmor", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Thalmor Warrior: Elven Sword",
+        "id": "5fcc-1daa-ba36-a672",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Altmer", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][RED][YELLOW]\n[HELMET]: Piercing (2)\n[SWORDS]: Follow-Up", "typeId": "6cbd-4946-2719-08aa"},
+          {
+            "name": "Ranged Attacks",
+            "$text": "Archery\n10\": [GREEN][RED][YELLOW]\n30\": [GREEN][YELLOW][YELLOW]\n[HELMET]: add [GREEN]\n[SWORDS]: Piercing (1)",
+            "typeId": "9de9-c00b-18b9-7caf"
+          },
+          {"name": "Armor", "$text": "Light Armor: [YELLOW][YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "None", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "3", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Thalmor", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Thalmor Wizard: Inquisitorial Spellcaster",
+        "id": "7abd-dfcc-945d-cd5c",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Altmer", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {
+            "name": "Ranged Attacks",
+            "$text": "Destruction: Magicka Cost 1\n12\": [GREEN][YELLOW][YELLOW]\n[HELMET]: add [RED]\nEnchanted, Shock",
+            "typeId": "9de9-c00b-18b9-7caf"
+          },
+          {"name": "Armor", "$text": "No Type: [RED]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Ward (Restoration), Personal:[RED]\n[HELMET]: add [YELLOW]\nResistance (Magic)", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Regenerate Magicka, Healing Hands", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "4", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "4\nDestruction", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "4\nRestoration", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "3", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Thalmor", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Thalmor Justiciar: Altmeri Interrogator",
+        "id": "9092-2d75-fe49-d95f",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Altmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Mage Armor, Persuasion, Ward Absorb", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Regenerate Magicka", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "High Inquisitor", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "6\nAlteration\nConjuration\nDestruction\nIllusion", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nAlchemy\nRestoration\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "4", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Thalmor", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Thalmor Justiciar: Altmeri Interrogator (Leveled)",
+        "id": "6f46-c913-c4f6-457b",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Disintegrate, Mage Armor, Persuasion, Ward Absorb", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Regenerate Magicka", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "High Inquisitor", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "6\nAlteration\nConjuration\nDestruction\nIllusion", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "6\nAlchemy\nRestoration\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "4", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Thalmor Archer: Elven Bow",
+        "id": "2064-5c87-041f-4225",
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "upgrade",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 24}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {
+            "name": "Thalmor Archer: Elven Bow",
+            "id": "014c-a6f1-c3f8-a9db",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f",
+            "targetId": "13b5-1482-5e30-c258",
+            "type": "profile"
+          },
+          {"name": "Path of Shadow", "id": "c9bc-f2a4-2611-51e1", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Altmer", "id": "d0cf-d47e-336b-fcba", "hidden": false, "targetId": "6846-5bf3-c280-fa14", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Thalmor Warrior: Elven Sword",
+        "id": "6310-d673-bdfe-554c",
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "upgrade",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 24}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {
+            "name": "Thalmor Warrior: Elven Sword",
+            "id": "8ec5-ff4b-6f6b-a4ec",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f",
+            "targetId": "5fcc-1daa-ba36-a672",
+            "type": "profile"
+          },
+          {"name": "Path of Might", "id": "42b7-fdd3-52ec-de89", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Altmer", "id": "38ee-83dc-5105-7c42", "hidden": false, "targetId": "6846-5bf3-c280-fa14", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Thalmor Wizard: Inquisitorial Spellcaster",
+        "id": "951b-6e1a-4cc2-4b78",
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "upgrade",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 32}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {
+            "name": "Thalmor Wizard: Inquisitorial Spellcaster",
+            "id": "26c1-399e-3643-9873",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f",
+            "targetId": "7abd-dfcc-945d-cd5c",
+            "type": "profile"
+          },
+          {"name": "Path of Sorcery", "id": "1e40-f09e-8db9-574d", "hidden": false, "targetId": "46cd-27c4-0be4-976f", "type": "rule"},
+          {"name": "Altmer", "id": "552e-42f0-ea1f-b9ad", "hidden": false, "targetId": "6846-5bf3-c280-fa14", "type": "infoGroup"},
+          {"name": "Regenerate Magicka", "id": "6716-7c2d-efd8-1431", "hidden": false, "targetId": "a89f-5da7-acf9-ff3b", "type": "rule"},
+          {"name": "Resistance (Type)", "id": "7dd8-8fc9-4945-3903", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"},
+          {"name": "Healing Hands", "id": "949e-c8a3-dcf1-896e", "hidden": false, "targetId": "b3e9-4d33-a165-597f", "type": "profile"}
+        ]
+      },
+      {
+        "name": "Thalmor Justiciar: Altmeri Interrogator",
+        "id": "04ee-16ad-9971-d138",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 58}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "6fa8-1809-96e2-8cb3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "95d3-b3e5-530c-21d0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "6770-6305-1a7f-d375", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "296e-aa20-09bb-ed27",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Altmer", "id": "4803-0b10-c84d-716f", "hidden": false, "targetId": "6846-5bf3-c280-fa14", "type": "infoGroup"},
+          {"name": "Path of Sorcery", "id": "c1dc-b4da-77ba-4a4e", "hidden": false, "targetId": "46cd-27c4-0be4-976f", "type": "rule"},
+          {"name": "Perk: Mage Armor", "id": "57b8-16c9-5140-3a8b", "hidden": false, "targetId": "0a16-c005-2c89-da26", "type": "rule"},
+          {"name": "Perk: Persuasion", "id": "d2f5-78b0-9a00-26a6", "hidden": false, "targetId": "2734-97c2-54f3-fb62", "type": "rule"},
+          {"name": "Perk: Ward Absorb", "id": "10f9-b005-2b77-cfd0", "hidden": false, "targetId": "167f-9166-06e4-262e", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "High Inquisitor",
+            "id": "7479-4a1e-48fc-50da",
+            "description": "When the Justiciar makes an enemy Incapacitated, the Justiciar may immediately assign a Shaken Token to one enemy within 6\" and Line of Sight.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "8607-1169-1e59-0c3b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "ceef-89f3-0bae-3197",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Perk: Disintegrate", "id": "c5e9-cc25-13b2-b375", "hidden": false, "targetId": "9ccb-96d1-a56b-453d", "type": "rule"},
+              {
+                "name": "Thalmor Justiciar: Altmeri Interrogator (Leveled)",
+                "id": "05e6-ee32-26a0-ea2f",
+                "hidden": false,
+                "targetId": "6f46-c913-c4f6-457b",
+                "type": "profile"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

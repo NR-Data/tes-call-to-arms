@@ -1,0 +1,199 @@
+{
+  "catalogue": {
+    "name": "Dwemer Animunculi (Adversaries Only)",
+    "id": "7077-96c5-9680-f751",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 5,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Forgemaster: Lava Centurion",
+        "id": "bff1-92b5-6709-cd3b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "72c4-0134-ee37-8189",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Epic Creature", "id": "d677-53e9-eded-eafb", "hidden": false, "primary": true, "targetId": "c983-f514-755f-f01a"},
+          {"name": "Adversary Master", "id": "cfc8-1365-2620-593c", "hidden": false, "primary": false, "targetId": "e4f3-19d3-b4a8-4788"},
+          {"name": "Dwemer Animunculi", "id": "1e40-d189-bc4f-f5ae", "primary": false, "targetId": "bf1c-d3be-f263-40a1"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Forgemaster: Lava Centurion",
+        "id": "cbe2-ff10-6e87-08e6",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "13d3-4e22-de74-27a4",
+        "typeName": "Epic Creature",
+        "alias": ["Forgemaster"],
+        "characteristics": [
+          {"name": "Race", "$text": "Monster", "typeId": "b0e3-4005-9d4e-a996"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "dd44-73e1-d6e0-5812"},
+          {"name": "Attacks", "$text": "See Forgemaster Attack Profiles", "typeId": "f82b-2be9-8434-72cd"},
+          {"name": "Armor", "$text": "No Type: [BLACK] (2)", "typeId": "8856-0073-7582-124b"},
+          {"name": "Keywords", "$text": "Epic Creature, Immunity (Bleed, Fire, Poison), Resistance (Magic), Shambling, Weakness (Frost)", "typeId": "e7c5-6dfa-2015-ef09"},
+          {"name": "Abilities", "$text": "Forged Mind", "typeId": "1b12-952b-2436-a83c"},
+          {"name": "Strength", "$text": "7", "typeId": "fb49-1ec9-8b68-1423"},
+          {"name": "Agility", "$text": "3", "typeId": "b489-6dff-b74d-f72b"},
+          {"name": "Endurance", "$text": "7", "typeId": "1fb9-2ec5-d6cd-5048"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7c66-db49-3e04-f5b9"},
+          {"name": "Wisdom", "$text": "3", "typeId": "7f35-99bd-41e5-cf1d"},
+          {"name": "Health", "$text": "12", "typeId": "fb9c-d714-46de-bcab"},
+          {"name": "Height", "$text": "5", "typeId": "9705-84c5-abb5-a968"},
+          {"name": "Primary Faction", "$text": "Dwemer Animunculi", "typeId": "33fa-d0ea-d0c6-f092"}
+        ]
+      },
+      {
+        "name": "Forgemaster Attack Profiles (EC)",
+        "id": "2145-daff-8181-b883",
+        "hidden": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "3eed-cdfe-6697-1378",
+        "typeName": "EC: Attack List",
+        "characteristics": [
+          {"name": "Melee Attack 1", "$text": "Piledriver (Strength):\n[GREEN][BLACK]\n[HELMET]: Piercing (1)\n[SWORDS]: Follow-Up", "typeId": "4528-fe72-9af8-eb63"},
+          {"name": "Melee Attack 2", "$text": "Animunculi Stomp (Endurance):\n[YELLOW][YELLOW][YELLOW]\n[HELMET]: Shaken", "typeId": "6027-b54c-adcd-0843"},
+          {
+            "name": "Melee Attack 3",
+            "$text": "Hammer Strike (Strength):\n[GREEN][RED][YELLOW]\n[HELMET]: add [YELLOW]\n[SWORDS]: add (Fire)\n[OBLIVION]: Stagger",
+            "typeId": "819c-6f62-6841-fa43"
+          },
+          {"name": "Melee Attack 4", "$text": "Steam Blast (Wisdom):\n[YELLOW][YELLOW] (Fire)\n[HELMET]: Area Effect (3\")", "typeId": "14c2-f947-a031-aa35"},
+          {
+            "name": "Melee Attack 5",
+            "$text": "Hammer Slam (Strength):\n[GREEN][RED][YELLOW] (Force +3\" Pushback)\n[HELMET]: Punishing (1)\n[SWORDS]: add (Fire)",
+            "typeId": "ac4e-f617-91b6-a440"
+          },
+          {
+            "name": "Ranged Attack 1",
+            "$text": "Centurion Fireball (Agility):\n10\" [GREEN][RED][YELLOW] (Fire)\n[HELMET]: Area Effect (2\")\n[OBLIVION]: add [RED]",
+            "typeId": "2b79-2169-5fb0-ee08"
+          },
+          {
+            "name": "Ranged Attack 2",
+            "$text": "Gout of Flame (Strength):\n6\" [GREEN][YELLOW][YELLOW][YELLOW] (Fire)\n[HELMET]: Area Effect (2\")",
+            "typeId": "0f23-e8a4-9c13-0798"
+          },
+          {"name": "Ranged Attack 3", "$text": "None", "typeId": "1b3e-90f4-668d-88f0"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "cd24-72a5-d8b3-ffe4",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forgemaster Response Matrix (EC)",
+        "id": "fd26-6432-e1a8-80b5",
+        "hidden": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "1549-97d8-74cf-5961",
+        "typeName": "EC: Response Matrix",
+        "characteristics": [
+          {"name": "[HELMET]", "$text": "First: Attack\nSecond: Objective\nThird: Defend", "typeId": "dd82-a030-a39d-3378"},
+          {"name": "[DOTS]", "$text": "First: Objective\nSecond: Attack\nThird: Objective", "typeId": "d176-4ed5-d2ff-403a"},
+          {"name": "[SWORDS/OBLIVION]", "$text": "First: Move\nSecond: Move\nThird: Attack", "typeId": "f105-1cce-b7c8-ffc1"},
+          {"name": "Target Priority", "$text": "1: Nearest\n2: Fastest\n3: Most Dangerous", "typeId": "d168-4ef7-1042-e358"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ec3c-7c34-5e74-089d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Forgemaster: Lava Centurion",
+        "id": "72c4-0134-ee37-8189",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 195}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Forgemaster: Lava Centurion", "id": "a661-2fc2-e80d-e4b9", "hidden": false, "targetId": "cbe2-ff10-6e87-08e6", "type": "profile"},
+          {"name": "Epic Creature", "id": "a2df-89a1-2661-2150", "hidden": false, "targetId": "2993-1576-f2b7-2e90", "type": "infoGroup"},
+          {"name": "Forgemaster Attack Profiles (EC)", "id": "2c42-4b37-c816-c5c1", "hidden": false, "targetId": "2145-daff-8181-b883", "type": "profile"},
+          {"name": "Forgemaster Response Matrix (EC)", "id": "8856-ba0e-1c7e-4f26", "hidden": false, "targetId": "fd26-6432-e1a8-80b5", "type": "profile"},
+          {"name": "Dwemer Animunculi", "id": "aff0-c020-c46d-c2e9", "hidden": false, "targetId": "dd22-8ea1-6516-926d", "type": "infoGroup"},
+          {"name": "Shambling", "id": "d180-4504-245e-f45c", "hidden": false, "targetId": "0a08-aeef-9ff3-c86c", "type": "rule"},
+          {"name": "Weakness (Type)", "id": "424e-37aa-eaa5-d0b1", "hidden": false, "targetId": "550d-354c-0e2a-c57b", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Forgemaster Situation Table (EC)",
+            "id": "242f-0277-c4da-86a4",
+            "description": "[see pg. 12 in Chapter 4 Booklet for priority explanation]\n- Not Engaged & Enemy model in LOS -> Centurion Fireball\n- Enemy model within LOS and 6\" -> Gout of Flame\n- Engaged with 1 model -> Piledriver\n- Engaged with 2 models -> Animunculi Stomp\n- Engaged with 1 model -> Hammer Strike\n- Engaged with 3+ models -> Steam Blast\n- Not Engaged or Engaged -> Hammer Slam",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          },
+          {
+            "name": "Forged Mind",
+            "id": "f5cc-f325-9a96-d7e3",
+            "description": "This model cannot be targeted by Illusion Spells.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ]
+      }
+    ]
+  }
+}

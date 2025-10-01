@@ -1,0 +1,2202 @@
+{
+  "catalogue": {
+    "name": "Imperial Legion",
+    "id": "b02d-1e65-9470-956c",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Adventurers", "id": "5563-a2cd-4201-fcc9", "importRootEntries": false, "targetId": "bed2-2069-45b8-9df1", "type": "catalogue"}],
+    "categoryEntries": [
+      {
+        "name": "Hadvar: Hero Of Helgen",
+        "id": "ea8e-4fe3-e4a5-c93b",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "constraints": [
+          {
+            "id": "b56d-282b-7a6d-f737",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "General Tullius: Imperial Governor",
+        "id": "3256-29d2-dfc3-d509",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "constraints": [
+          {
+            "id": "86b3-48a5-94e0-9003",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Legate Rikke: Chief Legate",
+        "id": "527a-9b3a-c39f-3225",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "constraints": [
+          {
+            "id": "f916-6f63-e7c0-80d3",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Legate Fasendil: Commander Of The Rift",
+        "id": "c113-4d4c-dc87-446c",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "65d4-b57c-8d3b-3e63",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Captain Aldis: Defender Of Solitude",
+        "id": "a368-d578-6bc0-83e0",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "db81-bb3f-d22d-c3a8",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Imperial Headsman: Grim Executioner",
+        "id": "fafb-8832-9f19-047c",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "constraints": [
+          {
+            "id": "15ba-ccdc-f400-4d49",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Imperial Mage: Spellsword",
+        "id": "029b-ef6d-cb9d-da0f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "27f0-4897-0ad4-febf",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "38ea-1e5e-0f59-b634", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Imperial Legion", "id": "7133-3b6b-18c2-d988", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Path of Sorcery", "id": "e6b3-14d1-5056-20a7", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Block Skill", "id": "5f2c-7628-5e2d-a92f", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "One-Handed Skill", "id": "3455-16e2-81d7-a05f", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "8a4d-1c91-a9fd-5680", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "7728-a51e-75c4-96d0", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Destruction Skill", "id": "fcb4-9fad-deb0-73ec", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Alteration Skill", "id": "a170-0a00-ac55-7bb4", "hidden": false, "primary": false, "targetId": "2aea-a863-419f-ba90"},
+          {"name": "Restoration Skill", "id": "3939-dd0e-ac57-4dbd", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hadvar: Hero Of Helgen",
+        "id": "a63e-a0e5-e1d8-295f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8be8-d241-f20f-ebc9",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "4de6-8a78-cd42-7f6a", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Might", "id": "9ee4-34a2-8889-2ef0", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "bbe9-65b9-2d56-1a59", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Hadvar: Hero Of Helgen", "id": "f481-24c7-84d3-4f9a", "hidden": false, "primary": false, "targetId": "ea8e-4fe3-e4a5-c93b"},
+          {"name": "Block Skill", "id": "79b8-e529-4bf4-dcc0", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "One-Handed Skill", "id": "693f-cbcb-26a1-335c", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "44b9-8ae1-8fc4-1471", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "3f6f-a9e4-68e0-8ee9", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Light Armor Skill", "id": "2dfc-0da5-5ece-513a", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "36b7-1cb1-41b5-4981", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Speech Skill", "id": "966e-cfd7-6dd4-ff34", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "General Tullius: Imperial Governor",
+        "id": "0ebf-81c9-6945-3be9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "821f-2b39-4456-871d",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Imperial Legion", "id": "07e4-196f-9c9b-5837", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Hero", "id": "8c54-feda-207c-04d9", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "General Tullius: Imperial Governor", "id": "deb8-0dbf-7f8f-06cd", "hidden": false, "primary": false, "targetId": "3256-29d2-dfc3-d509"},
+          {"name": "Path of Might", "id": "d131-e0c3-e8dc-42f8", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Born Leader", "id": "6996-9130-ee8c-8d67", "hidden": false, "primary": false, "targetId": "917c-eb56-30eb-a720"},
+          {"name": "General Tullius Equipment", "id": "a464-9857-372a-fe86", "hidden": false, "primary": false, "targetId": "947a-333a-bb7d-95ed"},
+          {"name": "One-Handed Skill", "id": "4a40-5121-ff47-cf48", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "d09e-e54f-7328-7f8a", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "2c6d-9e24-feaf-ed46", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Heavy Armor Skill", "id": "1500-4da1-6811-dec7", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Speech Skill", "id": "3fd0-24de-c9ed-bd48", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legate Rikke: Chief Legate",
+        "id": "e13c-ea90-fe40-ddbd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1014-5819-0aac-b059",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "253e-3079-ce52-0522", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Imperial Legion", "id": "5be8-b279-364c-7897", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Legate Rikke: Chief Legate", "id": "4668-09be-835a-4388", "hidden": false, "primary": false, "targetId": "527a-9b3a-c39f-3225"},
+          {"name": "Path of Might", "id": "5b6f-4b96-d654-e631", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Archery Skill", "id": "eb81-f9f7-0875-3c45", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Block Skill", "id": "7fa0-7fcf-3cd1-e36e", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "One-Handed Skill", "id": "aba1-a84c-7daf-3baa", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Two-Handed Skill", "id": "45ef-0b1a-3a4f-7293", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Light Armor Skill", "id": "c778-44c2-1d74-7dd0", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "fb8a-8e16-035a-e846", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Speech Skill", "id": "ecf1-5346-a929-5b03", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legate Fasendil: Commander Of The Rift",
+        "id": "e2dd-5903-52b7-05c3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "targetId": "8cff-5b1e-1e85-34e4",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "7ab2-c35c-bfd7-8a6d", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Imperial Legion", "id": "0e08-0c0a-fcd9-35d8", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Path of Might", "id": "675e-ee9c-d0f4-5f10", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Legate Fasendil: Commander Of The Rift", "id": "3f69-18c2-aeed-23af", "hidden": false, "primary": false, "targetId": "c113-4d4c-dc87-446c"},
+          {"name": "Block Skill", "id": "402f-f8fa-e991-61ea", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Two-Handed Skill", "id": "e765-2baf-fa38-9dab", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "One-Handed Skill", "id": "5dce-1cb6-d4bc-2290", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "286d-1a90-5004-efa2", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "6604-bc24-3a01-2d63", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "7b96-2a0f-9150-79ee", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Captain Aldis: Defender Of Solitude",
+        "id": "0b3b-562b-aec2-8550",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "targetId": "0895-0dae-ed96-6aa6",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "61c3-9ab8-c035-75e0", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Imperial Legion", "id": "fd0d-7d2e-07cc-85ce", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Path of Might", "id": "efcb-405c-f2b8-9b3a", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Captain Aldis: Defender Of Solitude", "id": "8a3b-2716-89e4-162e", "hidden": false, "primary": false, "targetId": "a368-d578-6bc0-83e0"},
+          {"name": "Block Skill", "id": "42bf-44f7-672a-98f1", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "One-Handed Skill", "id": "5f02-02cd-11cd-8ffa", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Two-Handed Skill", "id": "ce54-7cc0-6fe9-9de0", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Archery Skill", "id": "851c-e886-ae13-69a3", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Light Armor Skill", "id": "b376-a7be-7864-5dad", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "7d05-23ed-1f67-54d7", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Speech Skill", "id": "f887-9e73-9677-bb90", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Headsman: Grim Executioner",
+        "id": "d6bf-664a-42bb-2800",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d737-af1a-f6d7-226a",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "0c9d-abfd-03b7-e1e6", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Imperial Legion", "id": "051b-1599-982e-56e6", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Imperial Headsman: Grim Executioner", "id": "ef82-bb93-a1d6-e6c7", "hidden": false, "primary": false, "targetId": "fafb-8832-9f19-047c"},
+          {"name": "Path of Might", "id": "d150-bfe3-9b81-8315", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Headsman Equipment", "id": "b251-f330-e4b8-a251", "hidden": false, "primary": false, "targetId": "6f69-9fe1-93c1-2909"},
+          {"name": "Two-Handed Skill", "id": "c961-72ef-2b04-5976", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Light Armor Skill", "id": "de5f-30ad-be83-8926", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Captain: Garrison Commander",
+        "id": "5057-a51e-4f9a-22f1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e764-5fa7-0ea8-958e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "bce8-0338-d6a8-2c3a", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Imperial Legion", "id": "2d71-a45a-f939-65cb", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Path of Might", "id": "da1e-9b9b-4fb6-92a5", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Two-Handed Skill", "id": "0fce-f9a6-3680-01a1", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Block Skill", "id": "72ba-8927-0637-e317", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "6d13-861d-c5db-80ab", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Heavy Armor Skill", "id": "1e2f-e617-a384-b9f7", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Speech Skill", "id": "7d5a-2bb1-5c19-ef75", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Heavy Armor",
+        "id": "6374-9535-0c3e-da34",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f440-aaa7-8814-f988",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "4e81-0e44-f261-4211", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "6f2e-27a5-9005-a90f", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Follower", "id": "7e88-960e-07a7-885b", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Archer",
+        "id": "37be-cb78-1b7a-1eb4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dca6-c5f7-43c9-aff9",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "7864-942b-3271-3b81", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "7e4a-2650-3b05-e1e6", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Follower", "id": "38c9-0302-5338-019a", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Recruit: Drillyard Trainee",
+        "id": "88ba-995a-4931-fdad",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b350-a774-e96d-43bf",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "8a04-9e47-f279-ca0e", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "4162-40f2-b04e-ad4f", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Follower", "id": "804e-85f7-a744-6d1c", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Sword And Shield",
+        "id": "7269-cdc4-5515-ad0c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e723-610d-0c0f-f5cb",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "a095-8850-0d70-ae2b", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "3622-26ea-b695-424a", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Follower", "id": "5f0c-e146-97a3-18b0", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hadvar: Hero Of Helgen (Adversary)",
+        "id": "5202-a07f-833b-15b5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5aeb-1597-85dc-a277",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "8787-ef37-d99d-a1be", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "f2e3-b892-291b-dd17", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Hadvar: Hero Of Helgen", "id": "6faf-1cbe-e19b-a601", "hidden": false, "primary": false, "targetId": "ea8e-4fe3-e4a5-c93b"},
+          {"name": "Block Skill", "id": "c003-2923-b606-0de4", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "One-Handed Skill", "id": "c56e-6cb8-f2cf-aec9", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Heavy Armor Skill", "id": "9544-c613-ce8d-0f51", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Adversary Master", "id": "bf91-9727-aec7-57c3", "hidden": false, "primary": true, "targetId": "e4f3-19d3-b4a8-4788"}
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Swordsman (Adversary)",
+        "id": "ce0d-c5d6-817d-48b0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5873-1ffb-182f-4d0b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "414c-2e61-2458-981e", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "9b0f-b64b-e109-7418", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Adversary Minion", "id": "2b31-503a-2227-0355", "hidden": false, "primary": true, "targetId": "4470-2839-f56b-81ec"}
+        ]
+      },
+      {
+        "name": "The Dragonborn: Champion of Skyrim",
+        "id": "6ae1-2d95-fea7-670f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2038-fbad-32c1-0729",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "a814-43ff-4455-91ed", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Might", "id": "2202-6a9a-fede-49fc", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Stormcloaks", "id": "3236-682d-8694-f62f", "hidden": false, "primary": false, "targetId": "d77c-5e80-37d4-883b"},
+          {"name": "Imperial Legion", "id": "bf7b-289b-5ab2-a9e3", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Dragonborn (Character)", "id": "c693-b568-b87a-c5a1", "hidden": false, "primary": false, "targetId": "cc62-17e3-76e5-4f96"},
+          {"name": "Adventurers", "id": "331d-902b-a4a2-7f73", "hidden": false, "primary": false, "targetId": "2b45-4245-ce5e-5404"},
+          {"name": "Dragon Shouts", "id": "4441-16e9-0be7-68fc", "hidden": false, "primary": false, "targetId": "ca71-7b4a-9967-eaae"},
+          {"name": "One-Handed Skill", "id": "a316-5f37-2001-773a", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Block Skill", "id": "2afb-8166-ef0a-c79d", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Archery Skill", "id": "f505-f790-9e68-40bb", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "7b28-f6c2-3cca-ddff", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Sneak Skill", "id": "0c41-617b-e99a-9df2", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "73db-a44b-1119-963f", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "bdad-ddd9-bc32-0f8e", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Destruction Skill", "id": "a9b3-ad1b-cf3d-f215", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Enchanting Skill", "id": "788d-d1a6-7cab-7284", "hidden": false, "primary": false, "targetId": "03bd-d045-659f-b234"},
+          {"name": "Restoration Skill", "id": "a4c3-048c-ed33-520c", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Speech Skill", "id": "4b38-8ac7-07a8-23bc", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Alchemy Skill", "id": "0eec-96dc-84c2-a9d0", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a42d-5cd6-77d3-e140",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d6a3-9869-f1f0-db9f",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "00de-a491-fd7e-bcca",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ]
+      },
+      {
+        "name": "Sulla Trebatius: Rogue Spellsword",
+        "id": "39af-9c79-d791-46f0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4c95-92ab-1b31-8e1f",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hireling Hero", "id": "7f5c-e062-7fd8-bdd5", "hidden": false, "primary": true, "targetId": "c06c-5d0a-f27a-3385"},
+          {"name": "Neutral", "id": "d353-57d4-c0e0-9e1b", "hidden": false, "primary": false, "targetId": "e42a-1785-2eba-93be"},
+          {"name": "Hero", "id": "1b0b-fdf2-734a-1ac3", "hidden": false, "primary": false, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Imperial Legion", "id": "945d-3331-4bb1-f6ed", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "One-Handed Skill", "id": "9575-335c-e017-535d", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Heavy Armor Skill", "id": "e6ca-c965-6c82-943b", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Enchanting Skill", "id": "97e3-df23-a0b7-35ca", "hidden": false, "primary": false, "targetId": "03bd-d045-659f-b234"},
+          {"name": "Sulla Trebatius: Rogue Spellsword", "id": "85d7-7827-ff23-215d", "hidden": false, "primary": false, "targetId": "2564-e09e-8058-ab5b"},
+          {"name": "Path of Sorcery", "id": "3906-d4c8-bd33-1588", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Destruction Skill", "id": "9e4c-8b13-f044-addd", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Block Skill", "id": "f9b9-2156-bdec-fb5c", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Hireling Count", "id": "ca53-d37a-0473-0817", "primary": false, "targetId": "065c-f392-0c98-91f5"}
+        ],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {"field": "category", "type": "set-primary", "value": "b9a4-31a5-b4ed-b4c7"},
+              {"field": "category", "type": "remove", "value": "c06c-5d0a-f27a-3385"},
+              {"field": "category", "type": "remove", "value": "065c-f392-0c98-91f5"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Adelaisa Vendicci: East Empire Company Agent",
+        "id": "be3e-45eb-6bb9-2437",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e041-76bc-db25-6ec1",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hireling Hero", "id": "d1df-3346-b476-73e1", "hidden": false, "primary": true, "targetId": "c06c-5d0a-f27a-3385"},
+          {"name": "Neutral", "id": "6b7b-7176-9a28-60e7", "hidden": false, "primary": false, "targetId": "e42a-1785-2eba-93be"},
+          {"name": "Hero", "id": "e682-79b2-04cb-28a8", "hidden": false, "primary": false, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Adelaisa Vendicci: East Empire Company Agent", "id": "e0a9-6a93-250d-391b", "hidden": false, "primary": false, "targetId": "3214-03da-4960-6e90"},
+          {"name": "Path of Might", "id": "6fd3-3c87-24e1-da5a", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Imperial Legion", "id": "780c-c7ae-b5eb-29a5", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "One-Handed Skill", "id": "56b3-5289-74b3-05a9", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "1bbf-ff75-9c99-e6a0", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "4da0-00e5-5092-7f1a", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "4311-caf7-653a-e045", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Heavy Armor Skill", "id": "779e-b34f-52ab-2e8e", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Speech Skill", "id": "967e-681c-c571-75c7", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Enchanting Skill", "id": "f37b-12be-46df-1eca", "hidden": false, "primary": false, "targetId": "03bd-d045-659f-b234"},
+          {"name": "Alchemy Skill", "id": "a5ae-b4a2-1337-f025", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Smithing Skill", "id": "c38e-931b-70f6-67fa", "hidden": false, "primary": false, "targetId": "c7db-eac8-21dc-49a0"},
+          {"name": "Hireling Count", "id": "2121-3a3a-c978-cad3", "primary": false, "targetId": "065c-f392-0c98-91f5"}
+        ],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {"field": "category", "type": "set-primary", "value": "b9a4-31a5-b4ed-b4c7"},
+              {"field": "category", "type": "remove", "value": "c06c-5d0a-f27a-3385"},
+              {"field": "category", "type": "remove", "value": "065c-f392-0c98-91f5"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Priestess Of Arkay: Devout Healer",
+        "id": "83f3-8a4a-5f0a-818e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d7f9-cad2-1ae1-8c02",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hireling Hero", "id": "7c51-82e9-997b-dc59", "hidden": false, "primary": true, "targetId": "c06c-5d0a-f27a-3385"},
+          {"name": "Neutral", "id": "214c-40d7-c41f-98f0", "hidden": false, "primary": false, "targetId": "e42a-1785-2eba-93be"},
+          {"name": "Hero", "id": "aa65-b024-480a-d203", "hidden": false, "primary": false, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Sorcery", "id": "6ce9-0359-6f5d-6393", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Imperial Legion", "id": "2fff-7c1c-3bd4-e1ad", "hidden": false, "primary": false, "targetId": "88ba-c208-bba9-5e1e"},
+          {"name": "Speech Skill", "id": "b64f-7e64-f8fd-ddad", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Restoration Skill", "id": "3b3b-e038-8435-ae61", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"},
+          {"name": "Sneak Skill", "id": "70b1-aa31-0026-b30a", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "One-Handed Skill", "id": "9c43-7907-634e-f367", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Hireling Count", "id": "449a-0914-1aef-02db", "primary": false, "targetId": "065c-f392-0c98-91f5"}
+        ],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "a42d-5cd6-77d3-e140",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {"field": "category", "type": "set-primary", "value": "b9a4-31a5-b4ed-b4c7"},
+              {"field": "category", "type": "remove", "value": "c06c-5d0a-f27a-3385"},
+              {"field": "category", "type": "remove", "value": "065c-f392-0c98-91f5"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Imperial Mage: Spellsword",
+        "id": "94c3-5b9f-41a9-6b2d",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Destruction Mastery, Evocation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4\nDestruction\nAlteration", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nRestoration", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "2", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "4", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Hadvar: Hero Of Helgen",
+        "id": "a181-2fe1-2b4a-5805",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Persuasion, Sword and Board", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Hold Your Ground", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nLockpicking", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Hadvar: Hero Of Helgen (Leveled)",
+        "id": "4737-416e-f247-ec34",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Persuasion, Sword And Board, Tower Of Strength", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Hold Your Ground", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nLockpicking", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Imperial Mage: Spellsword (Leveled)",
+        "id": "4a10-7c5e-0d82-0d17",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Destruction Mastery, Evocation, Impact", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "5\nDestruction\nAlteration", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nRestoration", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "4", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "General Tullius: Imperial Governor",
+        "id": "db7d-dacf-54b4-205e",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Persuasion, Puncture, Revitalize", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Born Leader, Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "General Of The Legion", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "5", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "6\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "General Tullius: Imperial Governor (Leveled)",
+        "id": "00fe-4cd5-b892-f854",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Persuasion, Puncture, Reflect Blows, Revitalize", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Born Leader, Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "General Of The Legion", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "5", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "7\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Legate Rikke: Chief Legate",
+        "id": "0af9-1e38-012d-1727",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Constitution, Defensive Posture, Quick Reflexes", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Master Tactician", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Legate Rikke: Chief Legate (Leveled)",
+        "id": "060d-c306-2044-fa67",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Constitution, Critical Charge, Defensive Posture, Quick Reflexes", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Master Tactician", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "6\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Legate Fasendil: Commander Of The Rift",
+        "id": "0d46-08a3-9388-6bec",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Altmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Twin Slashes, Well Fitted", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Regenerate Magicka", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Press The Advantage", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "2", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Legate Fasendil: Commander Of The Rift (Leveled)",
+        "id": "e99d-1eba-7592-6c83",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Ranger, Twin Slashes, Well Fitted", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Regenerate Magicka", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Press The Advantage", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "2", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Captain Aldis: Defender Of Solitude",
+        "id": "b7d6-f6b5-0d6c-4c69",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Custom Fit, Deep Wounds", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Drillmaster", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "2", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Captain Aldis: Defender Of Solitude (Leveled)",
+        "id": "53aa-b80e-877d-376a",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Custom Fit, Deep Wounds, Momentum", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Drillmaster", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "6\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Imperial Headsman: Grim Executioner",
+        "id": "3dcc-aca0-d2a4-349e",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Devastating Blow", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "2", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "2", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Imperial Headsman: Grim Executioner (Leveled)",
+        "id": "bd00-dd11-1dc4-1fd1",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Devastating Blow, Intimidation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "6\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "2", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Imperial Captain: Garrison Commander",
+        "id": "daec-73c2-b55a-ee45",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Invulnerable", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "No Mercy", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Imperial Captain: Garrison Commander (Leveled)",
+        "id": "8bfe-2031-2b47-a858",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Defensive Posture, Invulnerable", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "No Mercy", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "6\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Sword And Shield",
+        "id": "52cc-6a01-97d9-3045",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Imperial", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][RED]\n[SWORDS]: Piercing (1)", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [RED]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "None", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nBlock", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "4", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Heavy Armor",
+        "id": "13d1-acd2-538f-e605",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Imperial", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][RED]\n[SWORDS]: Piercing (1)", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Heavy Armor: [RED] (1)\n[OBLIVION]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [RED]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "None", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nBlock", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nHeavy Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "4", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Archer",
+        "id": "b2a1-ed1c-b9d7-a2ff",
+        "hidden": false,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Imperial", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][YELLOW]", "typeId": "6cbd-4946-2719-08aa"},
+          {
+            "name": "Ranged Attacks",
+            "$text": "Archery\n10\": [GREEN][YELLOW][YELLOW]\n20\": [YELLOW]\n[HELMET]: Piercing (1) up to 10\"",
+            "typeId": "9de9-c00b-18b9-7caf"
+          },
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "None", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "4", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Imperial Recruit: Drillyard Trainee",
+        "id": "5d41-069b-3090-1ec0",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][RED]\n[SWORDS]: Piercing (1)", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Hadvar: Hero Of Helgen (Adversary)",
+        "id": "5089-8e23-c783-06cf",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Master (Unique)", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Nord", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(One-Handed): [GREEN][RED]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "Heavy Armor\n[RED] (1)\n[HELMET]: [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Hold The Line", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nBlock", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "4", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "4\nHeavy Armor", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "3", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "4", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "4", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Swordsman (Adversary)",
+        "id": "cb75-ad31-e5c9-ffb0",
+        "hidden": false,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Minion", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Imperial", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "One-Handed: [GREEN][RED]\n[SWORDS]: Piercing (1)", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]\n[HELMET]: add [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [RED]", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "None", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "3\nOne-Handed\nBlock", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "4", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "1", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Imperial Legion", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Imperial Mage: Spellsword",
+        "id": "27f0-4897-0ad4-febf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 36}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "28c7-6f26-836d-53ae",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "0a79-d660-a72b-fade",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "e65b-7c58-68c5-cca7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Imperial", "id": "de17-60c7-716b-985a", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"},
+          {"name": "Perk: Destruction Mastery", "id": "c5cc-3a68-f56d-3ad5", "hidden": false, "targetId": "eae7-ee7c-9f43-386d", "type": "rule"},
+          {"name": "Perk: Evocation", "id": "5251-eb51-5ae2-4ae9", "hidden": false, "targetId": "c7c8-2d41-68e3-f434", "type": "rule"},
+          {"name": "Path of Sorcery", "id": "f2d2-9510-efa5-d26e", "hidden": false, "targetId": "46cd-27c4-0be4-976f", "type": "rule"},
+          {"name": "Imperial Mage: Spellsword", "id": "4f9b-f9dd-7250-576f", "hidden": false, "targetId": "94c3-5b9f-41a9-6b2d", "type": "profile"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "3f57-1986-40f3-ae8f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "e8f8-1023-c995-6288",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Imperial Mage: Spellsword (Leveled)", "id": "ca06-a99c-c019-eceb", "hidden": false, "targetId": "4a10-7c5e-0d82-0d17", "type": "profile"},
+              {"name": "Perk: Impact", "id": "82cd-dbe5-8e18-9613", "hidden": false, "targetId": "4da0-edd2-25f8-ce8a", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hadvar: Hero Of Helgen",
+        "id": "8be8-d241-f20f-ebc9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 46}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "37d6-0b04-51a5-b87e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "db80-2895-8e18-02ac",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "8674-9d63-d652-7101",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Persuasion", "id": "dcd6-cb33-d567-f3f4", "hidden": false, "targetId": "2734-97c2-54f3-fb62", "type": "rule"},
+          {"name": "Perk: Sword and Board", "id": "cb2b-5f8e-719c-e3f3", "hidden": false, "targetId": "6dcb-4217-410a-0a0f", "type": "rule"},
+          {"name": "Path of Might", "id": "04e4-40b4-3ed0-ba18", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Hadvar: Hero Of Helgen", "id": "08dc-42ef-a997-441b", "hidden": false, "targetId": "a181-2fe1-2b4a-5805", "type": "profile"},
+          {"name": "Nord", "id": "10f7-0871-d0af-1c19", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Hold Your Ground",
+            "id": "fd60-3d1c-eb2d-54b1",
+            "description": "When Hadvar is within 3” of an Objective, Hadvar and friendly Imperial Faction Followers within 3” may reroll their Armor Rating.",
+            "hidden": false,
+            "publicationId": "bcdd-038f-9aa1-3237"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "a018-4fc4-1b87-c20f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "f169-1395-1aa3-dc2f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Hadvar: Hero Of Helgen (Leveled)", "id": "aa30-275e-f99d-2095", "hidden": false, "targetId": "4737-416e-f247-ec34", "type": "profile"},
+              {"name": "Perk: Tower of Strength", "id": "555c-eda6-905c-1a1b", "hidden": false, "targetId": "9489-c41b-efeb-4897", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "General Tullius: Imperial Governor",
+        "id": "821f-2b39-4456-871d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 74}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "68cd-415f-e6a6-f171",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "7b7b-4636-69c8-a6c9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "cc31-b979-24aa-2e9f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Persuasion", "id": "50f7-bfd4-f9a1-2d03", "hidden": false, "targetId": "2734-97c2-54f3-fb62", "type": "rule"},
+          {"name": "Perk: Puncture", "id": "ab91-aa88-f7a6-f4dc", "hidden": false, "targetId": "458d-6f19-41aa-6961", "type": "rule"},
+          {"name": "Path of Might", "id": "116d-7e0d-aa15-9e0d", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "General Tullius: Imperial Governor", "id": "ce36-847a-8cf5-cb3f", "hidden": false, "targetId": "db7d-dacf-54b4-205e", "type": "profile"},
+          {"name": "Imperial", "id": "607a-2a66-fb7f-39d8", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"},
+          {"name": "Born Leader", "id": "a50f-6bed-53a3-f597", "hidden": false, "targetId": "653d-16a5-eefb-8b71", "type": "rule"},
+          {"name": "Perk: Revitalize", "id": "59ea-edfa-784c-9845", "hidden": false, "targetId": "a6f5-80cc-4900-cc71", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "General Of The Legion",
+            "id": "a5f0-760c-3c20-7708",
+            "description": "Choose one friendly Imperial Legion model at the start of the game. That model gains the Bodyguard keyword for the duration of the game [correction: battle]. In addition, when Tullius performs the Rally Command Action, if affects all Followers within 6\" and Line Of Sight instead of just one.",
+            "hidden": false,
+            "publicationId": "a37b-3a3b-faf7-0732"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "540e-7a12-bd9a-0238",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "37fc-37f9-932a-3d88",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "General Tullius: Imperial Governor (Leveled)", "id": "38d3-f36e-c2f0-ebe2", "hidden": false, "targetId": "00fe-4cd5-b892-f854", "type": "profile"},
+              {"name": "Perk: Reflect Blows", "id": "2a35-3184-9335-7945", "hidden": false, "targetId": "a61b-4473-cc8c-ffe2", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legate Rikke: Chief Legate",
+        "id": "1014-5819-0aac-b059",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 68}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "8abe-e6c8-7584-c3bf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "0625-beb1-e7c3-f782",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "5815-1e09-89de-c2f8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Constitution", "id": "834d-796b-db53-1910", "hidden": false, "targetId": "67ea-4fbe-5055-2f3b", "type": "rule"},
+          {"name": "Perk: Defensive Posture", "id": "f3d1-3d81-3652-95b2", "hidden": false, "targetId": "fd4f-3ef9-2082-4adf", "type": "rule"},
+          {"name": "Path of Might", "id": "ab7d-1127-46b9-8ad6", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Legate Rikke: Chief Legate", "id": "f8ad-919c-8908-7c15", "hidden": false, "targetId": "0af9-1e38-012d-1727", "type": "profile"},
+          {"name": "Nord", "id": "7692-4fd3-ae9b-f77d", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Quick Reflexes", "id": "23f4-0682-8d92-a35f", "hidden": false, "targetId": "195a-2802-482e-6e22", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Master Tactician",
+            "id": "45c8-c9fe-b43b-b4e4",
+            "description": "When Legate Rikke performs the Ready action, up to 2 friendly Followers within 3\" and Line Of Sight that have not performed a Melee Attack or Shoot[ing Attack] during this round may recieve a Ready token.",
+            "hidden": false,
+            "publicationId": "a37b-3a3b-faf7-0732"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "82fb-2681-1e0d-eed8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "1550-0d48-373b-be32",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Legate Rikke: Chief Legate (Leveled)", "id": "7b1b-786a-1e39-a3f0", "hidden": false, "targetId": "060d-c306-2044-fa67", "type": "profile"},
+              {"name": "Perk: Critical Charge", "id": "9395-3d0d-406a-7293", "hidden": false, "targetId": "bedf-8612-7883-a004", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legate Fasendil: Commander Of The Rift",
+        "id": "8cff-5b1e-1e85-34e4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 58}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "1202-2e12-c254-fe4b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "e9de-2bf7-01bc-627b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "22e3-3dcd-a5c4-cb47",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Twin Slashes", "id": "ea97-5247-e0b0-24e4", "hidden": false, "targetId": "947e-a191-297f-95e5", "type": "rule"},
+          {"name": "Perk: Well Fitted", "id": "98e4-dd44-5423-0cb4", "hidden": false, "targetId": "1cd1-dafa-32a1-0e91", "type": "rule"},
+          {"name": "Path of Might", "id": "af4e-923b-7012-3264", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Legate Fasendil: Commander Of The Rift", "id": "ce89-f05e-57c2-d512", "hidden": false, "targetId": "0d46-08a3-9388-6bec", "type": "profile"},
+          {"name": "Altmer", "id": "76b6-1eb7-acf4-71da", "hidden": false, "targetId": "6846-5bf3-c280-fa14", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Press The Advantage",
+            "id": "e4ed-8541-e71b-bf84",
+            "description": "Friendly Followers within 3\" and Line Of Sight of Fasendil that roll [CRITICAL HIT] for a melee attack may immediately perform a free Follow-Up [see BRB pg. 75].",
+            "hidden": false,
+            "publicationId": "2733-0fd1-3311-3be2"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "86d8-f7ae-b567-eb0d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "7395-d624-bf72-e8f0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Legate Fasendil: Commander Of The Rift (Leveled)", "id": "7bae-0a9e-a34e-8825", "hidden": false, "targetId": "e99d-1eba-7592-6c83", "type": "profile"},
+              {"name": "Perk: Ranger", "id": "bb97-810b-d2c7-3b55", "hidden": false, "targetId": "ff82-0769-0a4a-7153", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Captain Aldis: Defender Of Solitude",
+        "id": "0895-0dae-ed96-6aa6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 47}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "8da8-30b6-a183-4791",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Equipment",
+            "id": "d5b8-7e2e-7360-be8d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Custom Fit", "id": "bb77-092d-71f4-f2f6", "hidden": false, "targetId": "60eb-baf5-15f2-58ed", "type": "rule"},
+          {"name": "Perk: Deep Wounds", "id": "510f-5be4-c64e-897a", "hidden": false, "targetId": "1df4-d415-809d-282c", "type": "rule"},
+          {"name": "Path of Might", "id": "69c6-fb62-6a34-dc5a", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Captain Aldis: Defender Of Solitude", "id": "8a46-96e2-0757-d17c", "hidden": false, "targetId": "b7d6-f6b5-0d6c-4c69", "type": "profile"},
+          {"name": "Nord", "id": "1f1f-5202-087d-05b4", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Drillmaster",
+            "id": "ac7e-8d5a-5d61-bd62",
+            "description": "Once per activation, when performing a One-Handed, Two-Handed, or Block Skill Test, Aldis or a friendly Follower within 3\" and Line Of Sight may exchange [YELLOW][YELLOW] for [BLACK].",
+            "hidden": false,
+            "publicationId": "2733-0fd1-3311-3be2"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "8bc1-f7ae-ecd2-c05f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "5b5c-ff27-b484-ecf8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Captain Aldis: Defender Of Solitude (Leveled)", "id": "36b9-afc3-e698-21a5", "hidden": false, "targetId": "53aa-b80e-877d-376a", "type": "profile"},
+              {"name": "Perk: Momentum", "id": "ed1e-1581-1278-0bd6", "hidden": false, "targetId": "44cc-389d-4766-9e73", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Headsman: Grim Executioner",
+        "id": "d737-af1a-f6d7-226a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 34}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "c23f-bf55-aa84-b8f6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "8b71-9edb-219a-8968",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "f421-8254-65a3-ac6f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Devastating Blow", "id": "50c8-77ac-9557-a7d4", "hidden": false, "targetId": "ef5a-bdc6-5744-5b1e", "type": "rule"},
+          {"name": "Path of Might", "id": "d40b-e7b2-7ad3-a7f9", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Imperial Headsman: Grim Executioner", "id": "62b8-497a-3250-c8d2", "hidden": false, "targetId": "3dcc-aca0-d2a4-349e", "type": "profile"},
+          {"name": "Imperial", "id": "df3a-c8c0-aa71-876e", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "5cda-eac0-b190-282c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "4f81-2915-82e0-8e8a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Imperial Headsman: Grim Executioner (Leveled)", "id": "4b6d-8e98-dc26-f210", "hidden": false, "targetId": "bd00-dd11-1dc4-1fd1", "type": "profile"},
+              {"name": "Perk: Intimidation", "id": "fb52-912f-87e8-28a9", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Captain: Garrison Commander",
+        "id": "e764-5fa7-0ea8-958e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 48}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Party Champion",
+            "id": "fac8-42f3-377e-41d1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "a359-3eff-dfc9-f0fb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "5324-a6c9-dd1f-3fef",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Invulnerable", "id": "6c02-77e9-6d6f-42d5", "hidden": false, "targetId": "cf30-bf63-5856-b9ca", "type": "rule"},
+          {"name": "Path of Might", "id": "064a-853f-4933-f14f", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Imperial Captain: Garrison Commander", "id": "9f5e-639d-380d-733b", "hidden": false, "targetId": "daec-73c2-b55a-ee45", "type": "profile"},
+          {"name": "Imperial", "id": "cf7a-7424-0e47-1ce1", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "No Mercy",
+            "id": "a855-cd6a-6bd3-8400",
+            "description": "This model and friendly Imperial Legion Followers within 3\" modify their attack rolls by -1 when targeting enemies with 2 [remaining] Health or less [slightly edited wording for clarity].",
+            "hidden": false,
+            "publicationId": "a37b-3a3b-faf7-0732"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "6b2d-a8a5-ea73-fe29",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "43cd-1f36-66d2-09f4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Imperial Captain: Garrison Commander (Leveled)", "id": "940f-2725-9db0-9768", "hidden": false, "targetId": "8bfe-2031-2b47-a858", "type": "profile"},
+              {"name": "Perk: Defensive Posture", "id": "528c-6ebf-3dd3-48c1", "hidden": false, "targetId": "fd4f-3ef9-2082-4adf", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Sword And Shield",
+        "id": "e723-610d-0c0f-f5cb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 22}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Might", "id": "8d43-e220-c264-48d2", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Imperial Soldier: Sword And Shield", "id": "d584-a400-d0d4-8260", "hidden": false, "targetId": "52cc-6a01-97d9-3045", "type": "profile"},
+          {"name": "Imperial", "id": "7a75-f4c0-8799-7725", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Heavy Armor",
+        "id": "f440-aaa7-8814-f988",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 30}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Might", "id": "e8ca-1a9b-b6ad-f074", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Imperial Soldier: Heavy Armor", "id": "2ad6-d9ee-43ca-aaca", "hidden": false, "targetId": "13d1-acd2-538f-e605", "type": "profile"},
+          {"name": "Imperial", "id": "c3e7-e3bb-2ade-647c", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Archer",
+        "id": "dca6-c5f7-43c9-aff9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "a37b-3a3b-faf7-0732",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 22}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Might", "id": "306f-2269-a5c5-adcf", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Imperial Soldier: Archer", "id": "273a-9e1e-62b8-5e4c", "hidden": false, "targetId": "b2a1-ed1c-b9d7-a2ff", "type": "profile"},
+          {"name": "Imperial", "id": "d405-52ff-7ad7-aada", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Imperial Recruit: Drillyard Trainee",
+        "id": "b350-a774-e96d-43bf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 19}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Might", "id": "2d6a-fe2b-c25f-b359", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Imperial Recruit: Drillyard Trainee", "id": "07fa-f459-92e9-14e4", "hidden": false, "targetId": "5d41-069b-3090-1ec0", "type": "profile"},
+          {"name": "Nord", "id": "b8ee-b224-b26e-1015", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Hadvar: Hero Of Helgen (Adversary)",
+        "id": "5aeb-1597-85dc-a277",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 45}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Might", "id": "b4a6-b861-7daa-8103", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Hadvar: Hero Of Helgen (Adversary)", "id": "f2e8-e505-7d01-e23d", "hidden": false, "targetId": "5089-8e23-c783-06cf", "type": "profile"},
+          {"name": "Nord", "id": "4515-95fd-d5ae-953f", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Hold The Line",
+            "id": "fc11-a496-9f10-0fed",
+            "description": "Imperial Legion Adversaries with shields that end their activation within 3\" of Hadvar automatically receive a Block token.",
+            "hidden": false,
+            "publicationId": "bcdd-038f-9aa1-3237"
+          }
+        ]
+      },
+      {
+        "name": "Imperial Soldier: Swordsman (Adversary)",
+        "id": "5873-1ffb-182f-4d0b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "bcdd-038f-9aa1-3237",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 22}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Might", "id": "26c5-75f9-077b-bb20", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Imperial Soldier: Swordsman (Adversary)", "id": "f7a3-af28-c28f-3c00", "hidden": false, "targetId": "cb75-ad31-e5c9-ffb0", "type": "profile"},
+          {"name": "Imperial", "id": "4032-e3cc-b1e1-ddf5", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"}
+        ]
+      }
+    ]
+  }
+}

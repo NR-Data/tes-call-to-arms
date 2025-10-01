@@ -1,0 +1,1091 @@
+{
+  "catalogue": {
+    "name": "Monsters (Adversaries Only)",
+    "id": "14a9-0fb6-a27d-8cc6",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "Mirmulnir: Mighty Hunter",
+        "id": "e8c5-3ff2-4d69-2bce",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "16fa-de76-6118-29f4",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Frost Troll: Fearsome Brute",
+        "id": "e1b0-72af-2bba-bba6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3714-59eb-b051-a675",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Elite", "id": "e7a9-3c01-b8b5-5f1a", "hidden": false, "primary": true, "targetId": "668a-03f2-10e2-1f0d"},
+          {"name": "Path of Might", "id": "8144-ca76-a439-2f04", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Monsters", "id": "24d5-ec54-fa11-67bd", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Troll: Raging Brute",
+        "id": "16df-f62e-7d42-004d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ee7b-31b9-a888-9bfa",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adversary Elite", "id": "350d-a8b5-7550-c624", "hidden": false, "primary": true, "targetId": "668a-03f2-10e2-1f0d"},
+          {"name": "Path of Might", "id": "536f-ea06-e47c-403c", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Monsters", "id": "263f-0f2e-48da-0e40", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vengeful Spirit: Ghost of the Blades",
+        "id": "a20d-ef14-b04f-2005",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c2cc-6c9b-9149-9e1e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "1652-3951-0b4d-b132", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Monsters", "id": "bd60-74d7-4677-4d85", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Adversary Master", "id": "9f5f-a01a-2f28-6f0b", "hidden": false, "primary": true, "targetId": "e4f3-19d3-b4a8-4788"},
+          {"name": "Undead (Non-Vampire)", "id": "33e0-78f6-27fd-8f2a", "hidden": false, "primary": false, "targetId": "ed75-2909-edc9-7369"},
+          {"name": "Skyrim: The Adventure Game", "id": "34e8-0245-a65f-6ea1", "hidden": false, "primary": false, "targetId": "9bab-4b58-ba6c-73d9"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spriggan Matron: Forest Guardian",
+        "id": "f915-c2fc-713c-4878",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c5ea-8e6b-e435-5569",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Monsters", "id": "9f48-5091-6340-0753", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Adversary Elite", "id": "e6d9-d8b6-e42a-8c34", "hidden": false, "primary": true, "targetId": "668a-03f2-10e2-1f0d"},
+          {"name": "Path of Shadow", "id": "bfa5-1bf8-2f19-37f0", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Sneak Skill", "id": "3350-b03f-0366-3c33", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spriggan: Forest Spirit",
+        "id": "bc02-708e-e35e-8fde",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e30c-51e4-cc55-c59c",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Monsters", "id": "fa30-9a03-99ab-c695", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Path of Shadow", "id": "1a44-41e7-ceeb-653e", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Sneak Skill", "id": "1fed-8fa9-8c55-c788", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Adversary Minion", "id": "5370-571b-754f-424a", "hidden": false, "primary": true, "targetId": "4470-2839-f56b-81ec"},
+          {"name": "Heavy Armor Skill", "id": "b636-e0e1-75e4-3168", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Destruction Skill", "id": "a87c-4550-df9e-3ecd", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dragon: Winged Terror",
+        "id": "7cf2-7259-39dd-2d82",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c976-d54d-b85c-15c5",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Monsters", "id": "0e1b-6d51-3775-b21d", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Epic Creature", "id": "be6f-51b3-9f97-89b8", "primary": true, "targetId": "c983-f514-755f-f01a"},
+          {"name": "Adversary Master", "id": "c041-dd82-b144-e70c", "primary": false, "targetId": "e4f3-19d3-b4a8-4788"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ancient Dragon: Skyrim's Bane",
+        "id": "23d3-6b31-2a0f-415b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "eeb6-e9be-de9b-d7f3",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Monsters", "id": "1184-170b-565d-70b5", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Epic Creature", "id": "f11a-eec1-7f43-cc6e", "primary": true, "targetId": "c983-f514-755f-f01a"},
+          {"name": "Adversary Master", "id": "e916-7a8d-973a-f88e", "primary": false, "targetId": "e4f3-19d3-b4a8-4788"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mirmulnir: Mighty Hunter",
+        "id": "74f7-0b1b-ebab-ed6c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "404b-67ae-19f6-d91a",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Monsters", "id": "e945-b732-fcd1-7542", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Epic Creature", "id": "b446-4fb7-726a-ac70", "primary": true, "targetId": "c983-f514-755f-f01a"},
+          {"name": "Adversary Master", "id": "f714-9e77-3311-5e66", "primary": false, "targetId": "e4f3-19d3-b4a8-4788"},
+          {"name": "Mirmulnir: Mighty Hunter", "id": "1b82-8919-207d-0680", "primary": false, "targetId": "e8c5-3ff2-4d69-2bce"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mammoth: Tundra Behemoths",
+        "id": "7a16-0243-bbb4-ba60",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "37fd-5067-fd62-3c5d",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Monsters", "id": "b5a4-98d0-7ae5-cb0d", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Epic Creature", "id": "0d53-7dd0-1568-b735", "primary": true, "targetId": "c983-f514-755f-f01a"},
+          {"name": "Adversary Master", "id": "aa70-22dd-5ef5-17dc", "primary": false, "targetId": "e4f3-19d3-b4a8-4788"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Giant: Mammoth Herder",
+        "id": "4b4c-204a-a316-d9e2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "832a-f2c6-4bf3-8417",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Monsters", "id": "6497-e0ac-06f8-0449", "hidden": false, "primary": false, "targetId": "7725-6e30-536f-634d"},
+          {"name": "Epic Creature", "id": "a1c5-2d86-209f-f17a", "primary": true, "targetId": "c983-f514-755f-f01a"},
+          {"name": "Adversary Master", "id": "5b4d-1f64-def2-d0ff", "primary": false, "targetId": "e4f3-19d3-b4a8-4788"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "Mammoth (Epic)",
+        "id": "d5d9-2187-61e5-4f9b",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "infoLinks": [
+          {"name": "Epic Creature", "id": "8cb8-46d0-c416-2586", "hidden": false, "targetId": "2993-1576-f2b7-2e90", "type": "infoGroup"},
+          {"name": "Terrifying", "id": "eef0-ddbc-b6a0-1dd4", "hidden": false, "targetId": "2204-0557-819c-8afb", "type": "rule"},
+          {"name": "Shambling", "id": "a08a-957b-6252-c77e", "hidden": false, "targetId": "0a08-aeef-9ff3-c86c", "type": "rule"},
+          {"name": "Slow to Anger", "id": "98de-5293-e10b-dcb3", "hidden": false, "targetId": "2bfc-f089-6e43-ba4d", "type": "rule"},
+          {"name": "Resistance (Type)", "id": "a620-b2ed-755b-6afd", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Mammoth Attack Profiles (EC)",
+            "id": "af08-d8e0-4b06-72f8",
+            "hidden": true,
+            "publicationId": "1d0d-fac6-d336-636f",
+            "typeId": "3eed-cdfe-6697-1378",
+            "typeName": "EC: Attack List",
+            "characteristics": [
+              {
+                "name": "Melee Attack 1",
+                "$text": "Headbutt (Strength):\n[GREEN][RED]\n[HELMET]: Shaken\n[SWORDS]: Stagger\n[OBLIVION]: add [YELLOW]",
+                "typeId": "4528-fe72-9af8-eb63"
+              },
+              {"name": "Melee Attack 2", "$text": "Trample (Endurance):\n[YELLOW][YELLOW][YELLOW]\n[HELMET]: Shaken", "typeId": "6027-b54c-adcd-0843"},
+              {
+                "name": "Melee Attack 3",
+                "$text": "Gore (Strength):\n[RED][RED]\n[HELMET]: Bleed\n[SWORDS]: Punishing (1)\n[OBLIVION]: Stagger",
+                "typeId": "819c-6f62-6841-fa43"
+              },
+              {"name": "Melee Attack 4", "$text": "Tusk Sweep (Wisdom):\n[YELLOW][YELLOW][YELLOW]\n[HELMET]: Force\nKeywords: Follow-Up", "typeId": "14c2-f947-a031-aa35"},
+              {
+                "name": "Melee Attack 5",
+                "$text": "Tusk Strike (One-Handed):\n[GREEN][YELLOW][YELLOW] (Force +2\" Pushback)\n[HELMET]: Punishing (1)\nKeywords: Linebreaker",
+                "typeId": "ac4e-f617-91b6-a440"
+              },
+              {"name": "Ranged Attack 1", "$text": "None", "typeId": "2b79-2169-5fb0-ee08"},
+              {"name": "Ranged Attack 2", "$text": "None", "typeId": "0f23-e8a4-9c13-0798"},
+              {"name": "Ranged Attack 3", "$text": "None", "typeId": "1b3e-90f4-668d-88f0"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "cd24-72a5-d8b3-ffe4",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mammoth Response Matrix (EC)",
+            "id": "bbf7-0edc-34dc-135e",
+            "hidden": true,
+            "publicationId": "1d0d-fac6-d336-636f",
+            "typeId": "1549-97d8-74cf-5961",
+            "typeName": "EC: Response Matrix",
+            "characteristics": [
+              {"name": "[HELMET]", "$text": "First: Defend\nSecond: Move\nThird: Attack", "typeId": "dd82-a030-a39d-3378"},
+              {"name": "[DOTS]", "$text": "First: Attack\nSecond: Attack\nThird: Move", "typeId": "d176-4ed5-d2ff-403a"},
+              {"name": "[SWORDS/OBLIVION]", "$text": "First: Move\nSecond: Objective\nThird: Fall Back", "typeId": "f105-1cce-b7c8-ffc1"},
+              {"name": "Target Priority", "$text": "1: Nearest\n2: Slowest\n3: Engaged", "typeId": "d168-4ef7-1042-e358"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "ec3c-7c34-5e74-089d",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Charge!",
+            "id": "5ec2-f8c3-3103-668e",
+            "description": "If this model performs a Melee Attack in the same activation that it Moves, add [RED] to the Attack roll.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Frost Troll: Fearsome Brute",
+        "id": "9398-32b3-a92e-ee85",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Monster", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength):[GREEN][RED]\n[SWORDS]: Punishing (2)\nFollow-Up [1]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Teeth And Claws, Terrifying, Troll Strike", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "6", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "5", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "3", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "4", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "3", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Troll: Raging Brute",
+        "id": "8d95-13e5-b0f7-9cff",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Monster", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength): [GREEN][RED]\n[SWORDS]: Punishing (2)\nFollow-Up [1]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Teeth And Claws, Terrifying, Troll Strike", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "6", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "5", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "3", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "4", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "3", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Vengeful Spirit: Ghost of the Blades",
+        "id": "d0a1-f084-0146-4d92",
+        "hidden": false,
+        "publicationId": "2ee0-173b-47e1-7ff1",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Master", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Undead", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {
+            "name": "Preferred Attack",
+            "$text": "Melee(Strength): [GREEN][RED][YELLOW]\n[HELMET]: Bleed\n[SWORDS]: Follow-Up [1]\nCumbersome, Two-Handed Block",
+            "typeId": "217f-bbc9-46d6-2059"
+          },
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW] (1)\n[OBLIVION]: add [RED]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Ethereal", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "6", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "4", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "8", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "3", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "5", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "4", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Spriggan Matron: Forest Guardian",
+        "id": "1615-b440-9430-c635",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Monster", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Shadow", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {
+            "name": "Preferred Attack",
+            "$text": "Ranged(Intelligence):\n8\" [GREEN][YELLOW][YELLOW]\nArea Effect (2\"), Enchanted, Poison (Health)",
+            "typeId": "217f-bbc9-46d6-2059"
+          },
+          {"name": "Secondary Attacks", "$text": "Melee(Strength): [GREEN][RED]\n[HELMET]: Poison (Health)\n[SWORDS]: add [YELLOW]", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [RED] (1)", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Regenerate Health, Resistance (Poison), Weakness (Fire)\nNatural Camouflage", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "4", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "4\nSneak", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "3", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "4", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "3", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "5", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Spriggan: Forest Spirit",
+        "id": "959d-81e7-83e1-8f37",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Minion", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Monster", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Shadow", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {
+            "name": "Preferred Attack",
+            "$text": "Ranged(Intelligence):\n8\" [GREEN][YELLOW][YELLOW]\nArea Effect (2\"), Enchanted, Poison (Health)",
+            "typeId": "217f-bbc9-46d6-2059"
+          },
+          {"name": "Secondary Attacks", "$text": "Melee(Strength): [GREEN][YELLOW][YELLOW]\n[HELMET]: Poison (Health)", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [RED]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Resistance (Poison), Weakness (Fire)\nNatural Camouflage", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "3", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3\nSneak", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "3\nHeavy Armor", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "3\nDestruction", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "3", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "1", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Dragonling: Matriarch",
+        "id": "942a-967d-821c-7ffd",
+        "hidden": false,
+        "publicationId": "2ee0-173b-47e1-7ff1",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Elite", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Monster", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Might", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {"name": "Preferred Attack", "$text": "Melee(Strength):[GREEN][RED]\n[SWORDS]: Punishing (2)\nFollow-Up [1]", "typeId": "217f-bbc9-46d6-2059"},
+          {"name": "Secondary Attacks", "$text": "None", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Teeth And Claws, Terrifying", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "6", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "3", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "5", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "2", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "3", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "4", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "3", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      },
+      {
+        "name": "Dragon: Winged Terror",
+        "id": "fbea-ce8c-5f44-2224",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "13d3-4e22-de74-27a4",
+        "typeName": "Epic Creature",
+        "alias": ["Dragon", "Dragons"],
+        "characteristics": [
+          {"name": "Race", "$text": "Monster (Dragon)", "typeId": "b0e3-4005-9d4e-a996"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "dd44-73e1-d6e0-5812"},
+          {"name": "Attacks", "$text": "See Dragon Attack Profiles", "typeId": "f82b-2be9-8434-72cd"},
+          {"name": "Armor", "$text": "No Type: [BLACK][RED]", "typeId": "8856-0073-7582-124b"},
+          {"name": "Keywords", "$text": "Epic Creature, Shambling, Terrifying", "typeId": "e7c5-6dfa-2015-ef09"},
+          {"name": "Abilities", "$text": "Dragon Soul, Thu'um Weakness, Undead Thralls", "typeId": "1b12-952b-2436-a83c"},
+          {"name": "Strength", "$text": "7", "typeId": "fb49-1ec9-8b68-1423"},
+          {"name": "Agility", "$text": "4", "typeId": "b489-6dff-b74d-f72b"},
+          {"name": "Endurance", "$text": "6", "typeId": "1fb9-2ec5-d6cd-5048"},
+          {"name": "Intelligence", "$text": "5", "typeId": "7c66-db49-3e04-f5b9"},
+          {"name": "Wisdom", "$text": "4", "typeId": "7f35-99bd-41e5-cf1d"},
+          {"name": "Health", "$text": "12", "typeId": "fb9c-d714-46de-bcab"},
+          {"name": "Height", "$text": "5", "typeId": "9705-84c5-abb5-a968"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "33fa-d0ea-d0c6-f092"}
+        ]
+      },
+      {
+        "name": "Ancient Dragon: Skyrim's Bane",
+        "id": "46b5-1337-bb09-d759",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "13d3-4e22-de74-27a4",
+        "typeName": "Epic Creature",
+        "alias": ["Ancient Dragon", "Ancient Dragons"],
+        "characteristics": [
+          {"name": "Race", "$text": "Monster (Dragon)", "typeId": "b0e3-4005-9d4e-a996"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "dd44-73e1-d6e0-5812"},
+          {"name": "Attacks", "$text": "See Dragon Attack Profiles", "typeId": "f82b-2be9-8434-72cd"},
+          {"name": "Armor", "$text": "No Type: [BLACK][BLACK]", "typeId": "8856-0073-7582-124b"},
+          {"name": "Keywords", "$text": "Epic Creature, Shambling, Terrifying", "typeId": "e7c5-6dfa-2015-ef09"},
+          {"name": "Abilities", "$text": "Dragon Soul, Thu'um Weakness, Undead Thralls", "typeId": "1b12-952b-2436-a83c"},
+          {"name": "Strength", "$text": "7", "typeId": "fb49-1ec9-8b68-1423"},
+          {"name": "Agility", "$text": "4", "typeId": "b489-6dff-b74d-f72b"},
+          {"name": "Endurance", "$text": "7", "typeId": "1fb9-2ec5-d6cd-5048"},
+          {"name": "Intelligence", "$text": "6", "typeId": "7c66-db49-3e04-f5b9"},
+          {"name": "Wisdom", "$text": "5", "typeId": "7f35-99bd-41e5-cf1d"},
+          {"name": "Health", "$text": "16", "typeId": "fb9c-d714-46de-bcab"},
+          {"name": "Height", "$text": "5", "typeId": "9705-84c5-abb5-a968"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "33fa-d0ea-d0c6-f092"}
+        ]
+      },
+      {
+        "name": "Mirmulnir: Mighty Hunter",
+        "id": "eca5-0ad8-bdb0-8e8b",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "13d3-4e22-de74-27a4",
+        "typeName": "Epic Creature",
+        "alias": ["Mirmulnir"],
+        "characteristics": [
+          {"name": "Race", "$text": "Monster (Dragon)", "typeId": "b0e3-4005-9d4e-a996"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "dd44-73e1-d6e0-5812"},
+          {"name": "Attacks", "$text": "See Dragon Attack Profiles", "typeId": "f82b-2be9-8434-72cd"},
+          {"name": "Armor", "$text": "No Type: [BLACK][RED]", "typeId": "8856-0073-7582-124b"},
+          {"name": "Keywords", "$text": "Epic Creature, Shambling, Terrifying", "typeId": "e7c5-6dfa-2015-ef09"},
+          {"name": "Abilities", "$text": "Dragon Soul, Thu'um Weakness, Undead Thralls", "typeId": "1b12-952b-2436-a83c"},
+          {"name": "Strength", "$text": "7", "typeId": "fb49-1ec9-8b68-1423"},
+          {"name": "Agility", "$text": "4", "typeId": "b489-6dff-b74d-f72b"},
+          {"name": "Endurance", "$text": "6", "typeId": "1fb9-2ec5-d6cd-5048"},
+          {"name": "Intelligence", "$text": "5", "typeId": "7c66-db49-3e04-f5b9"},
+          {"name": "Wisdom", "$text": "4", "typeId": "7f35-99bd-41e5-cf1d"},
+          {"name": "Health", "$text": "14", "typeId": "fb9c-d714-46de-bcab"},
+          {"name": "Height", "$text": "5", "typeId": "9705-84c5-abb5-a968"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "33fa-d0ea-d0c6-f092"}
+        ]
+      },
+      {
+        "name": "Giant: Mammoth Herder",
+        "id": "2d2a-9c50-8422-3a23",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "13d3-4e22-de74-27a4",
+        "typeName": "Epic Creature",
+        "alias": ["Giant", "Giants"],
+        "characteristics": [
+          {"name": "Race", "$text": "Monster", "typeId": "b0e3-4005-9d4e-a996"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "dd44-73e1-d6e0-5812"},
+          {"name": "Attacks", "$text": "See Giant Attack Profiles", "typeId": "f82b-2be9-8434-72cd"},
+          {"name": "Armor", "$text": "Light Armor: [RED]", "typeId": "8856-0073-7582-124b"},
+          {"name": "Keywords", "$text": "Epic Creature, Shambling, Terrifying", "typeId": "e7c5-6dfa-2015-ef09"},
+          {"name": "Abilities", "$text": "Slow to Anger", "typeId": "1b12-952b-2436-a83c"},
+          {"name": "Strength", "$text": "7\nOne-Handed", "typeId": "fb49-1ec9-8b68-1423"},
+          {"name": "Agility", "$text": "3", "typeId": "b489-6dff-b74d-f72b"},
+          {"name": "Endurance", "$text": "6\nLight Armor", "typeId": "1fb9-2ec5-d6cd-5048"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7c66-db49-3e04-f5b9"},
+          {"name": "Wisdom", "$text": "4", "typeId": "7f35-99bd-41e5-cf1d"},
+          {"name": "Health", "$text": "10", "typeId": "fb9c-d714-46de-bcab"},
+          {"name": "Height", "$text": "5", "typeId": "9705-84c5-abb5-a968"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "33fa-d0ea-d0c6-f092"}
+        ]
+      },
+      {
+        "name": "Mammoth: Tundra Behemoths",
+        "id": "64f3-aaac-93c5-a57d",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "13d3-4e22-de74-27a4",
+        "typeName": "Epic Creature",
+        "alias": ["Mammoth"],
+        "characteristics": [
+          {"name": "Race", "$text": "Monster", "typeId": "b0e3-4005-9d4e-a996"},
+          {"name": "Attitude", "$text": "Cautious", "typeId": "dd44-73e1-d6e0-5812"},
+          {"name": "Attacks", "$text": "See Mammoth Attack Profiles", "typeId": "f82b-2be9-8434-72cd"},
+          {"name": "Armor", "$text": "No Type: [RED]", "typeId": "8856-0073-7582-124b"},
+          {"name": "Keywords", "$text": "Epic Creature, Shambling, Resistance (Frost)", "typeId": "e7c5-6dfa-2015-ef09"},
+          {"name": "Abilities", "$text": "Charge!, Slow to Anger", "typeId": "1b12-952b-2436-a83c"},
+          {"name": "Strength", "$text": "7", "typeId": "fb49-1ec9-8b68-1423"},
+          {"name": "Agility", "$text": "3", "typeId": "b489-6dff-b74d-f72b"},
+          {"name": "Endurance", "$text": "6", "typeId": "1fb9-2ec5-d6cd-5048"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7c66-db49-3e04-f5b9"},
+          {"name": "Wisdom", "$text": "3", "typeId": "7f35-99bd-41e5-cf1d"},
+          {"name": "Health", "$text": "12", "typeId": "fb9c-d714-46de-bcab"},
+          {"name": "Height", "$text": "5", "typeId": "9705-84c5-abb5-a968"},
+          {"name": "Primary Faction", "$text": "Monsters", "typeId": "33fa-d0ea-d0c6-f092"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Troll Strike",
+        "id": "e0fa-05b5-4907-1a6e",
+        "description": "When a Troll performs a Power Attack Boost, it adds [RED] instead of [YELLOW] to the attack roll.",
+        "hidden": false,
+        "publicationId": "6505-1b24-c5b0-6421"
+      },
+      {
+        "name": "Natural Camouflage",
+        "id": "f9f3-1104-5c5a-eca2",
+        "description": "When [this model] is first deployed (and when it Spawns), it gains the Invisible keyword until the end of the round.",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318"
+      },
+      {
+        "name": "Dragon Situation Table (EC)",
+        "id": "29b4-8a0b-a298-21ff",
+        "description": "[see pg. 12 in Chapter 4 Booklet for priority explanation]\n- Not Engaged & Enemy model in LOS -> Fireball\n- Enemy model within LOS and 6\" -> Flame Breath\n- Engaged with 1 model -> Slash\n- Engaged with 2 models -> Stomp\n- Engaged with 1 model -> Bite\n- Engaged with 3+ models -> Sweep\n- Not Engaged or Engaged -> Swipe",
+        "hidden": true,
+        "page": 12,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "dae1-93bd-7ee1-fee0",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Giant Situation Table (EC)",
+        "id": "bb95-9fa2-90ce-e447",
+        "description": "[see pg. 12 in Chapter 4 Booklet for priority explanation]\n- Engaged with 1 model -> Squeeze\n- Engaged with 2 models -> Giant Stomp\n- Engaged with 1 model -> Club Whack\n- Engaged with 3+ models -> Club Sweep\n- Not Engaged or Engaged -> Club Slam",
+        "hidden": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "dae1-93bd-7ee1-fee0",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mammoth Situation Table (EC)",
+        "id": "9d8f-5490-2b3c-39b4",
+        "description": "[see pg. 12 in Chapter 4 Booklet for priority explanation]\n- Engaged with 1 model -> Headbutt\n- Engaged with 2 models -> Trample\n- Engaged with 1 model -> Gore\n- Engaged with 3+ models -> Tusk Sweep\n- Not Engaged or Engaged -> Tusk Strike",
+        "hidden": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "dae1-93bd-7ee1-fee0",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Frost Troll: Fearsome Brute",
+        "id": "3714-59eb-b051-a675",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 42}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Frost Troll: Fearsome Brute", "id": "414c-66f5-3af3-a6aa", "hidden": false, "targetId": "9398-32b3-a92e-ee85", "type": "profile"},
+          {"name": "Resistance (Type)", "id": "f791-e381-64c6-3329", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"},
+          {"name": "Monster", "id": "a311-ad5c-120f-904b", "hidden": false, "targetId": "98ec-665b-cecc-6709", "type": "infoGroup"},
+          {"name": "Troll Strike", "id": "1799-2229-3a15-b1e8", "hidden": false, "targetId": "e0fa-05b5-4907-1a6e", "type": "rule"},
+          {"name": "Follow-Up", "id": "1105-80cb-b3be-403f", "hidden": false, "targetId": "b30a-9fa8-7a06-ce70", "type": "rule"},
+          {"name": "Path of Might", "id": "bd04-1ea9-80c7-9110", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Troll: Raging Brute",
+        "id": "ee7b-31b9-a888-9bfa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "6505-1b24-c5b0-6421",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 39}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Troll: Raging Brute", "id": "8fc8-6d17-6ba5-4577", "hidden": false, "targetId": "8d95-13e5-b0f7-9cff", "type": "profile"},
+          {"name": "Monster", "id": "4206-5dcb-ef65-97cb", "hidden": false, "targetId": "98ec-665b-cecc-6709", "type": "infoGroup"},
+          {"name": "Troll Strike", "id": "bb06-ab76-0e70-36a7", "hidden": false, "targetId": "e0fa-05b5-4907-1a6e", "type": "rule"},
+          {"name": "Follow-Up", "id": "8b60-8049-64d0-79d7", "hidden": false, "targetId": "b30a-9fa8-7a06-ce70", "type": "rule"},
+          {"name": "Path of Might", "id": "3820-7831-5326-437a", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Vengeful Spirit: Ghost of the Blades",
+        "id": "c2cc-6c9b-9149-9e1e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2ee0-173b-47e1-7ff1",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 65}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Vengeful Spirit: Ghost of the Blades", "id": "6e31-4008-857f-ba50", "hidden": false, "targetId": "d0a1-f084-0146-4d92", "type": "profile"},
+          {"name": "Monster", "id": "fd6e-6c66-79d9-9f1d", "hidden": false, "targetId": "98ec-665b-cecc-6709", "type": "infoGroup"},
+          {"name": "Two-Handed Block", "id": "bbf2-f901-36bb-9f9c", "hidden": false, "targetId": "aa94-2a05-4635-c76b", "type": "rule"},
+          {"name": "Cumbersome", "id": "98d8-dd03-a876-f277", "hidden": false, "targetId": "be29-25db-e215-b3b0", "type": "rule"},
+          {"name": "Ethereal", "id": "bc4f-2763-96b2-ccd9", "hidden": false, "targetId": "0550-3332-7a93-ab5b", "type": "rule"},
+          {"name": "Path of Might", "id": "757e-7f47-f718-30ba", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Spriggan Matron: Forest Guardian",
+        "id": "c5ea-8e6b-e435-5569",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 50}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Spriggan Matron: Forest Guardian", "id": "07c1-8150-d074-50dc", "hidden": false, "targetId": "1615-b440-9430-c635", "type": "profile"},
+          {"name": "Monster", "id": "24e1-5fa8-02d9-0ddc", "hidden": false, "targetId": "98ec-665b-cecc-6709", "type": "infoGroup"},
+          {"name": "Enchanted", "id": "d7f8-9580-a136-5559", "hidden": false, "targetId": "1875-9b07-2a07-aacc", "type": "rule"},
+          {"name": "Area Effect (X\")", "id": "7a88-a9ae-ac1b-793b", "hidden": false, "targetId": "8b30-4913-1be7-6809", "type": "rule"},
+          {"name": "Poison", "id": "9b00-c0b8-5ec7-70a6", "hidden": false, "targetId": "45f6-0dbe-bc2c-ce4f", "type": "rule"},
+          {"name": "Regenerate Health", "id": "4d52-40f8-64e3-e945", "hidden": false, "targetId": "9093-1c12-08d9-ec7f", "type": "rule"},
+          {"name": "Resistance (Type)", "id": "7439-48ea-8af5-0fd2", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"},
+          {"name": "Weakness (Type)", "id": "09fa-1f96-8a90-6c39", "hidden": false, "targetId": "550d-354c-0e2a-c57b", "type": "rule"},
+          {"name": "Path of Shadow", "id": "f4cb-cddc-54dc-a0b8", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Natural Camouflage", "id": "f671-e4f9-8113-ac46", "hidden": false, "targetId": "f9f3-1104-5c5a-eca2", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Spriggan: Forest Spirit",
+        "id": "e30c-51e4-cc55-c59c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 26}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Spriggan: Forest Spirit", "id": "ffea-42f8-b536-419b", "hidden": false, "targetId": "959d-81e7-83e1-8f37", "type": "profile"},
+          {"name": "Monster", "id": "99f0-8e10-7418-0db6", "hidden": false, "targetId": "98ec-665b-cecc-6709", "type": "infoGroup"},
+          {"name": "Enchanted", "id": "0b11-8b7a-e698-8157", "hidden": false, "targetId": "1875-9b07-2a07-aacc", "type": "rule"},
+          {"name": "Area Effect (X\")", "id": "fd63-8261-e65a-13b6", "hidden": false, "targetId": "8b30-4913-1be7-6809", "type": "rule"},
+          {"name": "Poison", "id": "6208-2b4c-51c4-7bf2", "hidden": false, "targetId": "45f6-0dbe-bc2c-ce4f", "type": "rule"},
+          {"name": "Resistance (Type)", "id": "00d6-a7fc-9158-c6c0", "hidden": false, "targetId": "b048-ffef-95a3-aaf9", "type": "rule"},
+          {"name": "Weakness (Type)", "id": "f2cf-5401-6420-d407", "hidden": false, "targetId": "550d-354c-0e2a-c57b", "type": "rule"},
+          {"name": "Path of Shadow", "id": "9109-357d-5b0f-a672", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Natural Camouflage", "id": "787e-1318-35f4-5b39", "hidden": false, "targetId": "f9f3-1104-5c5a-eca2", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Dragon: Winged Terror",
+        "id": "c976-d54d-b85c-15c5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 175}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Dragon: Winged Terror", "id": "437c-9eb0-91b1-b798", "hidden": false, "targetId": "fbea-ce8c-5f44-2224", "type": "profile"},
+          {"name": "Dragon (Epic)", "id": "cb29-fb62-4de3-b216", "hidden": false, "targetId": "de9c-d4e8-42ec-483f", "type": "infoGroup"},
+          {"name": "Dragon Situation Table (EC)", "id": "150c-e197-65b3-c5ca", "hidden": false, "targetId": "29b4-8a0b-a298-21ff", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Ancient Dragon: Skyrim's Bane",
+        "id": "eeb6-e9be-de9b-d7f3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 200}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Ancient Dragon: Skyrim's Bane", "id": "5caa-6b66-62a2-daa6", "hidden": false, "targetId": "46b5-1337-bb09-d759", "type": "profile"},
+          {"name": "Dragon (Epic)", "id": "50d8-e936-e626-7551", "hidden": false, "targetId": "de9c-d4e8-42ec-483f", "type": "infoGroup"},
+          {
+            "name": "Dragon Situation Table (EC)",
+            "id": "7664-5e45-91da-374d",
+            "hidden": false,
+            "targetId": "29b4-8a0b-a298-21ff",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "(Ancient) Dragon Situation Table"}]
+          }
+        ]
+      },
+      {
+        "name": "Mirmulnir: Mighty Hunter",
+        "id": "404b-67ae-19f6-d91a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 185}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Mirmulnir: Mighty Hunter", "id": "060a-93d8-afdf-f3fc", "hidden": false, "targetId": "eca5-0ad8-bdb0-8e8b", "type": "profile"},
+          {"name": "Dragon (Epic)", "id": "a756-d179-bbf2-a1d3", "hidden": false, "targetId": "de9c-d4e8-42ec-483f", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Mirmulnir Situation Table",
+            "id": "b1ed-7027-58da-9b1f",
+            "description": "[see pg. 12 in Chapter 4 Booklet for priority explanation]\n- Not Engaged & Enemy model in LOS -> Fireball\n- Enemy model within LOS and 6\" -> Unrelenting Force\n- Engaged with 1 model -> Slash\n- Engaged with 2 models -> Stomp\n- Engaged with 1 model -> Bite\n- Engaged with 3+ models -> Sweep\n- Not Engaged or Engaged -> Swipe",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "cd24-72a5-d8b3-ffe4",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mammoth: Tundra Behemoths",
+        "id": "37fd-5067-fd62-3c5d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 145}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {
+            "name": "Mammoth: Tundra Behemoths",
+            "id": "02d8-5a85-a510-0b73",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f",
+            "targetId": "64f3-aaac-93c5-a57d",
+            "type": "profile"
+          },
+          {"name": "Mammoth (Epic)", "id": "b948-8183-ab10-5900", "hidden": false, "targetId": "d5d9-2187-61e5-4f9b", "type": "infoGroup"},
+          {"name": "Mammoth Situation Table (EC)", "id": "6371-ab24-fe70-d567", "hidden": false, "targetId": "9d8f-5490-2b3c-39b4", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Giant: Mammoth Herder",
+        "id": "832a-f2c6-4bf3-8417",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 135}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Giant: Mammoth Herder", "id": "fecf-9904-59b6-0aa5", "hidden": false, "targetId": "2d2a-9c50-8422-3a23", "type": "profile"},
+          {"name": "Giant (Epic)", "id": "6c74-28cc-6f37-5547", "hidden": false, "targetId": "f0f0-8791-6843-648e", "type": "infoGroup"},
+          {"name": "Giant Situation Table (EC)", "id": "fb53-7b83-980d-bc39", "hidden": false, "targetId": "bb95-9fa2-90ce-e447", "type": "rule"}
+        ]
+      }
+    ]
+  }
+}

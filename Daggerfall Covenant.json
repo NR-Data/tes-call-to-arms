@@ -1,0 +1,354 @@
+{
+  "catalogue": {
+    "name": "Daggerfall Covenant",
+    "id": "b3d3-9d9d-be15-9a99",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "The Breton: Covenant Champion",
+        "id": "9048-1b28-6695-27e0",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "dfc5-1ef9-065f-a1e5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "The Breton: Covenant Champion",
+        "id": "d153-5f38-f165-e36d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "def9-cb7a-994e-2f5b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "The Breton: Covenant Champion", "id": "6813-f09d-78a5-56fb", "hidden": false, "primary": false, "targetId": "9048-1b28-6695-27e0"},
+          {"name": "Path of Shadow", "id": "defe-d63f-ae42-818b", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Hero", "id": "ecc6-222c-18cf-f7c1", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Daggerfall Covenant", "id": "338e-f3c0-a6fa-b362", "hidden": false, "primary": false, "targetId": "f5a6-4501-1cef-61bd"},
+          {"name": "Adventurers", "id": "b74d-7c03-ed6d-7230", "hidden": false, "primary": false, "targetId": "2b45-4245-ce5e-5404"},
+          {"name": "One-Handed Skill", "id": "e886-0559-e546-67e8", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Light Armor Skill", "id": "f83e-e113-d357-1c5a", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Archery Skill", "id": "7266-398c-ac93-17a7", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "b7d9-18db-9220-5723", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Pickpocket Skill", "id": "0193-bbc8-fedd-6e40", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Sneak Skill", "id": "9ea8-4025-2f57-36ca", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c6ee-751e-e8e5-492a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Breton: Covenant Champion (Adversary)",
+        "id": "39e4-8902-5122-3da3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5dd5-3806-c41b-dcb5",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "The Breton: Covenant Champion", "id": "33c7-ab99-9b67-51cd", "hidden": false, "primary": false, "targetId": "9048-1b28-6695-27e0"},
+          {"name": "Path of Shadow", "id": "fdbe-f884-f692-c542", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Daggerfall Covenant", "id": "c2ea-a3be-c6f3-15ed", "hidden": false, "primary": false, "targetId": "f5a6-4501-1cef-61bd"},
+          {"name": "One-Handed Skill", "id": "a401-dd3d-f326-22e0", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Light Armor Skill", "id": "0f0b-0a12-5d67-ac46", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Sneak Skill", "id": "4f77-53a6-8531-2fcb", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Adversary Master", "id": "7734-ca73-c825-3236", "hidden": false, "primary": true, "targetId": "e4f3-19d3-b4a8-4788"},
+          {"name": "Archery Skill", "id": "0207-b7d9-32d4-b827", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bbf7-abb8-4849-4da1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "The Breton: Covenant Champion",
+        "id": "7e11-2676-505f-fc34",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Breton", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bladesman, Long Shots", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Acrobatic, Hidden Blade", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nArchery\nLockpicking\nPickpocket\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Daggerfall Covenant", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "Adventurers", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "The Breton: Covenant Champion (Leveled)",
+        "id": "3bff-289e-7d4b-62fe",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bladesman, Hasty Retreat, Long Shots, Twin Slashes", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Acrobatic, Hidden Blade", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nArchery\nLockpicking\nPickpocket\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "The Breton: Covenant Champion (Adversary)",
+        "id": "34ed-ff07-67c3-78e2",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "9939-28a1-e93d-71d0",
+        "typeName": "Adversary",
+        "characteristics": [
+          {"name": "Adversary Rank", "$text": "Master (Unique)", "typeId": "b506-46c3-0ff9-6650"},
+          {"name": "Race", "$text": "Breton", "typeId": "c1d8-853a-18ad-4511"},
+          {"name": "Path", "$text": "Shadow", "typeId": "faf6-3fcc-c353-3bc8"},
+          {"name": "Attitude", "$text": "Aggressive", "typeId": "f3f7-4ee3-dcdd-4b7d"},
+          {
+            "name": "Preferred Attack",
+            "$text": "Ranged(Archery):\n10\": [GREEN][BLACK]\n[HELMET]: Piercing (2)\n20\": [GREEN][YELLOW][YELLOW]\n[HELMET]: Piercing (1)",
+            "typeId": "217f-bbc9-46d6-2059"
+          },
+          {"name": "Secondary Attacks", "$text": "Melee(One-Handed): [GREEN][BLACK]\n[HELMET]: add [YELLOW]\n[SWORDS]: Piercing (2)", "typeId": "7c26-1128-4676-f76d"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW][YELLOW]", "typeId": "ce9a-405b-e3a2-c851"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "03c8-da5c-440b-5c01"},
+          {"name": "Keywords", "$text": "Resistance (Magic), Catfall", "typeId": "62a3-37ea-a582-3749"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "0bea-bfaa-9fae-8083"},
+          {"name": "Agility", "$text": "6\nArchery\nSneak", "typeId": "9055-26ea-d7bd-ec06"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "f46e-babd-33e8-82ff"},
+          {"name": "Intelligence", "$text": "3", "typeId": "a7a3-1f58-b7ce-eb97"},
+          {"name": "Wisdom", "$text": "4", "typeId": "9ff6-b34f-90f7-01bd"},
+          {"name": "Health", "$text": "3", "typeId": "2f5d-48a4-3018-d0d9"},
+          {"name": "Height", "$text": "2", "typeId": "5eb5-a408-61a8-c063"},
+          {"name": "Primary Faction", "$text": "Daggerfall Covenant", "typeId": "d211-84e5-473d-e07d"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "The Breton: Covenant Champion",
+        "id": "def9-cb7a-994e-2f5b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 58}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "8e24-2054-680a-b04d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "87c1-f006-f06a-782f",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "5746-d8d2-8aa5-8435", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "8de3-4c33-8d56-e01f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "c6ee-751e-e8e5-492a",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "The Breton: Covenant Champion", "id": "523f-5f65-c9fa-dc1f", "hidden": false, "targetId": "7e11-2676-505f-fc34", "type": "profile"},
+          {"name": "Perk: Bladesman", "id": "b1bf-10dc-9228-697f", "hidden": false, "targetId": "3988-d2f2-407a-a3b9", "type": "rule"},
+          {"name": "Perk: Long Shots", "id": "dedc-c687-397a-e06e", "hidden": false, "targetId": "381d-ce1c-00d2-59eb", "type": "rule"},
+          {"name": "Path of Shadow", "id": "1f43-9bf0-60de-4dfd", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Breton", "id": "1637-725e-2ca5-278b", "hidden": false, "targetId": "dd8e-535b-c433-c693", "type": "infoGroup"}
+        ],
+        "modifiers": [
+          {
+            "field": "b1c3-7317-4f6a-a8b9",
+            "type": "set",
+            "value": 0,
+            "conditions": [{"childId": "9bb6-43ae-1f58-ba79", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Acrobatic",
+            "id": "68b2-0ae4-95f7-8ce7",
+            "description": "The Breton may Climb up to double his own Height (but otherwise follows the normal Climbing rules), and never suffers Falling Damage.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          },
+          {
+            "name": "Hidden Blade",
+            "id": "63c9-cf92-136f-6cdc",
+            "description": "The Breton may perform a Shoot Action with any Throwing Knives in his Inventory, without the need to equip them first.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "ebb4-444e-acbc-d927",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "fc6a-2d15-ff0e-9318",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "6f54-092a-05be-206e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "The Breton: Covenant Champion (Leveled)", "id": "b35a-2e06-22dc-45a8", "hidden": false, "targetId": "3bff-289e-7d4b-62fe", "type": "profile"},
+              {"name": "Perk: Twin Slashes", "id": "20e0-48f8-27fa-6db1", "hidden": false, "targetId": "947e-a191-297f-95e5", "type": "rule"},
+              {"name": "Perk: Hasty Retreat", "id": "d0d6-4b86-af28-e8ce", "hidden": false, "targetId": "e7a2-df68-fe8b-bd85", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Breton: Covenant Champion (Adversary)",
+        "id": "5dd5-3806-c41b-dcb5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 60}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "The Breton: Covenant Champion (Adversary)", "id": "54a8-5651-0a34-2f3d", "hidden": false, "targetId": "34ed-ff07-67c3-78e2", "type": "profile"},
+          {"name": "Path of Shadow", "id": "ff66-4aa9-0191-10e5", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Breton", "id": "ccc5-1b38-089e-1b25", "hidden": false, "targetId": "dd8e-535b-c433-c693", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Catfall",
+            "id": "b5a6-d087-323f-af8a",
+            "description": "This model never takes Falling Damage.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ]
+      }
+    ]
+  }
+}
