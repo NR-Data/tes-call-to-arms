@@ -1,0 +1,2196 @@
+{
+  "catalogue": {
+    "name": "Bandits",
+    "id": "9615-d934-979e-7d79",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "Butcher: Cragslane Boss",
+        "id": "be3e-40fb-d1db-de99",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "980d-2ae1-244d-1b6e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Rigel Strong-Arm: Bandit Chieftain",
+        "id": "307b-2ebf-97f5-1271",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "1f16-5f18-6830-97d9",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Deeja: Blackblood Assassin",
+        "id": "2aad-00cf-05c1-104e",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "b054-cf5d-3402-c9df",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Raj'irr: White River Rogue",
+        "id": "ea7c-546f-4c04-3e92",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "6ba6-7f4c-f181-80fa",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Elisa Blackthorn: Frostmere Raider",
+        "id": "f101-c96e-0e0e-e7f6",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "be84-b6fb-5163-0b8e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Haldyn: Pirate Battlemage",
+        "id": "6851-e904-fc73-32d0",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "constraints": [
+          {
+            "id": "4163-8111-00cd-b4d6",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Butcher: Cragslane Boss",
+        "id": "a277-7b77-18a6-2076",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "8f48-bf78-6d7f-8df7",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "8917-a2c7-ebcb-81b6", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Archery Skill", "id": "844e-eba6-c184-251f", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "One-Handed Skill", "id": "8084-b76d-a7dc-4892", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Path of Might", "id": "8164-8d81-adaf-f740", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Heavy Armor Skill", "id": "8983-0b36-d073-628d", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Two-Handed Skill", "id": "9d81-eb60-fb84-501f", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Bandits", "id": "6a28-9958-c40c-4cb2", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Block Skill", "id": "ee79-0919-d00d-67a9", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Speech Skill", "id": "103d-9920-f89a-9b6c", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Butcher: Cragslane Boss", "id": "ed9c-ab73-8889-e9e2", "hidden": false, "primary": false, "targetId": "be3e-40fb-d1db-de99"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rigel Strong-Arm: Bandit Chieftain",
+        "id": "a9c2-7205-2355-6c8b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "dced-cff2-068d-3337",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "260f-1fa0-7099-fc85", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "4136-f09c-a2df-2d5c", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Path of Might", "id": "c32a-2dea-981f-7587", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Heavy Armor Skill", "id": "9299-9bdc-1886-413d", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Two-Handed Skill", "id": "ea67-8bac-aef5-811b", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Bandits", "id": "43a1-24d4-8b88-36c1", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Block Skill", "id": "d886-bb1f-7321-66dd", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Speech Skill", "id": "7173-4d43-1793-626c", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Rigel Strong-Arm: Bandit Chieftain", "id": "7749-5572-c3f8-3c9d", "hidden": false, "primary": false, "targetId": "307b-2ebf-97f5-1271"},
+          {"name": "Light Armor Skill", "id": "0cd3-3c42-2fec-8094", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Deeja: Blackblood Assassin",
+        "id": "b3b1-fe13-fa90-a077",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "8585-8ea8-6135-de0c",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "eaf4-f2eb-e70c-1963", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "dad3-9b11-11ab-f950", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Bandits", "id": "2196-67b6-2277-6282", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Light Armor Skill", "id": "fb60-0720-71ff-bf46", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Deeja: Blackblood Assassin", "id": "77f8-995e-4650-3a37", "hidden": false, "primary": false, "targetId": "2aad-00cf-05c1-104e"},
+          {"name": "Archery Skill", "id": "5415-c1e2-f5b3-a505", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "a8f1-7899-77c3-51f1", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Illusion Skill", "id": "16b9-7ad9-ac8f-b162", "hidden": false, "primary": false, "targetId": "93b4-afa5-eb85-d8ec"},
+          {"name": "Path of Shadow", "id": "f7f7-2d28-85d9-88ed", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raj'irr: White River Rogue",
+        "id": "027c-97e5-6b03-4add",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "5bee-e608-df02-ce3f",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "d219-0683-537e-6c61", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "5485-754c-342a-07c8", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Bandits", "id": "532b-eef8-5324-bf44", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Light Armor Skill", "id": "b188-c87f-ab77-4796", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Sneak Skill", "id": "0ef7-7219-0576-5960", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Raj'irr: White River Rogue", "id": "e517-ba53-6a2e-7df6", "hidden": false, "primary": false, "targetId": "ea7c-546f-4c04-3e92"},
+          {"name": "Path of Shadow", "id": "dd69-a245-75c7-87f8", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Lockpicking Skill", "id": "b5cc-f376-f4e5-523f", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eisa Blackthorn: Frostmere Raider",
+        "id": "d2bd-9c8a-09b0-a81f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "b2c1-c5d8-2dba-86de",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "1cf7-f99d-c5df-2dd5", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "76e3-d6b5-cb80-e29c", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Path of Might", "id": "97a9-9011-22a0-7fee", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Heavy Armor Skill", "id": "4b17-ea95-e157-58c3", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Two-Handed Skill", "id": "3d74-ca3a-4c0f-7446", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Bandits", "id": "8207-be3e-e3a4-d300", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Block Skill", "id": "a883-4383-0407-e23c", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Light Armor Skill", "id": "b19f-8af6-0fc4-5de2", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Elisa Blackthorn: Frostmere Raider", "id": "2e0d-5c90-310c-ebe8", "hidden": false, "primary": false, "targetId": "f101-c96e-0e0e-e7f6"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Haldyn: Pirate Battlemage",
+        "id": "d066-1c04-6309-9743",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "221d-f091-32ad-c539",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "a069-1b77-d47b-30f5", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "8eec-02ac-5352-4338", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Heavy Armor Skill", "id": "57ad-92e4-b84b-d9b8", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Bandits", "id": "bfd1-b34c-a873-e23f", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Light Armor Skill", "id": "ecaa-3e6f-0ca3-cc36", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Haldyn: Pirate Battlemage", "id": "4bde-305e-cb0d-e74e", "hidden": false, "primary": false, "targetId": "6851-e904-fc73-32d0"},
+          {"name": "Path of Sorcery", "id": "da19-5a29-f8dd-9500", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Alteration Skill", "id": "cebf-70c1-278f-f6ef", "hidden": false, "primary": false, "targetId": "2aea-a863-419f-ba90"},
+          {"name": "Conjuration Skill", "id": "9ff5-f51e-3e28-700c", "hidden": false, "primary": false, "targetId": "f1a5-f2a8-0691-3c85"},
+          {"name": "Destruction Skill", "id": "1853-bfa2-ee51-2aae", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Enchanting Skill", "id": "6612-033f-3344-94ca", "hidden": false, "primary": false, "targetId": "03bd-d045-659f-b234"},
+          {"name": "Smithing Skill", "id": "b8d8-dbb1-ed4b-27af", "hidden": false, "primary": false, "targetId": "c7db-eac8-21dc-49a0"},
+          {"name": "Restoration Skill", "id": "f7f8-1d7a-e9ce-e8d3", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Chief: Vicious Marauder",
+        "id": "73bf-c9d3-b47e-265b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "targetId": "f4d4-a805-0779-4374",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "897e-fc25-c3e7-3974", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "4c13-d9d3-d7ac-c036", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Path of Might", "id": "c09a-3cc5-4187-5f50", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Heavy Armor Skill", "id": "38ad-64d5-c7ac-ac6a", "hidden": false, "primary": false, "targetId": "e8e8-69e8-5565-af4f"},
+          {"name": "Two-Handed Skill", "id": "fbcf-594b-28b0-ea3a", "hidden": false, "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Bandits", "id": "0263-8201-5066-38ae", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Block Skill", "id": "d98d-ce76-be06-13f2", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Speech Skill", "id": "5da7-f39e-22a7-62dc", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Light Armor Skill", "id": "473c-0e2a-af98-8e6a", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Sneak Skill", "id": "c2be-e97d-c454-74e3", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Pickpocket Skill", "id": "a330-dc5d-1790-e805", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Lockpicking Skill", "id": "e458-759d-8b56-1c23", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Archery Skill", "id": "94ca-f6d9-6fa4-6762", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Plunderer: Nord Axeman",
+        "id": "c967-4d34-cf41-15dc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1022-f408-89e4-8840",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "975c-4f92-2e45-00a0", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "3bcc-8826-18f3-8327", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Bandits", "id": "c432-c3f0-0b93-4f23", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Marauder: Nord Barbarian",
+        "id": "0eaa-0c2f-14e4-a0a9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4842-defb-f766-aeb8",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "b2d5-3b8c-5155-b665", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "397b-f59d-f748-e962", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Bandits", "id": "cdc2-4206-815b-38e5", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Warrior: Nord Warrior",
+        "id": "267e-80bc-668c-a340",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b8ec-2bcb-2a23-ce21",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "3451-f608-7280-cfcc", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "5540-29e4-668c-aef9", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Bandits", "id": "3855-d8e2-0fc2-7361", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Outlaw: Nord Ranger",
+        "id": "cb36-919a-28fe-d7d8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "637f-682a-e7e9-4010",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Follower", "id": "d5fa-2a3d-f274-52f3", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Bandits", "id": "8757-1006-f3fe-7cb6", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"},
+          {"name": "Path of Shadow", "id": "3d1e-0292-f1e5-ccbb", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Warrior: Orc Warrior",
+        "id": "00e5-2a98-c246-0169",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "556b-d9cb-69e3-7b90",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Path of Might", "id": "e9b8-b0c7-a6d4-e9b4", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Follower", "id": "ac2b-a3ff-44e1-dcd5", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Bandits", "id": "d100-e4c4-ea94-b1cc", "hidden": false, "primary": false, "targetId": "d052-3a4c-7811-5d93"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "8f46-4e02-54b3-0331",
+                "field": "b1c3-7317-4f6a-a8b9",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8f46-4e02-54b3-0331",
+                    "field": "b1c3-7317-4f6a-a8b9",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Butcher: Cragslane Boss",
+        "id": "e1e6-8234-36bc-634b",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Dunmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Barbarian, Conditioning, Intimidation", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Fire)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Devastating Assault", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Butcher: Cragslane Boss (Leveled)",
+        "id": "e113-1c1f-9629-ae21",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Barbarian, Conditioning, Intimidation, Revitalize", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Fire)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Devastating Assault", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Rigel Strong-Arm: Bandit Chieftain",
+        "id": "486a-2e22-8fe2-f159",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Conditioning, Sword and Board", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Imperial Enmity, Little Sabrecat", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Rigel Strong-Arm: Bandit Chieftain (Leveled)",
+        "id": "4ebe-6dac-faca-e098",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Conditioning, Deadly Bash, Sword and Board", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Imperial Enmity, Little Sabrecat", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Deeja: Blackblood Assassin",
+        "id": "2754-a31d-af30-f737",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Argonian", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Assassin's Blade", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Histskin, Waterbreathing", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Knife in the Belly", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3\nIllusion", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "2", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "2", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Deeja: Blackblood Assassin (Leveled)",
+        "id": "0a2c-1e58-7dda-80d7",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Assassin's Blade, Paralyzing Strike", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Histskin, Waterbreathing", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Knife in the Belly", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3\nIllusion", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "2", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Raj'irr: White River Rogue",
+        "id": "a56c-bb66-54af-25f0",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Khajiit", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Treasure Hunter", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Night Eye, Teeth & Claws", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Raj'irr: White River Rogue (Leveled)",
+        "id": "2014-1809-d6bd-e60a",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Timely Escape, Treasure Hunter", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Night Eye, Teeth & Claws", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Eisa Blackthorn: Frostmere Raider",
+        "id": "c112-2556-9b3a-95bf",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Hack and Slash", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Eisa Blackthorn: Frostmere Raider (Leveled)",
+        "id": "bdc2-e491-7dd9-db25",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Hack and Slash, Wind Walker", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Haldyn: Pirate Battlemage",
+        "id": "21b8-cb06-133e-efd1",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Redguard", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Augmented Shock, Storm Enchanter", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Adrenaline Rush", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Gangmaster", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "5\nDestruction\nConjuration\nAlteration", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nRestoration\nEnchanting", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "3", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Haldyn: Pirate Battlemage (Leveled)",
+        "id": "637f-38c7-abba-67d6",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Augmented Shock, Storm Enchanter", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Adrenaline Rush", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Gangmaster", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "5\nDestruction\nConjuration\nAlteration", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nRestoration\nEnchanting", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "4", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Bandit Chief: Vicious Marauder",
+        "id": "9f98-125d-c357-993d",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Custom Fit, Uppercut", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Brutal Leader", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery\nLockpicking\nSneak\nPickpocket", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Bandit Chief: Vicious Marauder (Leveled)",
+        "id": "9a4d-27f4-86e1-6407",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Custom Fit, Intimidation, Uppercut", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Brutal Leader", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed\nTwo-Handed\nBlock", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nArchery\nLockpicking\nSneak\nPickpocket", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor\nHeavy Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Bandit Plunderer: Nord Axeman",
+        "id": "be3d-66b4-4e5e-31c8",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [RED]\n[HELMET]: Bleed", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [RED]\n[HELMET]: add [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [YELLOW]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost), Brigand", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "2", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "4", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Bandit Marauder: Nord Barbarian",
+        "id": "451f-9163-74fe-52c9",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {
+            "name": "Melee Attacks",
+            "$text": "Two-Handed: [RED][YELLOW]\n[HELMET]: Bleed\n[SWORDS]: add [GREEN]\nCumbersome, Two-Handed Block",
+            "typeId": "6cbd-4946-2719-08aa"
+          },
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [RED]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nBlock\nTwo-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "2", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Bandit Warrior: Nord Warrior",
+        "id": "af95-21c4-2e8b-0fa2",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [YELLOW][YELLOW]\n[HELMET]: add [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [YELLOW]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nBlock\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "3", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "2", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Bandit Outlaw: Nord Ranger",
+        "id": "e137-e3cd-fc26-5e30",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][YELLOW]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "Archery\n8\": [RED]\n24\": [YELLOW]\n[HELMET]: add [GREEN]\n[SWORDS]: Piercing (1)", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW] (1)", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "3", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Bandit Warrior: Orc Warrior",
+        "id": "9681-179c-10b3-05e8",
+        "comment": "The real Hero here!",
+        "hidden": false,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hireling Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Orsimer", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Might", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [YELLOW][YELLOW]\n[HELMET]: add [GREEN]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "Shield (Block): [YELLOW]", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Berserker Rage", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "2", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "2", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "3", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Bandits", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Butcher: Cragslane Boss",
+        "id": "8f48-bf78-6d7f-8df7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 69}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "95dd-8663-5805-9d28",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "4936-d5f3-7de2-5ded",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "ab1f-6a89-27e3-251e", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "337d-bde0-a286-33c5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Butcher: Cragslane Boss", "id": "9c4a-a3d0-ca6b-041e", "hidden": false, "targetId": "e1e6-8234-36bc-634b", "type": "profile"},
+          {"name": "Path of Might", "id": "52ec-48a4-4c18-8e95", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Dunmer", "id": "c5a9-ef4e-b35f-d2bc", "hidden": false, "targetId": "a0cb-51aa-e265-db37", "type": "infoGroup"},
+          {"name": "Perk: Barbarian", "id": "4c34-f4bf-3639-49e0", "hidden": false, "targetId": "075c-5345-7cb8-f820", "type": "rule"},
+          {"name": "Perk: Conditioning", "id": "a638-76a2-084d-24ee", "hidden": false, "targetId": "6486-0fbf-504b-ff6f", "type": "rule"},
+          {"name": "Perk: Intimidation", "id": "3505-1853-75d4-158a", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Devastating Assault",
+            "id": "c0f0-20da-51ed-a403",
+            "description": "When Butcher is the Party Champion, friendly models within 6\" of Butcher that benefit from the Bandit's Strength in Numbers [rule] may choose to add [RED] to their Melee Attacks instead of [GREEN].",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "6f0d-beec-36d8-22d9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "760a-bdbd-a933-69a8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Butcher: Cragslane Boss (Leveled)", "id": "2218-4b70-6f90-9f9c", "hidden": false, "targetId": "e113-1c1f-9629-ae21", "type": "profile"},
+              {"name": "Perk: Revitalize", "id": "74c8-78f5-db28-5959", "hidden": false, "targetId": "a6f5-80cc-4900-cc71", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rigel Strong-Arm: Bandit Chieftain",
+        "id": "dced-cff2-068d-3337",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 46}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "5cb9-8496-1e1d-cd64",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "7565-3b06-bfca-114d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "0e3a-bb7e-663b-a070", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "b7cd-5837-c2dc-55c4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Rigel Strong-Arm: Bandit Chieftain", "id": "9031-7079-aa00-aa18", "hidden": false, "targetId": "486a-2e22-8fe2-f159", "type": "profile"},
+          {"name": "Path of Might", "id": "0c36-91ce-b0d1-0941", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "736e-6f7e-8589-03a8", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Sword and Board", "id": "fb7c-b55f-0a7e-1b27", "hidden": false, "targetId": "6dcb-4217-410a-0a0f", "type": "rule"},
+          {"name": "Perk: Conditioning", "id": "d115-7da6-1ddb-43cf", "hidden": false, "targetId": "6486-0fbf-504b-ff6f", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Imperial Enmity (1)",
+            "id": "3f8e-6dff-0548-591d",
+            "description": "When targeting a model with the Imperial Legion Faction [icon] with an Attack, Rigel may reroll the Skill Die [once] if she fails to hit.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          },
+          {
+            "name": "Little Sabrecat",
+            "id": "6a7b-effb-198d-72b7",
+            "description": "When Rigel inflicts damage via a Melee Attack, she gains the Piercing (2) keyword in addition to any [other] special effects [and] all friendly Bandit Faction models within 6\" yet to activate add Piercing (1) to their Attacks for the rest of the round.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "3c5f-889f-d9a3-b317",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "0484-ce4e-a05f-f54b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Rigel Strong-Arm: Bandit Chieftain (Leveled)", "id": "3236-3b6b-a40c-6098", "hidden": false, "targetId": "4ebe-6dac-faca-e098", "type": "profile"},
+              {"name": "Perk: Deadly Bash", "id": "7bb4-460a-3288-ee86", "hidden": false, "targetId": "ab65-0d0a-eccb-e33c", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Deeja: Blackblood Assassin",
+        "id": "8585-8ea8-6135-de0c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 29}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "f6cd-f4a9-59b8-6df3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "4262-b068-e3ac-bae2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "4cba-2e70-e1fd-8b43", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "6b09-7939-9e26-7fca",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Deeja: Blackblood Assassin", "id": "9e33-35b8-40b8-fd16", "hidden": false, "targetId": "2754-a31d-af30-f737", "type": "profile"},
+          {"name": "Path of Shadow", "id": "7629-89ad-7009-b5a0", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Argonian", "id": "f581-582d-871b-01a6", "hidden": false, "targetId": "4b92-92cf-5195-7fbb", "type": "infoGroup"},
+          {"name": "Perk: Assassin's Blade", "id": "74c6-3cc8-49de-7c82", "hidden": false, "targetId": "eea3-bb51-672c-9dac", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Knife in the Belly",
+            "id": "02ab-8176-e3b6-53ab",
+            "description": "When targeting a model with the Imperial Legion Faction [icon] with an Attack, Rigel may reroll the Skill Die if she fails to hit.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "1b0d-2903-6dce-3f57",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "873d-7f58-2dff-798a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Deeja: Blackblood Assassin (Leveled)", "id": "d93c-e648-f00c-0c81", "hidden": false, "targetId": "0a2c-1e58-7dda-80d7", "type": "profile"},
+              {"name": "Perk: Paralyzing Strike", "id": "2e06-ad75-cec3-74f8", "hidden": false, "targetId": "0059-18b6-5cde-54bb", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raj'irr: White River Rogue",
+        "id": "5bee-e608-df02-ce3f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 28}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "9b08-cf0e-030c-923f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "0452-0768-b13a-bf0f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "35ad-5aed-3a30-186d", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "0ce3-bb5e-dc9a-f74b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Raj'irr: White River Rogue", "id": "4b74-2b6e-0cc6-a100", "hidden": false, "targetId": "a56c-bb66-54af-25f0", "type": "profile"},
+          {"name": "Path of Shadow", "id": "d657-d703-1c0f-3e8e", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Khajiit", "id": "0519-587f-ad42-6992", "hidden": false, "targetId": "79c0-88d5-843b-8055", "type": "infoGroup"},
+          {"name": "Perk: Treasure Hunter", "id": "0bac-bb02-c794-dbd2", "hidden": false, "targetId": "20be-2e12-0782-2057", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "761b-0c64-ba68-b136",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "9581-e158-d3d6-c52c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Raj'irr: White River Rogue (Leveled)", "id": "b335-3d17-f9a7-34c0", "hidden": false, "targetId": "2014-1809-d6bd-e60a", "type": "profile"},
+              {"name": "Perk: Timely Escape", "id": "23d2-0e30-7fa9-b56e", "hidden": false, "targetId": "de14-14f0-2811-08f4", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eisa Blackthorn: Frostmere Raider",
+        "id": "b2c1-c5d8-2dba-86de",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 28}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "8aca-223b-298f-855e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "6e9e-7d28-c5b1-fb43",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "b50a-a53b-893b-03d5", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "59eb-eada-668f-0475",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Eisa Blackthorn: Frostmere Raider", "id": "94b6-14f9-87c6-993b", "hidden": false, "targetId": "c112-2556-9b3a-95bf", "type": "profile"},
+          {"name": "Path of Might", "id": "8ee0-0aa4-5adc-cd50", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "2ac5-c07e-6fa0-256a", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Hack and Slash", "id": "4c1a-28f2-2e79-0d8d", "hidden": false, "targetId": "2cf3-a74a-631e-7547", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "a30d-099a-dce0-c06d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "5a5c-f67b-3809-5357",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Eisa Blackthorn: Frostmere Raider (Leveled)", "id": "bdcc-2259-aaef-6c84", "hidden": false, "targetId": "bdc2-e491-7dd9-db25", "type": "profile"},
+              {"name": "Perk: Wind Walker", "id": "446f-e6f8-d37e-b2ff", "hidden": false, "targetId": "986d-0c2c-6f55-86f8", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Haldyn: Pirate Battlemage",
+        "id": "221d-f091-32ad-c539",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 47}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "3d18-1962-91e3-bd10",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "e6db-c7ac-3127-7a44",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "9176-9abe-d86b-cdcc", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "884e-6320-8e88-efe8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Haldyn: Pirate Battlemage", "id": "cc70-8910-f76a-fa66", "hidden": false, "targetId": "21b8-cb06-133e-efd1", "type": "profile"},
+          {"name": "Path of Sorcery", "id": "dd5b-63be-788f-37b3", "hidden": false, "targetId": "46cd-27c4-0be4-976f", "type": "rule"},
+          {"name": "Redguard", "id": "cd48-f17f-3d52-f6da", "hidden": false, "targetId": "c7c8-72cb-039b-ec59", "type": "infoGroup"},
+          {"name": "Perk: Augmented Shock", "id": "5c03-8c8d-ea78-4aa2", "hidden": false, "targetId": "410f-7c19-be99-af07", "type": "rule"},
+          {"name": "Perk: Storm Enchanter", "id": "db6e-193e-2daf-a235", "hidden": false, "targetId": "8667-275a-e6ea-5ca0", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Gangmaster",
+            "id": "0f69-23ba-71f2-8d2a",
+            "description": "When Haldyn is the Party Champion, friendly Followers within 3\" of Butcher that benefit from the Bandit's Strength in Numbers rule [add] [YELLOW] to their Melee Attacks in addition to the usual [GREEN].",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "40e6-0f05-f7a1-9c4d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "9824-0e5f-dd85-befa",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [{"name": "Haldyn: Pirate Battlemage (Leveled)", "id": "3f24-f097-3dff-90c2", "hidden": false, "targetId": "637f-38c7-abba-67d6", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Chief: Vicious Marauder",
+        "id": "f4d4-a805-0779-4374",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 44}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "20fb-435a-5018-5fb9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "34ad-fb5f-d6f0-5f33",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "c322-4857-88d0-c7f6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Custom Fit", "id": "dbcf-cc17-ed49-6f0e", "hidden": false, "targetId": "60eb-baf5-15f2-58ed", "type": "rule"},
+          {"name": "Path of Might", "id": "66c9-10ba-9e8d-f31c", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "8dd3-ac50-d271-5b31", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Uppercut", "id": "c472-e639-66d6-59b4", "hidden": false, "targetId": "db1e-693f-0bcc-c7db", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Brutal Leader",
+            "id": "34cc-8a75-6434-6103",
+            "description": "When a friendly Bandit Faction model within 3\" is forced to Flee, you may instead remove the fleeing model from play as a casualty.  This model and all friendly Bandit Faction models within 6\" yet to activate add [YELLOW] to their Attacks for the rest of the round.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "c055-792d-68ca-0338",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "cd4c-fb8e-3484-fbe3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [{"name": "Perk: Intimidation", "id": "9fba-33d3-3ed0-d79d", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"}]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Plunderer: Nord Axeman",
+        "id": "1022-f408-89e4-8840",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 36}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Bandit Plunderer: Nord Axeman", "id": "b980-4349-a63e-b38f", "hidden": false, "targetId": "be3d-66b4-4e5e-31c8", "type": "profile"},
+          {"name": "Path of Might", "id": "bd57-d69d-3502-0edc", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "c245-fcbf-16c4-5f63", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Brigand",
+            "id": "3487-f7f2-4ef1-f768",
+            "description": "If this model removes an enemy as a casualty [as a result of] a Melee Attack and that enemy possessed any Treasure Cards when it was removed, roll the Skill die. On a [CRITICAL HIT], gain 1 bonus VP.",
+            "hidden": false,
+            "publicationId": "fc6a-2d15-ff0e-9318"
+          }
+        ]
+      },
+      {
+        "name": "Bandit Marauder: Nord Barbarian",
+        "id": "4842-defb-f766-aeb8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 34}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Bandit Marauder: Nord Barbarian", "id": "8592-d48c-7f93-8416", "hidden": false, "targetId": "451f-9163-74fe-52c9", "type": "profile"},
+          {"name": "Path of Might", "id": "a1d0-20f0-05d1-4018", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "932e-8633-94fb-d28d", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Cumbersome", "id": "40f0-0766-a2f3-0ad5", "hidden": false, "targetId": "be29-25db-e215-b3b0", "type": "rule"},
+          {"name": "Two-Handed Block", "id": "929f-4739-e036-cfbc", "hidden": false, "targetId": "aa94-2a05-4635-c76b", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Bandit Warrior: Nord Warrior",
+        "id": "b8ec-2bcb-2a23-ce21",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 20}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Bandit Warrior: Nord Warrior", "id": "7ab2-c0be-b0d6-6267", "hidden": false, "targetId": "af95-21c4-2e8b-0fa2", "type": "profile"},
+          {"name": "Path of Might", "id": "c43f-6dc0-85d2-0c20", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Nord", "id": "cc64-534b-a788-6212", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Bandit Outlaw: Nord Ranger",
+        "id": "637f-682a-e7e9-4010",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 30}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Bandit Outlaw: Nord Ranger", "id": "8c65-b837-7469-cae2", "hidden": false, "targetId": "e137-e3cd-fc26-5e30", "type": "profile"},
+          {"name": "Path of Shadow", "id": "706a-8e48-9ff8-f5e1", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "f6bd-998f-2fa4-bcf9", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Bandit Warrior: Orc Warrior",
+        "id": "556b-d9cb-69e3-7b90",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "fc6a-2d15-ff0e-9318",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 24}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Bandit Warrior: Orc Warrior", "id": "59e7-5d9d-ad8f-cf16", "hidden": false, "targetId": "9681-179c-10b3-05e8", "type": "profile"},
+          {"name": "Orsimer", "id": "e328-4d36-5f88-c4eb", "hidden": false, "targetId": "24d3-bf90-3495-ab2b", "type": "infoGroup"},
+          {"name": "Path of Might", "id": "56e7-3704-f645-1434", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"}
+        ]
+      }
+    ]
+  }
+}
