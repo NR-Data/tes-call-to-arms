@@ -1,0 +1,2719 @@
+{
+  "catalogue": {
+    "name": "Dark Brotherhood",
+    "id": "1f59-13be-d324-54f7",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "Astrid: Brotherhood Leader",
+        "id": "6159-ce11-1d38-3eb9",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "4ac8-bcf7-a27c-b042",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Festus Krex: Remorseless Killer",
+        "id": "7799-5379-6d26-b00c",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "6d96-4147-db27-5ffb",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Nazir: Alik'r Assassin",
+        "id": "a00f-eac6-7c21-23e9",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "6c83-0918-cb17-57ec",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Gabriella: Doom's Herald",
+        "id": "a720-e046-0736-e54c",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "ace7-0580-c913-6050",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Babette: Un-Child",
+        "id": "4056-a429-ec03-9047",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "5eb7-734a-9db6-37a0",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Veezara: The Last Shadowscale",
+        "id": "af54-8621-742b-9b7b",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "e5d2-e40f-04a4-0053",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Lis: Frost Spider",
+        "id": "20c8-1287-1712-3742",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "4ab4-2d90-4c9d-3956",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Cicero: Dark Brotherhood Keeper",
+        "id": "3ef1-80a4-0961-9b8a",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "1eb5-d5d2-fec9-a5d9",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Arnbjorn: Sanctuary Enforcer",
+        "id": "c09c-471e-77ee-470f",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "constraints": [
+          {
+            "id": "f65c-411a-b629-ac4e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Astrid: Brotherhood Leader",
+        "id": "272a-739c-be99-26b2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cd87-8fdc-2c5a-a938",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Astrid: Brotherhood Leader", "id": "40c0-5909-5578-aec1", "hidden": false, "primary": false, "targetId": "6159-ce11-1d38-3eb9"},
+          {"name": "Hero", "id": "1679-5165-820c-a5cf", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "26ba-6228-3d9d-2a56", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "5382-e9e9-05d2-b831", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Born Leader", "id": "09ff-730b-ea46-3f9e", "hidden": false, "primary": false, "targetId": "917c-eb56-30eb-a720"},
+          {"name": "Astrid Equipment", "id": "200e-e65e-b635-2328", "hidden": false, "primary": false, "targetId": "5e44-a15b-63d2-b4ed"},
+          {"name": "One-Handed Skill", "id": "2655-0505-9742-dd53", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Sneak Skill", "id": "b777-29b9-e68c-0457", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "629e-e614-7164-b904", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Alchemy Skill", "id": "7b71-1a60-e288-9c54", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Speech Skill", "id": "db97-bc91-f3cb-1771", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Festus Krex: Remorseless Killer",
+        "id": "e68d-5ec8-fb59-cb9d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cb91-e996-1383-2370",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "a37c-aa22-9d19-3e68", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "ca60-1c9c-951c-54c2", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Sorcery", "id": "67e8-8b31-d5b3-d687", "hidden": false, "primary": false, "targetId": "8b22-d1f0-dcf8-83d7"},
+          {"name": "Festus Krex: Remorseless Killer", "id": "546d-73aa-12e0-4605", "hidden": false, "primary": false, "targetId": "7799-5379-6d26-b00c"},
+          {"name": "One-Handed Skill", "id": "9b51-a88c-86eb-c381", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Sneak Skill", "id": "0a16-df0e-18a3-e495", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Alteration Skill", "id": "73c1-fb78-680c-3fb5", "hidden": false, "primary": false, "targetId": "2aea-a863-419f-ba90"},
+          {"name": "Destruction Skill", "id": "9b40-f924-ac29-aa61", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Alchemy Skill", "id": "d199-6c34-ac2c-43ee", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Restoration Skill", "id": "e236-5339-deb0-47dc", "hidden": false, "primary": false, "targetId": "b0b5-e13e-f45a-5045"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nazir: Alik'r Assassin",
+        "id": "0a06-2f93-ed15-7010",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9aaa-e526-4a4c-c726",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "10aa-9eec-ca4a-baf1", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "3886-4494-38c1-bc5f", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Might", "id": "2c25-3cb4-3021-bd61", "hidden": false, "primary": false, "targetId": "b1cc-bf06-8acb-dce0"},
+          {"name": "Nazir: Alik'r Assassin", "id": "b795-915f-6e14-dedc", "hidden": false, "primary": false, "targetId": "a00f-eac6-7c21-23e9"},
+          {"name": "Block Skill", "id": "7a98-b976-46b6-6456", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "One-Handed Skill", "id": "c5e4-b0ba-6024-fb0a", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Sneak Skill", "id": "9f30-dbc3-cfa0-bea2", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "19fa-d14f-a61d-5ba6", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gabriella: Doom's Herald",
+        "id": "f408-21cc-e5f2-d118",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "17f3-5b34-a5b4-8323",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "33bd-1a33-ed8e-8781", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "419d-277c-9f14-e56a", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "fe15-9fa6-9971-84d1", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Gabriella: Doom's Herald", "id": "78be-3ee7-b18b-30f3", "hidden": false, "primary": false, "targetId": "a720-e046-0736-e54c"},
+          {"name": "One-Handed Skill", "id": "b8ea-63bc-075e-cacf", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "8b6f-7554-65cf-2bdc", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "310d-e8f5-8f86-9e92", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "0b2b-7ba6-2153-4c5c", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Race: Dunmer", "id": "c078-302e-5d76-07cb", "primary": false, "targetId": "6df4-3d08-99df-65d2"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Babette: Un-Child",
+        "id": "4192-1911-8285-fd0b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "19c0-8c75-191d-40a4",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "7086-6108-d7de-17e2", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "b6e1-ddc1-f4ad-db68", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "f303-7d32-9aad-e7e3", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Babette: Un-Child", "id": "e382-21a6-a6f9-6888", "hidden": false, "primary": false, "targetId": "4056-a429-ec03-9047"},
+          {"name": "One-Handed Skill", "id": "8565-2ff9-e918-0ff2", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "51fd-d1e8-8c6e-8652", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "0011-1787-ed4c-762b", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Conjuration Skill", "id": "ca32-07f0-eef8-e9ef", "hidden": false, "primary": false, "targetId": "f1a5-f2a8-0691-3c85"},
+          {"name": "Destruction Skill", "id": "2ba6-c9f3-4e83-7d65", "hidden": false, "primary": false, "targetId": "4c5c-c1e0-77f2-cf34"},
+          {"name": "Alchemy Skill", "id": "e6cc-67a3-4417-86a8", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Vampire", "id": "00c6-f4a8-132d-ee25", "hidden": false, "primary": false, "targetId": "84c5-1d46-80c8-1e38"},
+          {"name": "Blood Magic Skill", "id": "ecf4-61be-8116-a207", "hidden": false, "primary": false, "targetId": "16e1-93b0-a99d-b6b1"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6890-bf2c-fee7-ea81",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2793-630a-3b5a-9de9",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Veezara: The Last Shadowscale",
+        "id": "b654-c02f-4171-fae1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "74a9-35e8-bffe-3a98",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "b19c-ff78-b5ae-64d6", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "adbf-12c4-03a5-123d", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "84bd-f225-6199-cd80", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Veezara: The Last Shadowscale", "id": "fcde-d246-50c7-06a4", "hidden": false, "primary": false, "targetId": "af54-8621-742b-9b7b"},
+          {"name": "One-Handed Skill", "id": "f579-d79b-d803-892a", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "24d2-33da-0bfe-54e0", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "956d-15f2-9156-a721", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Sneak Skill", "id": "63f8-7720-a2c6-7f9b", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "23cb-a7a9-a40e-fc9d", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Brotherhood Initiate: Assassin In Training",
+        "id": "252b-5f11-58b1-043b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f195-c6d4-332e-b7f7",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Dark Brotherhood", "id": "5944-2c3b-7d53-5418", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "6dba-5524-ebb7-09bd", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Follower", "id": "27a2-3db6-bb04-d625", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Brotherhood Assassin: Twin Daggers",
+        "id": "03dc-f183-b86d-96cc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0a5c-bc41-625f-e2af",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Dark Brotherhood", "id": "d394-224a-6ef5-1b39", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "d940-55c1-5136-382a", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Follower", "id": "a7ff-3f22-5910-6829", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lis: Frost Spider",
+        "id": "f0b7-e8be-6347-7f9d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6a62-6839-a21e-24df",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Dark Brotherhood", "id": "a9e1-d5a3-46fe-15cd", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "e0f6-8a8f-ad5b-ff55", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Follower", "id": "1198-f283-1437-05bf", "hidden": false, "primary": true, "targetId": "ba61-d304-9352-ec15"},
+          {"name": "Lis: Frost Spider", "id": "7e0f-43ef-d363-9b86", "hidden": false, "primary": false, "targetId": "20c8-1287-1712-3742"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "03a4-6256-8b54-3dba"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cicero: Dark Brotherhood Keeper",
+        "id": "9193-3fad-49a7-ed17",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7dcc-d7f3-9f9c-5b19",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "f06a-c0bf-74d1-73c4", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "c497-7ac7-4d0f-6a48", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "One-Handed Skill", "id": "1fb3-542f-b103-f77c", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Sneak Skill", "id": "68aa-6f99-3876-18d5", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Alchemy Skill", "id": "e88d-2866-82eb-0b95", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Path of Shadow", "id": "c001-89a3-f4e7-61bb", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Light Armor Skill", "id": "1eeb-878d-cabe-c46d", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Speech Skill", "id": "92dc-b8f3-70a7-b059", "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Cicero: Dark Brotherhood Keeper", "id": "7e34-fc77-5d7c-e15e", "primary": false, "targetId": "3ef1-80a4-0961-9b8a"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Arnbjorn: Sanctuary Enforcer",
+        "id": "2523-0d8d-cfb2-4669",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "911f-7756-94d4-6f50",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "51d6-db0d-2563-50b0", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Dark Brotherhood", "id": "a16d-edde-cc37-27c3", "hidden": false, "primary": false, "targetId": "1f84-91ee-9af3-80ac"},
+          {"name": "Path of Shadow", "id": "b0a6-607c-876d-3c6e", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "One-Handed Skill", "id": "e1ab-db3f-a6e9-0a6e", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Arnbjorn: Sanctuary Enforcer", "id": "53d7-47c0-4a30-7148", "primary": false, "targetId": "c09c-471e-77ee-470f"},
+          {"name": "Werewolf", "id": "6df2-0b6f-3cb1-e3cf", "primary": false, "targetId": "f71c-90c3-abdf-17ee"},
+          {"name": "Block Skill", "id": "e632-c096-b4e0-61cc", "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Two-Handed Skill", "id": "921e-2ded-ee70-b145", "primary": false, "targetId": "74fd-ddce-0be6-02c5"},
+          {"name": "Smithing Skill", "id": "b63f-df6a-f001-91dc", "primary": false, "targetId": "c7db-eac8-21dc-49a0"},
+          {"name": "Speech Skill", "id": "6d03-4c0b-ee11-e278", "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Light Armor Skill", "id": "7d3c-ca94-e3a0-cd40", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3838-ee29-fe4c-23d1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "e7f1-7d01-d4aa-bb0b",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b7aa-4b7c-29c1-1bb5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Astrid: Brotherhood Leader",
+        "id": "8a16-e993-bfd6-d125",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Astrid"],
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Assassin's Blade, Shadow Warrior", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Born Leader, Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "\"Killing Feels Good...\"", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nAlchemy\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Astrid: Brotherhood Leader (Leveled)",
+        "id": "3c0f-c98d-93e5-bfd4",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Astrid"],
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Assassin's Blade, Shadow Warrior, Timely Escape", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Born Leader, Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "\"Killing Feels Good...\"", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "7\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nAlchemy\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "5", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Festus Krex: Remorseless Killer",
+        "id": "6a2b-1bae-1fb5-2129",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Alchemist, Destruction Mastery", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck, Ponderous", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "2\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "5\nAlteration\nDestruction", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3\nAlchemy\nRestoration", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "3", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Festus Krex: Remorseless Killer (Leveled)",
+        "id": "62ba-d6fd-d155-198d",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Sorcery", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Alchemist, Destruction Mastery, Intense Flames", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck, Ponderous", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "2\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "6\nAlteration\nDestruction", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nAlchemy\nRestoration", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "4", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Nazir: Alik'r Assassin",
+        "id": "6be7-e423-237d-d66f",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Redguard", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Might", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bladesman, Deft Movement", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Adrenaline Rush", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Contractor", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nBlock\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Nazir: Alik'r Assassin (Leveled)",
+        "id": "ae44-0c7a-fe32-5145",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bladesman, Caltrops, Deft Movement", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Adrenaline Rush", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Contractor", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Gabriella: Doom's Herald",
+        "id": "bdb6-3d8f-91ec-524f",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Dunmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Deadly Aim, Stealth", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Fire)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Gabriella: Doom's Herald (Leveled)",
+        "id": "26f3-432f-c380-2ae7",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Deadly Aim, Hasty Retreat, Stealth", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Fire)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Shadow Of Sithis (Leveled)", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "5", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Babette: Un-Child",
+        "id": "4801-0236-95e1-29b9",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Breton (Vampire)", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Benefactor", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Acute Senses, Immunity (Bleed), Resistance (Frost, Poison), Teeth And Claws", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Just A Child", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4\nDestruction\nConjuration", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3\nAlchemy", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "3", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "1", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Babette: Un-Child (Leveled)",
+        "id": "6ef0-0314-52c6-d32f",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Backstab, Benefactor", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Acute Senses, Immunity (Bleed), Resistance (Frost, Poison), Teeth And Claws", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Just A Child", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4\nDestruction\nConjuration", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nAlchemy", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "3", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "1", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Veezara: The Last Shadowscale",
+        "id": "a133-660a-44cb-bf2d",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Argonian", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Silence", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Histskin, Waterbreathing", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Veezara: The Last Shadowscale (Leveled)",
+        "id": "4b10-6a8c-867b-0343",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Low Slash, Silence", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Histskin, Waterbreathing", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "None", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Dark Brotherhood Initiate: Assassin In Training",
+        "id": "70e7-f0ed-7e5e-88d1",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "One-Handed: [GREEN][YELLOW]\n[HELMET]: add [HEALTH POISON]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [RED]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost, Poison)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "4\nSneak", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "2\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "2", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Dark Brotherhood Assassin: Twin Daggers",
+        "id": "d2fb-5708-7a87-9492",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Nord", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {
+            "name": "Melee Attacks",
+            "$text": "One-Handed: [GREEN][YELLOW]\n[HELMET]: add [HEALTH POISON]\n///////////\nOne-Handed: [GREEN][YELLOW]\n[HELMET]: add [HEALTH POISON]",
+            "typeId": "6cbd-4946-2719-08aa"
+          },
+          {"name": "Ranged Attacks", "$text": "None", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "Light Armor: [RED]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Resistance (Frost, Poison)", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "5\nSneak", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "3", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "3", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "3", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "2", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Lis: Frost Spider",
+        "id": "6299-bed4-68bc-2232",
+        "hidden": false,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "typeId": "4411-4dcc-01ea-2b7c",
+        "typeName": "Follower",
+        "characteristics": [
+          {"name": "Rank", "$text": "Follower (Unique)", "typeId": "d40a-cf47-d6a2-041b"},
+          {"name": "Race", "$text": "Beast", "typeId": "1735-edc6-5600-9496"},
+          {"name": "Path", "$text": "Shadow", "typeId": "26fe-562c-d615-bb57"},
+          {"name": "Melee Attacks", "$text": "Strength: [GREEN][RED]\n[SWORDS]: add [STAMINA POISON]", "typeId": "6cbd-4946-2719-08aa"},
+          {"name": "Ranged Attacks", "$text": "Agility\n6\": [GREEN][YELLOW][YELLOW]\n[HELMET]: add [STAMINA POISON]", "typeId": "9de9-c00b-18b9-7caf"},
+          {"name": "Armor", "$text": "No Type: [YELLOW]", "typeId": "0d06-a248-7147-886d"},
+          {"name": "Additional Defenses", "$text": "None", "typeId": "da5e-4d7f-d585-0e17"},
+          {"name": "Perks/Keywords", "$text": "Familiar, Fleet", "typeId": "8760-2de5-c119-6685"},
+          {"name": "Strength", "$text": "3", "typeId": "f88a-6cf5-9a8a-9f52"},
+          {"name": "Agility", "$text": "4\nSneak", "typeId": "8904-8c99-00e7-c376"},
+          {"name": "Endurance", "$text": "3", "typeId": "89fb-032d-3fe8-42a8"},
+          {"name": "Intelligence", "$text": "1", "typeId": "437f-b05a-e975-87cf"},
+          {"name": "Wisdom", "$text": "2", "typeId": "4668-ed07-a347-bf37"},
+          {"name": "Health", "$text": "2", "typeId": "e3fb-6d75-7508-4fd4"},
+          {"name": "Stamina", "$text": "2", "typeId": "d191-94a6-3175-e23b"},
+          {"name": "Magicka", "$text": "0", "typeId": "1235-df6f-cb26-2230"},
+          {"name": "Height", "$text": "1", "typeId": "fe9f-e442-8f11-fef6"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "cb06-ff53-da97-b966"}
+        ]
+      },
+      {
+        "name": "Cicero: Dark Brotherhood Keeper",
+        "id": "e265-d8e3-d310-0e35",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Cicero"],
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Backstab, Deft Movement, Poisoner", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Extra Action, Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Fool of Hearts, Stab You Stab You!", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nAlchemy\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Cicero: Dark Brotherhood Keeper (Leveled)",
+        "id": "1429-9eea-b4aa-b001",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Cicero"],
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Backstab, Deft Movement, Poisoner, Timely Escape", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Extra Action, Imperial Luck", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Fool of Hearts, Stab You Stab You!", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nAlchemy\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "5", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Arnbjorn: Sanctuary Enforcer",
+        "id": "c03f-0bd9-3356-3bf3",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Arnbjorn"],
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Intimidation, Smithing (Iron, Steel)", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Shapeshift (Werewolf)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Devoted Guardian", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Dark Brotherhood", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Arnbjorn: Sanctuary Enforcer (Leveled)",
+        "id": "fe0d-cef9-1ee3-2b61",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "alias": ["Arnbjorn"],
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Devastating Blow, Intimidation, Smithing (Iron, Steel)", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost), Shapeshift (Werewolf)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Devoted Guardian", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nBlock\nOne-Handed\nTwo-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "3", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor\nSmithing", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "2", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Astrid: Brotherhood Leader",
+        "id": "cd87-8fdc-2c5a-a938",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 64}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "911c-2cef-4d40-a201",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "670b-5a63-1bbf-f600",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "8e67-0ca7-69cf-1c3c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Shadow Warrior", "id": "c147-176b-111a-470a", "hidden": false, "targetId": "7acd-c308-9598-3de2", "type": "rule"},
+          {"name": "Perk: Assassin's Blade", "id": "8d1b-8513-5448-37f4", "hidden": false, "targetId": "eea3-bb51-672c-9dac", "type": "rule"},
+          {"name": "Path of Shadow", "id": "2cc9-5f6e-f79f-e437", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "62bd-4ffe-bb88-eb8e", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Born Leader", "id": "dc3f-849c-6977-4446", "hidden": false, "targetId": "653d-16a5-eefb-8b71", "type": "rule"},
+          {
+            "name": "Astrid: Brotherhood Leader",
+            "id": "6171-5f01-e3c1-4dd1",
+            "hidden": false,
+            "targetId": "8a16-e993-bfd6-d125",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Killing Feels Good...",
+            "id": "1e9e-d15e-f285-93e9",
+            "description": "When Astrid removes an enemy Hero or Master Adversary as a casualty with a melee attack, she, or a friendly Dark Brotherhood Hero within 3\" and Line Of Sight, restores 1 Stamina point",
+            "hidden": false,
+            "publicationId": "2733-0fd1-3311-3be2"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "57ee-3bfb-e9d0-7942",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "daef-7a69-fcd4-32b3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Astrid: Brotherhood Leader (Leveled)", "id": "9013-14b1-c7e0-c5d8", "hidden": false, "targetId": "3c0f-c98d-93e5-bfd4", "type": "profile"},
+              {"name": "Perk: Timely Escape", "id": "0d7b-ec03-0bcd-815c", "hidden": false, "targetId": "de14-14f0-2811-08f4", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Festus Krex: Remorseless Killer",
+        "id": "cb91-e996-1383-2370",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 34}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "f9d2-e745-e8d2-0ada",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "c280-2b2b-7a1d-14aa",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "4edc-992f-29f1-0bd8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Destruction Mastery", "id": "cf95-f9e5-b964-a668", "hidden": false, "targetId": "eae7-ee7c-9f43-386d", "type": "rule"},
+          {"name": "Perk: Alchemist", "id": "1121-628a-0e4b-b805", "hidden": false, "targetId": "87fe-b62d-ddfe-6246", "type": "rule"},
+          {"name": "Path of Sorcery", "id": "fb51-a87f-f486-a446", "hidden": false, "targetId": "46cd-27c4-0be4-976f", "type": "rule"},
+          {"name": "Imperial", "id": "d324-d2b2-068f-07e2", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"},
+          {"name": "Ponderous", "id": "98d6-4cf3-8731-794f", "hidden": false, "targetId": "00c2-1d16-0911-9a98", "type": "rule"},
+          {
+            "name": "Festus Krex: Remorseless Killer",
+            "id": "c342-dadd-4834-9d6b",
+            "hidden": false,
+            "targetId": "6a2b-1bae-1fb5-2129",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "afdb-7179-b832-5d36",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "cca7-ac69-9952-42b6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Festus Krex: Remorseless Killer (Leveled)", "id": "7bbf-1504-da25-5ff1", "hidden": false, "targetId": "62ba-d6fd-d155-198d", "type": "profile"},
+              {"name": "Perk: Intense Flames", "id": "74f8-28ef-aa31-eb3c", "hidden": false, "targetId": "5f58-029c-f75b-2f40", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nazir: Alik'r Assassin",
+        "id": "9aaa-e526-4a4c-c726",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 44}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "080a-9312-fd1f-59d6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "4ef8-2333-f687-c306",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "92c9-377f-93bb-058e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Deft Movement", "id": "0775-a2df-f1db-6a77", "hidden": false, "targetId": "0b47-a02d-7096-e30f", "type": "rule"},
+          {"name": "Perk: Bladesman", "id": "b52f-c584-7d67-5ad4", "hidden": false, "targetId": "3988-d2f2-407a-a3b9", "type": "rule"},
+          {"name": "Path of Might", "id": "cac3-feeb-ed60-94d7", "hidden": false, "targetId": "c1df-67ea-e7cc-8134", "type": "rule"},
+          {"name": "Redguard", "id": "8ec2-e050-95d5-52fa", "hidden": false, "targetId": "c7c8-72cb-039b-ec59", "type": "infoGroup"},
+          {
+            "name": "Nazir: Alik'r Assassin",
+            "id": "c5d0-cda2-4518-45ae",
+            "hidden": false,
+            "targetId": "6be7-e423-237d-d66f",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Contractor",
+            "id": "e288-98bd-1211-259c",
+            "description": "Once per game at the start of his Activation, Nazir may remove a Black Hand Contract from an enemy Hero and place it on a different enemy Hero that does not have one assigned.",
+            "hidden": false,
+            "publicationId": "2733-0fd1-3311-3be2"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "a00a-08a3-a35c-e135",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "ed32-fef7-6f5b-855e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Nazir: Alik'r Assassin (Leveled)", "id": "38e6-57d0-fd4d-286c", "hidden": false, "targetId": "ae44-0c7a-fe32-5145", "type": "profile"},
+              {"name": "Perk: Caltrops", "id": "bf64-4aca-4992-a8d6", "hidden": false, "targetId": "4980-56a9-9a6f-13c4", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gabriella: Doom's Herald",
+        "id": "17f3-5b34-a5b4-8323",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 46}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "7b26-8d84-9e51-9f82",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "26d7-863d-5452-81c4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "bef6-a92a-6a94-f9eb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Stealth", "id": "1c5c-66e6-00ee-1adc", "hidden": false, "targetId": "97cc-1221-1a57-177f", "type": "rule"},
+          {"name": "Perk: Deadly Aim", "id": "8ae2-1390-77dd-5a7e", "hidden": false, "targetId": "cc74-2edd-269b-887d", "type": "rule"},
+          {"name": "Path of Shadow", "id": "5fc2-2b9e-7d7b-93e5", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Dunmer", "id": "5d35-569c-7aea-0eeb", "hidden": false, "targetId": "a0cb-51aa-e265-db37", "type": "infoGroup"},
+          {
+            "name": "Gabriella: Doom's Herald",
+            "id": "85a7-a2a9-c9f9-dd54",
+            "hidden": false,
+            "targetId": "bdb6-3d8f-91ec-524f",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "fb02-106c-d0ef-6ada",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "dfaf-d946-6b8f-240a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Gabriella: Doom's Herald (Leveled)", "id": "e3b8-e072-bae2-2904", "hidden": false, "targetId": "26f3-432f-c380-2ae7", "type": "profile"},
+              {"name": "Perk: Hasty Retreat", "id": "4dd3-7803-f9d3-ce86", "hidden": false, "targetId": "e7a2-df68-fe8b-bd85", "type": "rule"}
+            ],
+            "rules": [
+              {
+                "name": "Shadow Of Sithis (Leveled)",
+                "id": "d47c-a84c-2431-cde9",
+                "description": "When Gabriella removes a Hero from the opposing party as a casualty, she becomes Terrifying [see BRB pg. 78] until the end of her next activation.",
+                "hidden": false,
+                "publicationId": "2733-0fd1-3311-3be2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Babette: Un-Child",
+        "id": "19c0-8c75-191d-40a4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 55}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "47d2-7b06-91b3-c866",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "2049-36a5-d1bc-f3a5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Teeth and Claws", "id": "8346-b6a0-ba61-742d", "hidden": false, "targetId": "d79f-0962-6e0a-d20d", "type": "rule"},
+          {"name": "Acute Senses", "id": "ffc5-2e4f-643f-8d0d", "hidden": false, "targetId": "547c-e6e5-64d4-a519", "type": "rule"},
+          {"name": "Path of Shadow", "id": "8fbd-8aae-f593-371b", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Breton", "id": "3ba7-293b-90d9-cc8a", "hidden": false, "targetId": "dd8e-535b-c433-c693", "type": "infoGroup"},
+          {"name": "Perk: Benefactor", "id": "eca5-74a7-640d-246b", "hidden": false, "targetId": "7e8c-c565-61a2-0c5b", "type": "rule"},
+          {"name": "Teeth And Claws", "id": "89fa-b6cf-94d5-c0db", "hidden": false, "targetId": "90cf-86d1-e95f-6cd3", "type": "profile"},
+          {
+            "name": "Babette: Un-Child",
+            "id": "cc52-d325-1384-0bf2",
+            "hidden": false,
+            "targetId": "4801-0236-95e1-29b9",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Subrace: Vampire", "id": "b174-5f92-5833-90a1", "hidden": false, "targetId": "38ae-4f26-9328-defe", "type": "infoGroup"}
+        ],
+        "rules": [
+          {
+            "name": "Just A Child",
+            "id": "a6a6-99f3-b075-93b9",
+            "description": "If a model from one of the ten main Races of Tamriel wishes to target Babette with an attack, it must first take a Wisdom Attribute Test. If the test is failed, they must choose a different target or a different action.",
+            "hidden": false,
+            "publicationId": "2733-0fd1-3311-3be2"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "8083-9602-c003-cfbb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "18e6-befe-2c42-d030",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Babette: Un-Child (Leveled)", "id": "8845-20f9-8ee5-97ab", "hidden": false, "targetId": "6ef0-0314-52c6-d32f", "type": "profile"},
+              {"name": "Perk: Backstab", "id": "5427-5cb7-5a6a-7642", "hidden": false, "targetId": "3c8f-df29-73c0-e515", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Veezara: The Last Shadowscale",
+        "id": "74a9-35e8-bffe-3a98",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 30}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "40fd-8d4e-1664-e7ae",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "5ae3-1d7e-a473-6ff4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "cb88-10d0-4bda-e8e4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Silence", "id": "0573-e68a-4904-1e4b", "hidden": false, "targetId": "3dc1-d09e-2d25-1abb", "type": "rule"},
+          {"name": "Path of Shadow", "id": "749c-9d2c-e55f-ccda", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Argonian", "id": "3f20-65b6-04a2-9cd6", "hidden": false, "targetId": "4b92-92cf-5195-7fbb", "type": "infoGroup"},
+          {
+            "name": "Veezara: The Last Shadowscale",
+            "id": "be65-72e4-0b29-b5da",
+            "hidden": false,
+            "targetId": "a133-660a-44cb-bf2d",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "5a79-1ace-0c69-4daf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "38b7-bdab-d866-2ac4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Veezara: The Last Shadowscale", "id": "72b9-cab6-06e6-359f", "hidden": false, "targetId": "a133-660a-44cb-bf2d", "type": "profile"},
+              {"name": "Perk: Low Slash", "id": "4cfb-8c22-9927-fc40", "hidden": false, "targetId": "4ed4-75bd-da20-3fe2", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Brotherhood Initiate: Assassin In Training",
+        "id": "f195-c6d4-332e-b7f7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 16}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Shadow", "id": "9d69-3da8-2673-74dc", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "4918-8a88-c4cb-0656", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {
+            "name": "Dark Brotherhood Initiate: Assassin In Training",
+            "id": "5135-73b1-f09c-291b",
+            "hidden": false,
+            "targetId": "70e7-f0ed-7e5e-88d1",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "d40a-cf47-d6a2-041b",
+                "type": "set",
+                "value": "Hireling Follower",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Brotherhood Assassin: Twin Daggers",
+        "id": "0a5c-bc41-625f-e2af",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 26}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Shadow", "id": "493e-b19d-63d5-32ea", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "cdd4-5440-6e7f-6c40", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {
+            "name": "Dark Brotherhood Assassin: Twin Daggers",
+            "id": "42ef-dfc1-4624-b6bd",
+            "hidden": false,
+            "targetId": "d2fb-5708-7a87-9492",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "d40a-cf47-d6a2-041b",
+                "type": "set",
+                "value": "Hireling Follower",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lis: Frost Spider",
+        "id": "6a62-6839-a21e-24df",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "2733-0fd1-3311-3be2",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 18}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "infoLinks": [
+          {"name": "Path of Shadow", "id": "de1b-060c-c1c3-7945", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Beast", "id": "bfed-bfd0-63ad-1051", "hidden": false, "targetId": "8739-3e70-8c57-7bea", "type": "infoGroup"},
+          {
+            "name": "Lis: Frost Spider",
+            "id": "5314-5181-f1bf-19b1",
+            "hidden": false,
+            "targetId": "6299-bed4-68bc-2232",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "d40a-cf47-d6a2-041b",
+                "type": "set",
+                "value": "Hireling Follower (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Familiar", "id": "7b49-a142-4ea1-4866", "hidden": false, "targetId": "129d-f11e-1a4e-b30f", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Cicero: Dark Brotherhood Keeper",
+        "id": "7dcc-d7f3-9f9c-5b19",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 62}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "7620-5d20-4dea-6668",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "8c84-6860-193d-e655",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Extra Action", "id": "c7a6-48b8-1f01-12bf", "hidden": false, "targetId": "92de-2ad3-3554-0b3e", "type": "rule"},
+          {"name": "Perk: Poisoner", "id": "712e-24c2-dceb-8c66", "hidden": false, "targetId": "eb67-8629-d619-bf14", "type": "rule"},
+          {"name": "Path of Shadow", "id": "e82d-8f8a-7661-6298", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Imperial", "id": "a06d-82e2-fd28-caa4", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"},
+          {"name": "Perk: Backstab", "id": "e323-543a-b5b8-dfa5", "hidden": false, "targetId": "3c8f-df29-73c0-e515", "type": "rule"},
+          {
+            "name": "Cicero: Dark Brotherhood Keeper",
+            "id": "efd5-4212-8501-8860",
+            "hidden": false,
+            "targetId": "e265-d8e3-d310-0e35",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Perk: Deft Movement", "id": "5d23-c46e-8838-38ed", "hidden": false, "targetId": "0b47-a02d-7096-e30f", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Fool of Hearts",
+            "id": "c995-2433-aae8-2fcb",
+            "description": "As a Special Action, Cicero may take a Wisdom Attribute Test. If passed, then for the remainder of the round Cicero and all friendly models within 3\" gain a -1 modifier to their Skill Tests, while all enemy models within 3\" suffer a +1 modifier to their Skill Tests.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          },
+          {
+            "name": "Stab You, Stab You!",
+            "id": "2a87-e832-e42b-bfc5",
+            "description": "Cicero always gains the Follow-Up Keyword when Attacking with a Dagger,",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Show Leveled Profile",
+            "id": "559e-93bb-46e4-41da",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "882c-6eb4-06e5-7bc9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Cicero: Dark Brotherhood Keeper (Leveled)", "id": "28fe-a707-8561-d088", "hidden": false, "targetId": "1429-9eea-b4aa-b001", "type": "profile"},
+              {"name": "Perk: Timely Escape", "id": "00fc-0044-fbac-3e13", "hidden": false, "targetId": "de14-14f0-2811-08f4", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Arnbjorn: Sanctuary Enforcer",
+        "id": "911f-7756-94d4-6f50",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 47}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "1352-e9e3-f2ff-a4e3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "0234-50f5-9b46-72ca",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "8ed0-2901-efba-7398",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Perk: Smithing (Type)", "id": "3141-f600-de78-01fe", "hidden": false, "targetId": "433e-9827-e87e-fa56", "type": "rule"},
+          {"name": "Perk: Intimidation", "id": "319a-2afd-814e-0b62", "hidden": false, "targetId": "17da-adc8-59a7-7616", "type": "rule"},
+          {"name": "Path of Shadow", "id": "a92e-4468-e45f-2c72", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "3c06-4592-8303-5c0b", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {
+            "name": "Arnbjorn: Sanctuary Enforcer",
+            "id": "9557-3325-3765-5a4e",
+            "hidden": false,
+            "targetId": "c03f-0bd9-3356-3bf3",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditions": [
+                  {
+                    "childId": "3838-ee29-fe4c-23d1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Shapeshift (X)", "id": "8f7b-8f9c-ec4b-3b64", "hidden": false, "targetId": "c372-6973-ecac-b0d8", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Devoted Guardian",
+            "id": "7392-b350-d4e3-5f54",
+            "description": "If Astrid is in the same Party, and is removed as a Casualty, Arnbjorn adds [RED] to his Melee Attack Tests and Armor Rating for the rest of the game.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "2c07-7614-a0b1-e677",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "5b7c-9073-2bf1-3299",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {"name": "Arnbjorn: Sanctuary Enforcer (Leveled)", "id": "aac4-960b-8f68-915d", "hidden": false, "targetId": "fe0d-cef9-1ee3-2b61", "type": "profile"},
+              {"name": "Perk: Devastating Blow", "id": "609c-252f-0712-365f", "hidden": false, "targetId": "ef5a-bdc6-5744-5b1e", "type": "rule"}
+            ]
+          },
+          {
+            "name": "Include Shapeshift Profile",
+            "id": "d3a4-d7a0-977d-de77",
+            "collective": false,
+            "defaultAmount": 1,
+            "hidden": false,
+            "import": true,
+            "publicationId": "4d6f-8c48-a5ea-e83c",
+            "type": "model",
+            "constraints": [
+              {
+                "id": "2f63-1a67-c73d-6404",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [{"name": "Werewolf (Alternate Form)", "id": "9200-b878-7de7-61a6", "hidden": false, "targetId": "3bcd-092b-3ee5-0e51", "type": "infoGroup"}]
+          }
+        ]
+      }
+    ]
+  }
+}

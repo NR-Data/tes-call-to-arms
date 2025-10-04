@@ -1,0 +1,2110 @@
+{
+  "catalogue": {
+    "name": "Thieves' Guild",
+    "id": "3360-3f9c-126b-cb55",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Neutrals", "id": "d231-773c-bb40-5132", "importRootEntries": false, "targetId": "67ad-b57c-1fac-cf39", "type": "catalogue"}],
+    "categoryEntries": [
+      {
+        "name": "Karliah: The Outcast",
+        "id": "8a28-7b3b-a05f-2a2f",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "fc8e-6894-7952-094f",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Mercer Frey: Guildmaster",
+        "id": "cd5e-b5a1-1eb7-27fa",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "8a65-fb61-e70f-c3d8",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Brynjolf: Guild Lieutenant",
+        "id": "243a-d752-1efc-c96e",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "335a-1efa-16a5-c283",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Delvin Mallory: Guild Enforcer",
+        "id": "e399-b169-111d-9451",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "d4fe-9ed1-6436-cb79",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Niruin: Night Archer",
+        "id": "e793-1c31-9b4c-a7c6",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "7096-2b37-ab99-58a1",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Vex: Guild Locksmith",
+        "id": "a055-de22-f4b0-c39c",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "constraints": [
+          {
+            "id": "1c5f-2ea6-ceb3-9cc1",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Dunmer Thief: Ratway Regular",
+        "id": "df36-4de8-934f-1ea1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c3ed-8feb-2819-1faf",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hireling Hero", "id": "bfd2-29f2-3ddc-d250", "hidden": false, "primary": true, "targetId": "c06c-5d0a-f27a-3385"},
+          {"name": "Neutral", "id": "6d8e-c464-db18-8c8a", "hidden": false, "primary": false, "targetId": "e42a-1785-2eba-93be"},
+          {"name": "Hero", "id": "a931-a637-d8b6-b0ea", "hidden": false, "primary": false, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Shadow", "id": "8ee6-0a1b-3595-5843", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Bonus Quick Slot: Thieves' Guild Armor", "id": "d860-e59a-5ca5-b02c", "hidden": false, "primary": false, "targetId": "54df-deb0-bc89-bd29"},
+          {"name": "One-Handed Skill", "id": "fbd0-ba58-fc17-a129", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Lockpicking Skill", "id": "e133-dd0b-82bd-eb17", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Pickpocket Skill", "id": "a91e-3112-0d1b-72ab", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Archery Skill", "id": "695a-2d78-e20e-3adb", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "5768-bca0-8124-466e", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "0ede-711f-1bcf-b0ce", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Illusion Skill", "id": "247b-0acd-dc52-c5dc", "hidden": false, "primary": false, "targetId": "93b4-afa5-eb85-d8ec"},
+          {"name": "Hireling Count", "id": "9069-4a17-6e71-50d1", "primary": false, "targetId": "065c-f392-0c98-91f5"},
+          {"name": "Racial Group: Elf", "id": "9757-5770-7ea5-c3aa", "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Race: Dunmer", "id": "5deb-f89f-444d-17c1", "primary": false, "targetId": "6df4-3d08-99df-65d2"}
+        ],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "3ead-7f3e-4bda-5072",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {"field": "category", "type": "set-primary", "value": "b9a4-31a5-b4ed-b4c7"},
+              {"field": "category", "type": "remove", "value": "c06c-5d0a-f27a-3385"},
+              {"field": "category", "type": "remove", "value": "065c-f392-0c98-91f5"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Karliah: The Outcast",
+        "id": "065d-15e8-831d-53f5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4282-a510-3515-d843",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "d62d-2ae3-268a-144c", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "79bd-ca3d-2c4c-2ac0", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Racial Group: Elf", "id": "e7fa-befd-2181-84ab", "hidden": false, "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Karliah: The Outcast", "id": "cd41-9b4b-f891-4603", "primary": false, "targetId": "8a28-7b3b-a05f-2a2f"},
+          {"name": "Race: Dunmer", "id": "22de-11d4-1e79-56c1", "primary": false, "targetId": "6df4-3d08-99df-65d2"},
+          {"name": "Archery Skill", "id": "b7b4-9977-c221-f0e9", "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "858c-dd97-e649-355a", "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Lockpicking Skill", "id": "1bc7-cd97-14d2-f667", "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Light Armor Skill", "id": "75f5-66f3-ec6e-a569", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Alchemy Skill", "id": "2b37-da72-30f5-9b8a", "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Path of Shadow", "id": "1c3c-b4e2-4e34-cf54", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "8d23-e21f-c50e-ef58", "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Nightingales", "id": "7ce8-2689-bd63-8927", "primary": false, "targetId": "5594-acf1-76dc-5206"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "989b-4227-9d20-dbae",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mercer Frey: Guildmaster",
+        "id": "c3f4-fc17-b07b-2811",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6488-5400-15bd-48c8",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "4460-6256-ed02-a567", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "5034-8e22-61a0-1253", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "b374-bc91-5967-2b3e", "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "e759-10b7-bc1e-4346", "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Lockpicking Skill", "id": "e29f-731d-7880-3f34", "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Light Armor Skill", "id": "409f-43d1-bf0d-e309", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Shadow", "id": "8e29-fe94-03b3-fe35", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "758b-ae1d-7ff0-e858", "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Nightingales", "id": "e133-6cbf-60b3-ad1c", "primary": false, "targetId": "5594-acf1-76dc-5206"},
+          {"name": "Mercer Frey: Guildmaster", "id": "2e5d-7ca9-db8e-2ec1", "primary": false, "targetId": "cd5e-b5a1-1eb7-27fa"},
+          {"name": "Block Skill", "id": "0619-49f4-d3ce-8bf5", "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Pickpocket Skill", "id": "e2d7-b818-39f4-5636", "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Speech Skill", "id": "57e3-bef1-92ba-4b7c", "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "989b-4227-9d20-dbae",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brynjolf: Guild Lieutenant",
+        "id": "8649-063c-a928-0f0e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b8cf-bde3-59ea-7fcf",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "5dee-9377-5338-b239", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "a651-9aba-1016-c8a2", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "d252-cd8e-185a-1c9d", "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "1d36-43bd-f6da-13a5", "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "5280-965d-36b1-8bf9", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Shadow", "id": "25bb-b803-55cc-cc5c", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "8b38-b7a1-0eb6-c052", "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Pickpocket Skill", "id": "c15f-734f-dd79-b891", "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Speech Skill", "id": "5b11-dd7c-8a8a-8bc3", "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Alchemy Skill", "id": "1823-08e3-0341-9a71", "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Brynjolf: Guild Lieutenant", "id": "6276-b148-1825-ca64", "primary": false, "targetId": "243a-d752-1efc-c96e"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3ead-7f3e-4bda-5072",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Delvin Mallory: Guild Enforcer",
+        "id": "bd0f-cec8-5deb-2b5f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b54b-155c-ed2b-1abd",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "c757-3d3b-18fe-4171", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "68a5-dbf0-1a58-b2a2", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "1c2d-24b5-288e-d25f", "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "dedd-0df4-2b6a-c472", "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "2d39-4f3a-7b6f-c294", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Shadow", "id": "d203-1629-de5f-1e28", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "83b8-6e0b-0df2-1ec2", "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Delvin Mallory: Guild Enforcer", "id": "47b8-c35b-5818-72f1", "primary": false, "targetId": "e399-b169-111d-9451"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3ead-7f3e-4bda-5072",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Niruin: Night Archer",
+        "id": "eb86-6b05-235b-6289",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b6d1-1946-80cc-c7b5",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "6fa3-92dd-5da7-cca2", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "0ad5-d94e-e8bb-99df", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "223e-ad76-ade3-3d68", "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "ff40-fa0a-d4d0-b089", "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "a886-926c-55dd-5e31", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Shadow", "id": "6a34-84b4-ec0f-5c4b", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "9337-bc6f-da96-6a55", "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Speech Skill", "id": "46f9-e6fb-aa92-58c3", "primary": false, "targetId": "dd8f-4143-9e14-8e73"},
+          {"name": "Racial Group: Elf", "id": "f75b-2bd2-4cca-d17d", "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Niruin: Night Archer", "id": "1cc7-020f-c89a-579d", "primary": false, "targetId": "e793-1c31-9b4c-a7c6"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3ead-7f3e-4bda-5072",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vex: Guild Locksmith",
+        "id": "81a3-0b5a-1b12-4cfb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f3eb-faf2-a182-7651",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "dd8d-541d-c31e-ce63", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "ce4e-226a-c92a-6b3c", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "d4d6-301e-9ad9-26e2", "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "b6ba-ff3d-83eb-55b4", "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "2445-efc1-b708-19ac", "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Shadow", "id": "4234-f7ab-75cf-68a0", "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "642d-a27e-64af-210b", "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Vex: Guild Locksmith", "id": "4911-991a-25e4-6b3a", "primary": false, "targetId": "a055-de22-f4b0-c39c"},
+          {"name": "Lockpicking Skill", "id": "dd3f-faf4-d08a-1e70", "primary": false, "targetId": "7d06-5fcb-c718-e106"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "3ead-7f3e-4bda-5072",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Karliah: The Outcast",
+        "id": "da2d-b0a3-df66-3ec1",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Dunmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Deft Movement, Stealth", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Fire)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Poison Shot", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4\nAlchemy", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Thieves' Guild", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "Nightingales", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Karliah: The Outcast (Leveled)",
+        "id": "9c91-c100-cd17-fe2b",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Critical Shot, Deft Movement, Stealth", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Extra Action, Resistance (Fire)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Poison Shot", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nAlchemy", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Mercer Frey: Guildmaster",
+        "id": "51be-eea5-89d9-ce5b",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Breton", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Bladesman, Custom Fit, Night Thief, Stealth", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Cool Head, Natural Survivor", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nBlock\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nLockpicking\nPickpocket\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Thieves' Guild", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "Nightingales", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Mercer Frey: Guildmaster (Leveled)",
+        "id": "9057-a67e-a66a-1241",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Backstab, Bladesman, Custom Fit, Night Thief, Stealth", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Cool Head, Natural Survivor", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nBlock\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nLockpicking\nPickpocket\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "5\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "5", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "6", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Brynjolf: Guild Lieutenant (Leveled)",
+        "id": "4d9c-1ca1-8585-f566",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Alchemist, Flurry, Persuasion, Stealth", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Go-Between", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nPickpocket\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nAlchemy\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Brynjolf: Guild Lieutenant",
+        "id": "414b-9802-0513-3319",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Nord", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Alchemist, Flurry, Persuasion", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Frost)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Go-Between", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nPickpocket\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "4", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5\nAlchemy\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Thieves' Guild", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Delvin Mallory: Guild Enforcer",
+        "id": "6e4f-fb53-c631-6af1",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Breton", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Agile Defender, Assassin's Blade", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Lurk in the Shadows", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "4", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "2", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Thieves' Guild", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Delvin Mallory: Guild Enforcer (Leveled)",
+        "id": "2bba-70be-3cec-4ec1",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Agile Defender, Assassin's Blade, Critical Charge", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Resistance (Magic)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Lurk in the Shadows", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "5\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "4\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "4\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "5", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "5", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Niruin: Night Archer",
+        "id": "85bd-0ae3-1f8b-71ed",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Bosmer", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Eagle Eye, Merchant", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Charm Animal, Resistance (Poison)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Spotter", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "2\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "3", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Thieves' Guild", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Niruin: Night Archer (Leveled)",
+        "id": "edae-425c-c832-149e",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Eagle Eye, Long Shot[s], Merchant", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Charm Animal, Resistance (Poison)", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Spotter", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nArchery\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3\nSpeech", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Vex: Guild Locksmith",
+        "id": "408f-51a9-2a86-30c8",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "Hero (Unique)", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "Imperial", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "Shadow", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Expert Locks (2), Golden Touch", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck, Prowler's Profit", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Dirty Fighter, Lockpicking Trainer", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "3\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "5\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "3", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "2", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "Thieves' Guild", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "None", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      },
+      {
+        "name": "Vex: Guild Locksmith (Leveled)",
+        "id": "11e9-b8e9-e75a-fa66",
+        "hidden": false,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "typeId": "350c-2ddd-8a24-377b",
+        "typeName": "Hero",
+        "characteristics": [
+          {"name": "Rank", "$text": "-", "typeId": "ebd4-07c2-9286-b2eb"},
+          {"name": "Race", "$text": "-", "typeId": "4f70-687f-f99b-6b98"},
+          {"name": "Path", "$text": "-", "typeId": "e250-b21c-25ef-4af6"},
+          {"name": "Perks", "$text": "Expert Locks (2), Golden Touch, Silent Roll", "typeId": "ea58-4753-6446-8b08"},
+          {"name": "Keywords", "$text": "Imperial Luck, Prowler's Profit", "typeId": "7bcc-61da-c307-5881"},
+          {"name": "Abilities", "$text": "Dirty Fighter, Lockpicking Trainer", "typeId": "3832-6c1c-da43-0eb2"},
+          {"name": "Strength", "$text": "4\nOne-Handed", "typeId": "7863-9734-b481-1521"},
+          {"name": "Agility", "$text": "6\nArchery\nLockpicking\nSneak", "typeId": "1276-0dd9-53ca-d970"},
+          {"name": "Endurance", "$text": "3\nLight Armor", "typeId": "fb58-c970-3c64-d7ea"},
+          {"name": "Intelligence", "$text": "3", "typeId": "7b0a-cc9f-5e49-9b5a"},
+          {"name": "Wisdom", "$text": "3", "typeId": "19a1-9f7c-8f90-79aa"},
+          {"name": "Health", "$text": "4", "typeId": "4d71-6d31-a8de-f417"},
+          {"name": "Stamina", "$text": "4", "typeId": "a8f4-62f6-ba74-ea48"},
+          {"name": "Magicka", "$text": "0", "typeId": "e74e-37df-e0cb-70ec"},
+          {"name": "Height", "$text": "-", "typeId": "84fa-b86a-388a-ab07"},
+          {"name": "Primary Faction", "$text": "-", "typeId": "f0f6-8ae1-ea14-c9fa"},
+          {"name": "Secondary Faction(s)", "$text": "-", "typeId": "733e-c5b4-23db-61db"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Karliah: The Outcast",
+        "id": "4282-a510-3515-d843",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 50}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "c922-bae7-8ec6-6d5d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "4fc6-9828-d0ae-57b6",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "4bd2-0602-bc50-8fbb", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "ff3d-7b70-bcc6-a93b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Karliah: The Outcast",
+            "id": "5f9f-666f-0aa5-689c",
+            "hidden": false,
+            "targetId": "da2d-b0a3-df66-3ec1",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Path of Shadow", "id": "2dd0-6e1f-f730-e149", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Dunmer", "id": "929c-89b0-4669-dd35", "hidden": false, "targetId": "a0cb-51aa-e265-db37", "type": "infoGroup"},
+          {"name": "Perk: Deft Movement", "id": "0668-6222-3266-b7db", "hidden": false, "targetId": "0b47-a02d-7096-e30f", "type": "rule"},
+          {"name": "Perk: Stealth", "id": "5e2d-da4e-4eb4-c4ca", "hidden": false, "targetId": "97cc-1221-1a57-177f", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Poison Shot",
+            "id": "380a-09d0-53de-a0f3",
+            "description": "As a special Shoot Attack Boost, Karliah may add the Poison Keyword to any Ranged Attack made with a Bow. Choose the type of poison before making the Attack roll.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "acbb-65cd-0c60-db38",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "a37b-3a3b-faf7-0732",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "3c85-457a-7dd7-a95d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Karliah: The Outcast (Leveled)",
+                "id": "8d09-452e-d304-0840",
+                "hidden": false,
+                "publicationId": "a37b-3a3b-faf7-0732",
+                "targetId": "9c91-c100-cd17-fe2b",
+                "type": "profile"
+              },
+              {"name": "Perk: Critical Shot", "id": "47b6-a6a4-17dd-2b90", "hidden": false, "targetId": "224f-1058-8d02-76d4", "type": "rule"},
+              {"name": "Extra Action", "id": "4ef3-528c-48db-4241", "hidden": false, "targetId": "92de-2ad3-3554-0b3e", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mercer Frey: Guildmaster",
+        "id": "6488-5400-15bd-48c8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 70}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "3fb9-ac27-1ba3-e52b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "673c-0bbe-5abc-9ed8",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "179e-a20c-f79a-c692", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "fb74-fda7-4011-77c4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Mercer Frey: Guildmaster",
+            "id": "50e4-04f8-a991-d599",
+            "hidden": false,
+            "targetId": "51be-eea5-89d9-ce5b",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Path of Shadow", "id": "9c79-2d29-157a-7f72", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Breton", "id": "5b8d-6dbc-41e3-3903", "hidden": false, "targetId": "dd8e-535b-c433-c693", "type": "infoGroup"},
+          {"name": "Perk: Bladesman", "id": "1f6b-ef11-0bdc-8130", "hidden": false, "targetId": "3988-d2f2-407a-a3b9", "type": "rule"},
+          {"name": "Perk: Stealth", "id": "bc71-1497-d433-edc3", "hidden": false, "targetId": "97cc-1221-1a57-177f", "type": "rule"},
+          {"name": "Perk: Custom Fit", "id": "d297-014e-a3f1-b77e", "hidden": false, "targetId": "60eb-baf5-15f2-58ed", "type": "rule"},
+          {"name": "Perk: Night Thief", "id": "8f1a-720c-a041-7439", "hidden": false, "targetId": "544c-e5db-fb40-b822", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Cool Head",
+            "id": "a587-3eae-1566-4755",
+            "description": "If Mercer is the Party Champion, friendly models within 6\" add [GREEN] to their Morale Checks.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          },
+          {
+            "name": "Natural Survivor",
+            "id": "8fd3-ddbb-ff03-8337",
+            "description": "When Mercer suffers 2 or more points of damage from a single enemy Attack, roll [SKILL DIE]. On a [CRITICAL], reduce the amount of damage inflicted by 1 point.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "0fb8-3901-e11f-1906",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "a37b-3a3b-faf7-0732",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "43a4-afca-45e6-0a1a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Mercer Frey: Guildmaster (Leveled)",
+                "id": "0dd1-9626-50d1-c1e3",
+                "hidden": false,
+                "publicationId": "a37b-3a3b-faf7-0732",
+                "targetId": "9057-a67e-a66a-1241",
+                "type": "profile"
+              },
+              {"name": "Perk: Backstab", "id": "095e-5559-b7ea-7af1", "hidden": false, "targetId": "3c8f-df29-73c0-e515", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brynjolf: Guild Lieutenant",
+        "id": "b8cf-bde3-59ea-7fcf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 50}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "52a8-be89-747c-11f3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "1117-66aa-bd1c-0de9",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "fefb-e936-e512-5444", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "f88d-ba8a-7779-f08f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Brynjolf: Guild Lieutenant",
+            "id": "5b51-4a1f-5bb1-8675",
+            "hidden": false,
+            "targetId": "414b-9802-0513-3319",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Path of Shadow", "id": "d233-b0df-c75e-4d27", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Nord", "id": "406c-0480-c424-e2b2", "hidden": false, "targetId": "5ec9-8f71-430a-1e45", "type": "infoGroup"},
+          {"name": "Perk: Alchemist", "id": "9611-4b4a-e2c2-ff15", "hidden": false, "targetId": "87fe-b62d-ddfe-6246", "type": "rule"},
+          {"name": "Perk: Flurry", "id": "b5a0-08a8-3b8b-227c", "hidden": false, "targetId": "d591-10a9-f15e-6b20", "type": "rule"},
+          {"name": "Perk: Persuasion", "id": "1306-9c68-bf86-6466", "hidden": false, "targetId": "2734-97c2-54f3-fb62", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Go-Between",
+            "id": "75b3-c359-9ad1-e2b0",
+            "description": "Brynjolf may target Faction Heroes with Commands, even if he is not the Party Champion.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "87cf-a11f-3a3b-d5a3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "a37b-3a3b-faf7-0732",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "4577-380c-089f-5dda",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Brynjolf: Guild Lieutenant (Leveled)",
+                "id": "0cf6-fd4b-7da5-c0c0",
+                "hidden": false,
+                "publicationId": "a37b-3a3b-faf7-0732",
+                "targetId": "4d9c-1ca1-8585-f566",
+                "type": "profile"
+              },
+              {"name": "Perk: Stealth", "id": "45a9-f722-bb94-b411", "hidden": false, "targetId": "97cc-1221-1a57-177f", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Delvin Mallory: Guild Enforcer",
+        "id": "b54b-155c-ed2b-1abd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 42}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "4682-a1ab-8214-0a29",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "13a8-2eba-bcf7-dd8a",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "0069-d3a1-8803-752a", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "c555-55a4-4b03-2110",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Delvin Mallory: Guild Enforcer",
+            "id": "5c16-18d7-9315-8961",
+            "hidden": false,
+            "targetId": "6e4f-fb53-c631-6af1",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Path of Shadow", "id": "cd41-b1a0-bf66-e16d", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Breton", "id": "5237-681a-8cad-5d58", "hidden": false, "targetId": "dd8e-535b-c433-c693", "type": "infoGroup"},
+          {"name": "Perk: Agile Defender", "id": "5617-f761-3796-fd54", "hidden": false, "targetId": "c175-8d5e-9e3f-3736", "type": "rule"},
+          {"name": "Perk: Assassin's Blade", "id": "8833-8d03-1bf9-318d", "hidden": false, "targetId": "eea3-bb51-672c-9dac", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Lurk in the Shadows",
+            "id": "3948-4504-0529-1372",
+            "description": "Delvin and all friendly Thieves' Guild models within 3\" gain the Regenerate Health keyword as long as they have a Hidden Token.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "c6cc-2e1e-fe84-31be",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "a37b-3a3b-faf7-0732",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "335b-c7ba-7dd0-1f01",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Delvin Mallory: Guild Enforcer (Leveled)",
+                "id": "9880-fac1-81d9-a5c7",
+                "hidden": false,
+                "publicationId": "a37b-3a3b-faf7-0732",
+                "targetId": "2bba-70be-3cec-4ec1",
+                "type": "profile"
+              },
+              {"name": "Perk: Critical Charge", "id": "0e8b-f658-ae84-8311", "hidden": false, "targetId": "bedf-8612-7883-a004", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Niruin: Night Archer",
+        "id": "b6d1-1946-80cc-c7b5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 44}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "7860-d65f-d805-c663",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "a78f-442c-af8f-b982",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "0629-ecd1-8bae-d7db", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "7926-7b41-f238-9383",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Niruin: Night Archer",
+            "id": "c850-a211-eda6-75cf",
+            "hidden": false,
+            "targetId": "85bd-0ae3-1f8b-71ed",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Path of Shadow", "id": "245d-5260-ba90-a7b1", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Bosmer", "id": "5870-d8a4-8bb8-c006", "hidden": false, "targetId": "eaff-569a-c577-973d", "type": "infoGroup"},
+          {"name": "Perk: Eagle Eye", "id": "c3bd-5c69-ca26-eb5d", "hidden": false, "targetId": "87d1-a80a-f7db-b60c", "type": "rule"},
+          {"name": "Perk: Merchant", "id": "7530-bbce-2fdd-f63f", "hidden": false, "targetId": "a50d-245c-bebc-6404", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Spotter",
+            "id": "586f-bff9-fff6-9cde",
+            "description": "Friendly models within 6\" and Line of Sight of Niruin may reroll blanks on their Effect Dice when performing Shoot Actions.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "2d55-079d-4e3e-fab8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "a37b-3a3b-faf7-0732",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c5e2-97e4-139d-9781",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Niruin: Night Archer (Leveled)",
+                "id": "303b-7642-b48a-0efa",
+                "hidden": false,
+                "publicationId": "a37b-3a3b-faf7-0732",
+                "targetId": "edae-425c-c832-149e",
+                "type": "profile"
+              },
+              {"name": "Perk: Long Shots", "id": "f5f3-0f74-9188-5508", "hidden": false, "targetId": "381d-ce1c-00d2-59eb", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vex: Guild Locksmith",
+        "id": "f3eb-faf2-a182-7651",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1d0d-fac6-d336-636f",
+        "type": "unit",
+        "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 46}, {"name": "Model Count", "typeId": "b1c3-7317-4f6a-a8b9", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Equipment",
+            "id": "b287-fce1-ba5d-418f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "77fb-6f37-f1df-9d41",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Party Champion",
+            "id": "26e0-8e41-c372-f383",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "89f7-ba66-4381-aa6d",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Party Champion", "id": "a8c1-3a3e-7de9-050a", "hidden": false, "primary": false, "targetId": "ea16-f8fd-dd67-9fad"}],
+            "constraints": [
+              {
+                "id": "839f-41ed-71bc-dd1c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Vex: Guild Locksmith",
+            "id": "74a4-ef2e-db9a-ba6c",
+            "hidden": false,
+            "targetId": "408f-51a9-2a86-30c8",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "ebd4-07c2-9286-b2eb",
+                "type": "set",
+                "value": "Hireling Hero (Unique)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ead-7f3e-4bda-5072",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "989b-4227-9d20-dbae",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Path of Shadow", "id": "8d80-b9b0-3154-b604", "hidden": false, "targetId": "84c9-50ff-86a3-2a8f", "type": "rule"},
+          {"name": "Imperial", "id": "4b25-06e7-636a-4624", "hidden": false, "targetId": "66c7-4688-41a0-3c0b", "type": "infoGroup"},
+          {"name": "Perk: Expert Locks (X)", "id": "248e-2e6c-ebdc-d47f", "hidden": false, "targetId": "e7c5-6117-3024-24bc", "type": "rule"},
+          {"name": "Perk: Golden Touch", "id": "4df3-d212-9e07-2499", "hidden": false, "targetId": "1cc5-678b-fbfa-4c26", "type": "rule"},
+          {"name": "Prowler's Profit", "id": "82d1-44f9-7921-6588", "hidden": false, "targetId": "a132-1441-744c-1ac8", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Dirty Fighter",
+            "id": "8129-7983-c873-5db3",
+            "description": "When Vex is hit by a Melee Attack (before applying damage), she may immediately take an Agility Attribute Test. If successful, the Attacker receives a Slowed Token as soon as the Attack is resolved.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          },
+          {
+            "name": "Lockpicking Trainer",
+            "id": "696e-5868-9ab0-2b8f",
+            "description": "Friendly models gain the Expert Locks (1) Perk while they're within 3\" of Vex.",
+            "hidden": false,
+            "publicationId": "1d0d-fac6-d336-636f"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Leveled Profile",
+            "id": "4291-506c-2af9-cf91",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "a37b-3a3b-faf7-0732",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "f61b-6756-3f80-558b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Septims", "typeId": "c61a-51a3-370d-bf55", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Vex: Guild Locksmith (Leveled)",
+                "id": "c9e9-9587-f916-b928",
+                "hidden": false,
+                "publicationId": "a37b-3a3b-faf7-0732",
+                "targetId": "11e9-b8e9-e75a-fa66",
+                "type": "profile"
+              },
+              {"name": "Perk: Silent Roll", "id": "6507-4b2f-b43d-d48b", "hidden": false, "targetId": "1be2-5932-9952-b01b", "type": "rule"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

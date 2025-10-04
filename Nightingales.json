@@ -1,0 +1,362 @@
+{
+  "catalogue": {
+    "name": "Nightingales",
+    "id": "794b-70b9-b49c-f888",
+    "authorName": "sapphicmoon",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1a3a-0466-55e3-3562",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "Adventurers", "id": "f9da-0245-f6bb-57f4", "importRootEntries": false, "targetId": "bed2-2069-45b8-9df1", "type": "catalogue"},
+      {"name": "Thieves' Guild", "id": "75ce-1eb8-a509-5536", "targetId": "3360-3f9c-126b-cb55", "type": "catalogue"}
+    ],
+    "entryLinks": [
+      {
+        "name": "The Dragonborn: Nightingale",
+        "id": "2dbc-8d89-5956-8e39",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6259-fe84-67ba-0f6c",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Adventurers", "id": "819f-ef0c-de3b-f970", "hidden": false, "primary": false, "targetId": "2b45-4245-ce5e-5404"},
+          {"name": "Nightingales", "id": "7ad5-a211-56c7-9907", "hidden": false, "primary": false, "targetId": "5594-acf1-76dc-5206"},
+          {"name": "Hero", "id": "3760-fb1b-c977-22ec", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "Path of Shadow", "id": "2c33-ede2-ff03-659e", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Dragonborn (Character)", "id": "fc68-dc31-64c8-d703", "hidden": false, "primary": false, "targetId": "cc62-17e3-76e5-4f96"},
+          {"name": "Dragon Shouts", "id": "26a4-0653-1168-3eeb", "hidden": false, "primary": false, "targetId": "ca71-7b4a-9967-eaae"},
+          {"name": "One-Handed Skill", "id": "4476-3255-5358-90eb", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "88ec-5e0e-bbda-d60f", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Lockpicking Skill", "id": "c69e-bca6-b9f6-81d2", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Pickpocket Skill", "id": "c4bf-2874-f507-e676", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Sneak Skill", "id": "ac87-76be-1576-95e1", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Light Armor Skill", "id": "1e79-7167-385a-2d60", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Illusion Skill", "id": "3064-6c3e-1887-5f10", "hidden": false, "primary": false, "targetId": "93b4-afa5-eb85-d8ec"},
+          {"name": "Alteration Skill", "id": "7b30-956b-f92d-8266", "hidden": false, "primary": false, "targetId": "2aea-a863-419f-ba90"},
+          {"name": "Enchanting Skill", "id": "2976-f433-8b7d-c1f1", "hidden": false, "primary": false, "targetId": "03bd-d045-659f-b234"},
+          {"name": "Speech Skill", "id": "f707-0b5e-9ecf-45c8", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "c06c-5d0a-f27a-3385",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "d6a3-9869-f1f0-db9f",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "989b-4227-9d20-dbae",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mercer Frey: Guildmaster",
+        "id": "3890-7f88-e5f1-e1f6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6488-5400-15bd-48c8",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "f65a-50f8-ab26-e096", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "5ee3-5371-4a59-1cb4", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Archery Skill", "id": "daa2-a367-f512-ef84", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "81bb-10da-74e5-68e8", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Lockpicking Skill", "id": "3150-3e2e-3243-e27b", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Light Armor Skill", "id": "f166-5b07-60f7-b9a9", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Path of Shadow", "id": "a1bc-ade3-daae-fb60", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "b574-78fd-7a2f-cf4b", "hidden": false, "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Nightingales", "id": "e727-4538-a21a-2d8f", "hidden": false, "primary": false, "targetId": "5594-acf1-76dc-5206"},
+          {"name": "Mercer Frey: Guildmaster", "id": "3745-55d2-b89c-71d4", "hidden": false, "primary": false, "targetId": "cd5e-b5a1-1eb7-27fa"},
+          {"name": "Block Skill", "id": "46a1-b481-6e03-965c", "hidden": false, "primary": false, "targetId": "c65e-1c8e-613b-dc01"},
+          {"name": "Pickpocket Skill", "id": "101b-2ca0-7c55-6d72", "hidden": false, "primary": false, "targetId": "7f96-4899-973e-0e11"},
+          {"name": "Speech Skill", "id": "a3fd-a746-1eef-59ce", "hidden": false, "primary": false, "targetId": "dd8f-4143-9e14-8e73"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "989b-4227-9d20-dbae",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ccb3-0925-8a2a-6ab7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Karliah: The Outcast",
+        "id": "f1b7-dce5-a6f1-09ee",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4282-a510-3515-d843",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Hero", "id": "b71b-1aa2-436e-c00f", "hidden": false, "primary": true, "targetId": "b9a4-31a5-b4ed-b4c7"},
+          {"name": "One-Handed Skill", "id": "ab8e-35cd-9f5f-aec8", "hidden": false, "primary": false, "targetId": "64bb-1eb1-1896-f36d"},
+          {"name": "Racial Group: Elf", "id": "fe57-afb2-f4c2-6832", "hidden": false, "primary": false, "targetId": "7975-461a-3ea6-a65b"},
+          {"name": "Karliah: The Outcast", "id": "26b9-25e9-bcd8-8537", "hidden": false, "primary": false, "targetId": "8a28-7b3b-a05f-2a2f"},
+          {"name": "Race: Dunmer", "id": "62ff-5db8-9d9a-ef16", "hidden": false, "primary": false, "targetId": "6df4-3d08-99df-65d2"},
+          {"name": "Archery Skill", "id": "b2bc-50d5-627e-e93a", "hidden": false, "primary": false, "targetId": "4d42-f7a9-a2ca-654e"},
+          {"name": "Sneak Skill", "id": "dbb6-8038-aec9-85bd", "hidden": false, "primary": false, "targetId": "bf6e-ed80-b16a-b9b9"},
+          {"name": "Lockpicking Skill", "id": "d9f9-a9f0-e8e9-2802", "hidden": false, "primary": false, "targetId": "7d06-5fcb-c718-e106"},
+          {"name": "Light Armor Skill", "id": "3416-f711-6d2f-a5b3", "hidden": false, "primary": false, "targetId": "8af2-ae59-4a5c-98b8"},
+          {"name": "Alchemy Skill", "id": "c55f-dd94-aff8-4251", "hidden": false, "primary": false, "targetId": "37d3-238a-d08a-1589"},
+          {"name": "Path of Shadow", "id": "2255-54c3-3583-6ab5", "hidden": false, "primary": false, "targetId": "9797-61ac-cbe1-cccd"},
+          {"name": "Thieves' Guild", "id": "79cc-ad98-1198-d0e8", "hidden": false, "primary": false, "targetId": "4347-a391-1fca-ce31"},
+          {"name": "Nightingales", "id": "f609-5ee2-2731-898e", "hidden": false, "primary": false, "targetId": "5594-acf1-76dc-5206"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "3ead-7f3e-4bda-5072",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "989b-4227-9d20-dbae",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "c06c-5d0a-f27a-3385"}, {"field": "category", "type": "add", "value": "065c-f392-0c98-91f5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5b13-d81a-9048-0fb2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "34c6-abbe-c8fe-2420",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "3987-ed35-2c6f-2464",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
